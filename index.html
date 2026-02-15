@@ -544,7 +544,7 @@ async function doSearch(page) {
 
     // Filter out irrelevant institutions
     // Whitelist: only keep top-level institutions that are research/education relevant
-    const INST_BLACKLIST = /folkeh[øo]g|folkeuniversitet|samskipnad|fagskol|kommune|fylkeskommune/i;
+    const INST_BLACKLIST = /folkeh[øo]g|folkeuniversitet|samskipnad|fagskol|kommune|fylkeskommune|distriktsh[øo]gskol/i;
     const SUB_BLACKLIST = /unicare|aleris|volvat|coperio|tannhelse|tannklinikk|legesent|legekontor|fysioterapi|kiropra|apotek|optik/i;
     const INST_WHITELIST = /universitet|høgskol|høyskol|vitenskapelig|forskning|forskingsinstitutt|institutt\s+for|akademi|sykehus|hospital|helse\s|helseforetak|health|college|school\s+of|niva|nibio|sintef|nofima|havforsk|fhi\b|folkehelse/i;
     for (let i = hits.length - 1; i >= 0; i--) {
