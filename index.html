@@ -112,6 +112,15 @@ header h1 span { color: var(--accent); }
 .type-filter button[aria-pressed="true"] {
   background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600;
 }
+.type-filter button.has-results {
+  border-color: var(--accent); color: var(--accent); background: var(--accent-focus);
+}
+.type-filter button[aria-pressed="true"].has-results {
+  background: var(--accent); color: #fff;
+}
+.type-filter .count {
+  font-size: 0.72rem; font-weight: 400; opacity: 0.8; margin-left: 0.15rem;
+}
 .status { text-align: center; padding: 1rem; color: var(--text2); font-size: 0.9rem; }
 @keyframes shimmer { 0% { background-position: -30rem 0; } 100% { background-position: 30rem 0; } }
 .skeleton-card {
@@ -577,6 +586,21 @@ async function doSearch(page) {
       hits.push(...matchedScraped);
       totalSize += matchedScraped.length;
     }
+
+    // Count per type and update filter buttons
+    const typeCounts = { group: 0, department: 0, faculty: 0, institution: 0 };
+    hits.forEach(h => { if (typeCounts[h._type] !== undefined) typeCounts[h._type]++; });
+    const totalFiltered = hits.length;
+    document.querySelectorAll('.type-filter button').forEach(btn => {
+      const t = btn.dataset.type;
+      const count = t === 'all' ? totalFiltered : (typeCounts[t] || 0);
+      const emoji = btn.textContent.split(' ')[0];
+      const label = t === 'all' ? 'Alle' : TYPE_META[t]?.label || t;
+      btn.innerHTML = count > 0
+        ? `${emoji} ${label} <span class="count">(${count})</span>`
+        : `${emoji} ${label}`;
+      btn.classList.toggle('has-results', count > 0 && btn.getAttribute('aria-pressed') !== 'true');
+    });
 
     // Filter by type
     let filtered = hits;
