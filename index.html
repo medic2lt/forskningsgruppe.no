@@ -587,6 +587,43 @@ async function doSearch(page) {
       totalSize += matchedScraped.length;
     }
 
+    // Expand institutions: fetch and add their sub-units
+    const instHits = hits.filter(h => h._type === 'institution');
+    if (instHits.length > 0 && instHits.length <= 5) {
+      const subPromises = instHits.map(async inst => {
+        try {
+          const detail = await fetchUnitDetail(inst._cristinId);
+          if (!detail?.hasPart) return [];
+          const subs = [];
+          for (const sub of detail.hasPart) {
+            const cid = extractCristinId(sub.id);
+            const subType = classifyUnit(cid);
+            if (!hits.some(h => h._cristinId === cid)) {
+              subs.push({ id: sub.id, labels: sub.labels, acronym: sub.acronym || '',
+                _cristinId: cid, _type: subType, _source: 'nva', _expanded: true });
+            }
+            // Also fetch sub-sub-units (groups under departments)
+            try {
+              const subDetail = await fetchUnitDetail(cid);
+              if (subDetail?.hasPart) {
+                for (const subsub of subDetail.hasPart) {
+                  const scid = extractCristinId(subsub.id);
+                  const sType = classifyUnit(scid);
+                  if (!hits.some(h => h._cristinId === scid) && !subs.some(s => s._cristinId === scid)) {
+                    subs.push({ id: subsub.id, labels: subsub.labels, acronym: subsub.acronym || '',
+                      _cristinId: scid, _type: sType, _source: 'nva', _expanded: true });
+                  }
+                }
+              }
+            } catch {}
+          }
+          return subs;
+        } catch { return []; }
+      });
+      const subResults = await Promise.all(subPromises);
+      subResults.flat().forEach(s => { hits.push(s); totalSize++; });
+    }
+
     // Count per type and update filter buttons
     const typeCounts = { group: 0, department: 0, faculty: 0, institution: 0 };
     hits.forEach(h => { if (typeCounts[h._type] !== undefined) typeCounts[h._type]++; });
