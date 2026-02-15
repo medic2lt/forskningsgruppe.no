@@ -6,7 +6,7 @@
 <title>Norske Forskningsgrupper — Nasjonalt vitenarkiv</title>
 <style>
 :root {
-  --bg: #f5f7fa; --bg2: #fff; --bg3: #e9ecf0; --text: #1a1a2e; --text2: #4a4a5a;
+  --bg: #f5f7fa; --bg2: #fff; --bg3: #e9ecf0; --text: #1a1a2e; --text2: #3d3d50;
   --accent: #1d4ed8; --accent2: #1e40af; --accent-focus: rgba(29,78,216,.25);
   --border: #c5cad2; --shadow: rgba(0,0,0,.08);
   --radius: 0.625rem; --tag-bg: #dbeafe; --tag-text: #1e3a8a;
@@ -16,12 +16,12 @@
   --type-inst: #6b7280; --type-inst-bg: #f3f4f6;
   --type-fak: #2563eb; --type-fak-bg: #dbeafe;
   --type-dep: #059669; --type-dep-bg: #d1fae5;
-  --type-group: #9333ea; --type-group-bg: #f3e8ff;
+  --type-group: #0f766e; --type-group-bg: #e6f7f5;
 }
 [data-theme="dark"] {
   --bg: #0f172a; --bg2: #1e293b; --bg3: #334155; --text: #e2e8f0; --text2: #b0bec5;
   --accent: #60a5fa; --accent2: #93bbfd; --accent-focus: rgba(96,165,250,.3);
-  --border: #475569; --shadow: rgba(0,0,0,.3);
+  --border: #475569; --shadow: rgba(0,0,0,.3); --text2: #c8d1db;
   --tag-bg: #1e3a5f; --tag-text: #bfdbfe;
   --success: #4ade80; --success-bg: #14532d;
   --error: #fca5a5; --error-bg: #450a0a;
@@ -29,7 +29,7 @@
   --type-inst: #9ca3af; --type-inst-bg: #374151;
   --type-fak: #60a5fa; --type-fak-bg: #1e3a5f;
   --type-dep: #34d399; --type-dep-bg: #064e3b;
-  --type-group: #c084fc; --type-group-bg: #3b0764;
+  --type-group: #5eead4; --type-group-bg: #134e4a;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -55,8 +55,9 @@ header {
   justify-content: space-between; position: sticky; top: 0;
   z-index: 10; box-shadow: 0 1px 4px var(--shadow);
 }
-header h1 { font-size: 1.25rem; font-weight: 700; }
-header h1 span { color: var(--accent); }
+header h1 { font-size: 1.4rem; font-weight: 700; }
+header h1 .site-name { color: var(--accent); }
+header h1 .site-sub { font-size: 0.88rem; color: var(--text2); font-weight: 400; margin-left: 0.4rem; }
 #theme-toggle {
   background: var(--bg3); border: 1px solid var(--border); border-radius: 0.5rem;
   padding: 0.5rem 0.75rem; cursor: pointer; font-size: 1.1rem; color: var(--text);
@@ -71,7 +72,7 @@ header h1 span { color: var(--accent); }
   line-height: 1.7;
 }
 .intro h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-bottom: 0.75rem; }
-.intro p { font-size: 0.92rem; color: var(--text2); margin-bottom: 0.6rem; }
+.intro p { font-size: 1rem; color: var(--text2); margin-bottom: 0.6rem; }
 .intro p:last-of-type { margin-bottom: 0.75rem; }
 .intro em { color: var(--accent); font-style: italic; }
 .intro strong { color: var(--text); }
@@ -121,7 +122,7 @@ header h1 span { color: var(--accent); }
 .type-filter .count {
   font-size: 0.72rem; font-weight: 400; opacity: 0.8; margin-left: 0.15rem;
 }
-.status { text-align: center; padding: 1rem; color: var(--text2); font-size: 0.9rem; }
+.status { text-align: center; padding: 1rem; color: var(--text2); font-size: 0.95rem; }
 @keyframes shimmer { 0% { background-position: -30rem 0; } 100% { background-position: 30rem 0; } }
 .skeleton-card {
   background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
@@ -164,9 +165,9 @@ header h1 span { color: var(--accent); }
   animation: fadeIn .3s ease both;
 }
 .card:hover, .card:focus-visible { border-color: var(--accent); box-shadow: 0 4px 12px var(--shadow); transform: translateY(-1px); }
-.card h3 { font-size: 1rem; margin-bottom: 0.15rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-.card .sub { font-size: 0.85rem; color: var(--text2); font-style: italic; }
-.card .breadcrumb { font-size: 0.78rem; color: var(--text2); margin-top: 0.15rem; line-height: 1.4; }
+.card h3 { font-size: 1.1rem; margin-bottom: 0.2rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.card .sub { font-size: 0.92rem; color: var(--text2); }
+.card .breadcrumb { font-size: 0.85rem; color: var(--text2); margin-top: 0.2rem; line-height: 1.5; }
 .card .breadcrumb .bc-sep { margin: 0 0.2rem; opacity: 0.5; }
 .card .breadcrumb.loading { opacity: 0.4; }
 .tag {
@@ -175,7 +176,7 @@ header h1 span { color: var(--accent); }
 }
 .tag.acronym { background: var(--success-bg); color: var(--success); }
 .type-badge {
-  font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 0.375rem;
+  font-size: 0.78rem; padding: 0.2rem 0.55rem; border-radius: 0.375rem;
   font-weight: 700; white-space: nowrap; letter-spacing: 0.02em;
 }
 .type-badge.type-institution { background: var(--type-inst-bg); color: var(--type-inst); }
@@ -184,9 +185,9 @@ header h1 span { color: var(--accent); }
 .type-badge.type-group { background: var(--type-group-bg); color: var(--type-group); }
 .card.is-group { border-left: 3px solid var(--type-group); }
 .card.is-scraped { border-left: 3px solid var(--scraped); background: var(--scraped-bg); }
-:root { --scraped: #d97706; --scraped-bg: rgba(217,119,6,.05); }
+:root { --scraped: #b45309; --scraped-bg: rgba(180,83,9,.06); }
 [data-theme="dark"] { --scraped: #fbbf24; --scraped-bg: rgba(251,191,36,.08); }
-.source-badge { font-size: 0.68rem; padding: 0.12rem 0.45rem; border-radius: 0.375rem; font-weight: 600; white-space: nowrap; }
+.source-badge { font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 0.375rem; font-weight: 600; white-space: nowrap; }
 .source-badge.source-nva { background: var(--tag-bg); color: var(--tag-text); }
 .source-badge.source-scraped { background: var(--scraped-bg); color: var(--scraped); border: 1px solid var(--scraped); }
 .pagination-nav { display: flex; justify-content: center; gap: 0.4rem; margin-top: 1.5rem; flex-wrap: wrap; }
@@ -218,7 +219,7 @@ header h1 span { color: var(--accent); }
 }
 .detail .close:hover { background: var(--bg3); color: var(--accent); }
 .detail h2 { margin-bottom: 0.25rem; font-size: 1.2rem; padding-right: 2.5rem; }
-.detail .en-name { font-style: italic; color: var(--text2); font-size: 0.95rem; margin-bottom: 0.75rem; }
+.detail .en-name { color: var(--text2); font-size: 0.95rem; margin-bottom: 0.75rem; }
 .detail dl { display: grid; grid-template-columns: auto 1fr; gap: 0.4rem 1rem; font-size: 0.9rem; margin-top: 0.75rem; }
 .detail dt { font-weight: 600; color: var(--text2); white-space: nowrap; }
 .detail dd { word-break: break-word; }
@@ -229,14 +230,30 @@ header h1 span { color: var(--accent); }
 .detail .hierarchy-chain .hc-sep { color: var(--text2); opacity: 0.5; }
 .detail .section-title { font-size: 0.95rem; font-weight: 700; margin-top: 1.25rem; margin-bottom: 0.5rem; padding-top: 0.75rem; border-top: 1px solid var(--border); }
 .detail .pub-list { list-style: none; padding: 0; }
-.detail .pub-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--bg3); font-size: 0.88rem; }
+.detail .pub-list li { padding: 0.5rem 0; border-bottom: 1px solid var(--bg3); font-size: 0.95rem; }
 .detail .pub-list li:last-child { border-bottom: none; }
 .detail .pub-list .pub-title { font-weight: 500; }
-.detail .pub-list .pub-meta { font-size: 0.8rem; color: var(--text2); }
+.detail .pub-list .pub-meta { font-size: 0.88rem; color: var(--text2); }
 footer {
-  background: var(--bg2); border-top: 1px solid var(--border);
-  padding: 0.75rem 1.5rem; text-align: center; font-size: 0.85rem; color: var(--text2);
-  margin-top: auto;
+  background: var(--bg2); border-top: 2px solid var(--accent);
+  padding: 2.5rem 1.5rem 2rem; margin-top: auto;
+}
+.footer-inner {
+  max-width: 56rem; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr auto; gap: 1.5rem 3rem; align-items: start;
+}
+.footer-about h2 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
+.footer-about p { font-size: 0.95rem; color: var(--text2); line-height: 1.7; margin-bottom: 0.4rem; }
+.footer-nav h2 { font-size: 0.95rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
+.footer-nav ul { list-style: none; padding: 0; }
+.footer-nav li { margin-bottom: 0.4rem; }
+.footer-nav a { font-size: 0.95rem; color: var(--accent); text-decoration: none; font-weight: 500; }
+.footer-nav a:hover { text-decoration: underline; }
+.footer-bottom {
+  grid-column: 1 / -1; border-top: 1px solid var(--border);
+  padding-top: 1rem; margin-top: 0.5rem;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  font-size: 0.88rem; color: var(--text2);
 }
 @media (max-width: 37.5em) {
   .search-row { flex-direction: column; }
@@ -246,6 +263,8 @@ footer {
   .detail dl { grid-template-columns: 1fr; }
   .detail dt { margin-top: 0.3rem; }
   header h1 { font-size: 1.1rem; }
+  .footer-inner { grid-template-columns: 1fr; gap: 1rem; }
+  .footer-bottom { flex-direction: column; text-align: center; }
   .type-filter { gap: 0.3rem; }
   .type-filter button { font-size: 0.78rem; padding: 0.3rem 0.65rem; }
 }
@@ -255,7 +274,7 @@ footer {
 <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
 
 <header>
-  <h1>🔬 <span>Forskningsgrupper</span></h1>
+  <h1>🔬 <span class="site-name">Forskningsgrupper</span><span class="site-sub">i Norge</span></h1>
   <button id="theme-toggle" aria-label="Bytt mellom lyst og mørkt tema">🌙</button>
 </header>
 
@@ -289,7 +308,7 @@ footer {
         <input id="q" type="search" placeholder="Søk etter forskningsgruppe…" autocomplete="off">
       </label>
     </div>
-    <div class="type-filter" role="group" aria-label="Filtrer etter enhetstype">
+    <div class="type-filter" role="toolbar" aria-label="Filtrer etter enhetstype">
       <button type="button" data-type="group" aria-pressed="true">🔬 Forskningsgrupper</button>
       <button type="button" data-type="department" aria-pressed="false">🏢 Institutter</button>
       <button type="button" data-type="faculty" aria-pressed="false">📚 Fakulteter</button>
@@ -319,10 +338,26 @@ footer {
   </div>
 </div>
 
-<footer>
-  <p>Denne siden videreformidler informasjon om forskningsgrupper fra norske universiteter, høgskoler og forskningsinstitutter. 
-  Data hentes fra <a href="https://nva.sikt.no" target="_blank" rel="noopener">Nasjonalt vitenarkiv (NVA)</a> og institusjonenes egne nettsider.</p>
-  <p style="margin-top:0.3rem">Forskningsgruppe.no er ikke tilknyttet <a href="https://sikt.no" target="_blank" rel="noopener">Sikt</a> eller noen institusjon.</p>
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-about">
+      <h2>Om Forskningsgruppe.no</h2>
+      <p>Videreformidler informasjon om forskningsgrupper fra norske universiteter, høgskoler og forskningsinstitutter.</p>
+      <p>Data hentes fra Nasjonalt vitenarkiv (NVA) og institusjonenes egne nettsider. Denne tjenesten er ikke tilknyttet Sikt eller noen utdanningsinstitusjon.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Ressurser">
+      <h2>Ressurser</h2>
+      <ul>
+        <li><a href="https://nva.sikt.no" target="_blank" rel="noopener">Nasjonalt vitenarkiv (NVA) ↗</a></li>
+        <li><a href="https://sikt.no" target="_blank" rel="noopener">Sikt ↗</a></li>
+        <li><a href="https://github.com/medic2lt/forskningsgruppe.no" target="_blank" rel="noopener">Kildekode (GitHub) ↗</a></li>
+      </ul>
+    </nav>
+    <div class="footer-bottom">
+      <span>📊 1 478 forskningsgrupper fra 10 institusjoner</span>
+      <span>Tilgjengelighetsmål: WCAG 2.2 AA</span>
+    </div>
+  </div>
 </footer>
 
 <script>
@@ -567,8 +602,11 @@ async function doSearch(page) {
       const h = hits[i];
       const name = (getLabel(h) + ' ' + getLabelEn(h));
       const country = (h.country || '').toUpperCase();
-      // Remove foreign institutions
+      // Remove foreign/unknown country (keep only NO or empty with Norwegian keywords)
       if (country && country !== 'NO') { hits.splice(i, 1); totalSize--; continue; }
+      if (!country && h._type === 'institution' && !/universitet|høgskol|høyskol|forskning|sykehus|helse|sintef|nibio|nofima|havforsk|fhi|folkehelse/i.test(name)) {
+        hits.splice(i, 1); totalSize--; continue;
+      }
       // For top-level institutions: blacklist first, then must match whitelist
       if (h._type === 'institution') {
         if (INST_BLACKLIST.test(name)) { hits.splice(i, 1); totalSize--; continue; }
@@ -584,7 +622,7 @@ async function doSearch(page) {
       const matchedScraped = scrapedGroups.filter(g => {
         const text = `${g.name} ${g.description} ${g.institution}`.toLowerCase();
         return qLower.split(/\s+/).every(word => text.includes(word));
-      }).filter(g => !hits.some(h => h._cristinId === g.institutionId))
+      }).filter(g => !hits.some(h => h._cristinId === g.id))
         .map(g => ({
           id: g.id, labels: { nb: g.name }, acronym: '',
           _cristinId: g.id, _type: 'group', _source: 'scraped',
