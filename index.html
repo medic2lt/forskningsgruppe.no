@@ -540,6 +540,19 @@ async function doSearch(page) {
       h._source = 'nva';
     });
 
+    // Filter out irrelevant institutions
+    const EXCLUDE_RE = /\b(videre[gå]ende|vgs|folkeh[øo]gskole|folkeh[øo]gskule|samskipnad|studentsamskipnad)\b/i;
+    const NORWAY_CODES = ['NO', 'no', ''];
+    for (let i = hits.length - 1; i >= 0; i--) {
+      const h = hits[i];
+      const name = (getLabel(h) + ' ' + getLabelEn(h)).toLowerCase();
+      const country = (h.country || '').toUpperCase();
+      // Remove foreign institutions (keep entries without country as likely Norwegian)
+      if (country && !['NO'].includes(country)) { hits.splice(i, 1); totalSize--; continue; }
+      // Remove VGS, folkehøgskoler, samskipnader
+      if (EXCLUDE_RE.test(name)) { hits.splice(i, 1); totalSize--; continue; }
+    }
+
     // Add matching scraped groups
     if (scrapedGroups.length) {
       const qLower = q.toLowerCase();
