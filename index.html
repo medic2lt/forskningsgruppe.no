@@ -543,7 +543,7 @@ async function doSearch(page) {
     });
 
     // Filter out irrelevant institutions
-    const EXCLUDE_RE = /\b(videre[gå]ende|vgs|folkeh[øo]g|samskipnad|studentsamskipnad|folkeuniversitet|fagskole|fagskule|kommune|fylkeskommune|kompetansesenter|voksenoppl[æa]ring|lungeklinikk|klinikk(?!.*universit)|ambassade|barnehage|barneskole|ungdomsskole|grunnskole|museum|kulturskole|oppl[æa]ringssenter)\b/i;
+    const EXCLUDE_RE = /(videre[gå]ende|vgs|folkeh[øo]g|samskipnad|folkeuniversitet|fagskol|kommune|fylkeskommune|kompetansesent|voksenoppl[æa]ring|lungeklinikk|klinikk(?!.*universit)|ambassad|barnehage|barneskol|ungdomsskol|grunnskol|museum|kulturskol|oppl[æa]ringssent)/i;
     for (let i = hits.length - 1; i >= 0; i--) {
       const h = hits[i];
       const name = (getLabel(h) + ' ' + getLabelEn(h)).toLowerCase();
