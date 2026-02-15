@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Norske Forskningsgrupper — Nasjonalt vitenarkiv</title>
+<style>
+:root {
+  --bg: #f5f7fa; --bg2: #fff; --bg3: #e9ecf0; --text: #1a1a2e; --text2: #4a4a5a;
+  --accent: #1d4ed8; --accent2: #1e40af; --accent-focus: rgba(29,78,216,.25);
+  --border: #c5cad2; --shadow: rgba(0,0,0,.08);
+  --radius: 0.625rem; --tag-bg: #dbeafe; --tag-text: #1e3a8a;
+  --success: #15803d; --success-bg: #dcfce7;
+  --error: #b91c1c; --error-bg: #fee2e2;
+  --skeleton: linear-gradient(90deg, var(--bg3) 25%, var(--bg) 50%, var(--bg3) 75%);
+  --type-inst: #6b7280; --type-inst-bg: #f3f4f6;
+  --type-fak: #2563eb; --type-fak-bg: #dbeafe;
+  --type-dep: #059669; --type-dep-bg: #d1fae5;
+  --type-group: #9333ea; --type-group-bg: #f3e8ff;
+}
+[data-theme="dark"] {
+  --bg: #0f172a; --bg2: #1e293b; --bg3: #334155; --text: #e2e8f0; --text2: #b0bec5;
+  --accent: #60a5fa; --accent2: #93bbfd; --accent-focus: rgba(96,165,250,.3);
+  --border: #475569; --shadow: rgba(0,0,0,.3);
+  --tag-bg: #1e3a5f; --tag-text: #bfdbfe;
+  --success: #4ade80; --success-bg: #14532d;
+  --error: #fca5a5; --error-bg: #450a0a;
+  --skeleton: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%);
+  --type-inst: #9ca3af; --type-inst-bg: #374151;
+  --type-fak: #60a5fa; --type-fak-bg: #1e3a5f;
+  --type-dep: #34d399; --type-dep-bg: #064e3b;
+  --type-group: #c084fc; --type-group-bg: #3b0764;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.6;
+  transition: background .3s, color .3s; min-height: 100vh;
+  display: flex; flex-direction: column; font-size: 1rem;
+}
+a { color: var(--accent); text-decoration: underline; }
+a:hover { text-decoration: none; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+}
+.skip-link {
+  position: absolute; top: -3rem; left: 1rem; background: var(--accent);
+  color: #fff; padding: 0.5rem 1rem; border-radius: 0 0 0.5rem 0.5rem;
+  z-index: 100; font-weight: 600; text-decoration: none; transition: top .2s;
+}
+.skip-link:focus { top: 0; }
+header {
+  background: var(--bg2); border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.5rem; display: flex; align-items: center;
+  justify-content: space-between; position: sticky; top: 0;
+  z-index: 10; box-shadow: 0 1px 4px var(--shadow);
+}
+header h1 { font-size: 1.25rem; font-weight: 700; }
+header h1 span { color: var(--accent); }
+#theme-toggle {
+  background: var(--bg3); border: 1px solid var(--border); border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem; cursor: pointer; font-size: 1.1rem; color: var(--text);
+  transition: background .2s; min-width: 2.75rem; min-height: 2.75rem;
+  display: flex; align-items: center; justify-content: center;
+}
+#theme-toggle:hover { background: var(--border); }
+.container { max-width: 56rem; margin: 0 auto; padding: 1.5rem; flex: 1; width: 100%; }
+.search-box {
+  background: var(--bg2); border-radius: var(--radius);
+  padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px var(--shadow);
+}
+.search-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.search-row label { display: flex; flex-direction: column; flex: 1; min-width: 11rem; gap: 0.25rem; font-size: 0.85rem; font-weight: 600; color: var(--text2); }
+.search-row input {
+  padding: 0.6rem 0.9rem; border: 1px solid var(--border); border-radius: 0.5rem;
+  font-size: 0.95rem; background: var(--bg); color: var(--text); transition: border .2s;
+}
+.search-row input:focus {
+  border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-focus);
+}
+.type-filter { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.75rem; }
+.type-filter button {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 2rem;
+  padding: 0.35rem 0.85rem; cursor: pointer; font-size: 0.82rem; color: var(--text2);
+  transition: all .2s; font-weight: 500; min-height: 2.25rem;
+}
+.type-filter button:hover { border-color: var(--accent); color: var(--accent); }
+.type-filter button[aria-pressed="true"] {
+  background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600;
+}
+.status { text-align: center; padding: 1rem; color: var(--text2); font-size: 0.9rem; }
+@keyframes shimmer { 0% { background-position: -30rem 0; } 100% { background-position: 30rem 0; } }
+.skeleton-card {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1rem 1.25rem; animation: fadeIn .3s ease both;
+}
+.skeleton-line {
+  height: 1rem; border-radius: 0.25rem; margin-bottom: 0.5rem;
+  background: var(--skeleton); background-size: 60rem 1rem;
+  animation: shimmer 1.5s infinite linear;
+}
+.skeleton-line.title { width: 65%; height: 1.2rem; }
+.skeleton-line.sub { width: 45%; height: 0.85rem; }
+.skeleton-line.meta { width: 55%; height: 0.8rem; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(0.5rem); } to { opacity: 1; transform: translateY(0); } }
+@keyframes modalIn { from { opacity: 0; transform: scale(.95) translateY(1.25rem); } to { opacity: 1; transform: scale(1) translateY(0); } }
+@keyframes overlayIn { from { opacity: 0; } to { opacity: 1; } }
+.no-results { text-align: center; padding: 3rem 1rem; color: var(--text2); }
+.no-results .icon { font-size: 3rem; margin-bottom: 0.5rem; }
+.no-results p { font-size: 1rem; }
+.error-box {
+  background: var(--error-bg); border: 1px solid var(--error); color: var(--error);
+  border-radius: var(--radius); padding: 1rem 1.25rem; text-align: center;
+}
+.error-box button {
+  margin-top: 0.75rem; background: var(--error); color: #fff; border: none;
+  padding: 0.5rem 1.25rem; border-radius: 0.5rem; cursor: pointer; font-size: 0.9rem;
+  min-height: 2.75rem;
+}
+.results-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.group-heading {
+  font-size: 0.9rem; font-weight: 700; color: var(--text2); margin-top: 1rem;
+  padding: 0.4rem 0; border-bottom: 2px solid var(--border); display: flex; align-items: center; gap: 0.5rem;
+}
+.group-heading:first-child { margin-top: 0; }
+.group-count { font-weight: 400; font-size: 0.8rem; color: var(--text2); }
+.card {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1rem 1.25rem; cursor: pointer;
+  transition: box-shadow .2s, border-color .2s, transform .15s;
+  animation: fadeIn .3s ease both;
+}
+.card:hover, .card:focus-visible { border-color: var(--accent); box-shadow: 0 4px 12px var(--shadow); transform: translateY(-1px); }
+.card h3 { font-size: 1rem; margin-bottom: 0.15rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.card .sub { font-size: 0.85rem; color: var(--text2); font-style: italic; }
+.card .breadcrumb { font-size: 0.78rem; color: var(--text2); margin-top: 0.15rem; line-height: 1.4; }
+.card .breadcrumb .bc-sep { margin: 0 0.2rem; opacity: 0.5; }
+.card .breadcrumb.loading { opacity: 0.4; }
+.tag {
+  background: var(--tag-bg); color: var(--tag-text); font-size: 0.75rem;
+  padding: 0.2rem 0.55rem; border-radius: 0.375rem; font-weight: 600; white-space: nowrap;
+}
+.tag.acronym { background: var(--success-bg); color: var(--success); }
+.type-badge {
+  font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 0.375rem;
+  font-weight: 700; white-space: nowrap; letter-spacing: 0.02em;
+}
+.type-badge.type-institution { background: var(--type-inst-bg); color: var(--type-inst); }
+.type-badge.type-faculty { background: var(--type-fak-bg); color: var(--type-fak); }
+.type-badge.type-department { background: var(--type-dep-bg); color: var(--type-dep); }
+.type-badge.type-group { background: var(--type-group-bg); color: var(--type-group); }
+.card.is-group { border-left: 3px solid var(--type-group); }
+.pagination-nav { display: flex; justify-content: center; gap: 0.4rem; margin-top: 1.5rem; flex-wrap: wrap; }
+.pagination-nav button {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 0.5rem;
+  padding: 0.4rem 1rem; cursor: pointer; color: var(--text); font-size: 0.9rem;
+  transition: background .2s, border-color .2s; min-width: 2.75rem; min-height: 2.75rem;
+}
+.pagination-nav button:hover:not(:disabled) { border-color: var(--accent); }
+.pagination-nav button:disabled { opacity: .4; cursor: default; }
+.pagination-nav button[aria-current="page"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+.pagination-nav .ellipsis { padding: 0 0.3rem; color: var(--text2); display: flex; align-items: center; }
+.overlay {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,.55);
+  z-index: 50; justify-content: center; align-items: start;
+  padding: 3rem 1rem; overflow-y: auto; backdrop-filter: blur(2px);
+}
+.overlay.open { display: flex; animation: overlayIn .2s ease; }
+.detail {
+  background: var(--bg2); border-radius: var(--radius); max-width: 47rem;
+  width: 100%; padding: 1.5rem 2rem; position: relative;
+  box-shadow: 0 8px 30px rgba(0,0,0,.25); animation: modalIn .3s ease;
+}
+.detail .close {
+  position: absolute; top: 0.75rem; right: 1rem; font-size: 1.5rem;
+  cursor: pointer; background: none; border: none; color: var(--text);
+  transition: color .2s; width: 2.75rem; height: 2.75rem;
+  display: flex; align-items: center; justify-content: center; border-radius: 50%;
+}
+.detail .close:hover { background: var(--bg3); color: var(--accent); }
+.detail h2 { margin-bottom: 0.25rem; font-size: 1.2rem; padding-right: 2.5rem; }
+.detail .en-name { font-style: italic; color: var(--text2); font-size: 0.95rem; margin-bottom: 0.75rem; }
+.detail dl { display: grid; grid-template-columns: auto 1fr; gap: 0.4rem 1rem; font-size: 0.9rem; margin-top: 0.75rem; }
+.detail dt { font-weight: 600; color: var(--text2); white-space: nowrap; }
+.detail dd { word-break: break-word; }
+.detail .hierarchy-chain {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem; font-size: 0.85rem;
+}
+.detail .hierarchy-chain .hc-item { display: inline-flex; align-items: center; gap: 0.25rem; }
+.detail .hierarchy-chain .hc-sep { color: var(--text2); opacity: 0.5; }
+.detail .section-title { font-size: 0.95rem; font-weight: 700; margin-top: 1.25rem; margin-bottom: 0.5rem; padding-top: 0.75rem; border-top: 1px solid var(--border); }
+.detail .pub-list { list-style: none; padding: 0; }
+.detail .pub-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--bg3); font-size: 0.88rem; }
+.detail .pub-list li:last-child { border-bottom: none; }
+.detail .pub-list .pub-title { font-weight: 500; }
+.detail .pub-list .pub-meta { font-size: 0.8rem; color: var(--text2); }
+footer {
+  background: var(--bg2); border-top: 1px solid var(--border);
+  padding: 0.75rem 1.5rem; text-align: center; font-size: 0.85rem; color: var(--text2);
+  margin-top: auto;
+}
+@media (max-width: 37.5em) {
+  .search-row { flex-direction: column; }
+  .search-row label { min-width: 100%; }
+  .detail { padding: 1rem 1.25rem; margin: 1rem 0; }
+  .overlay { padding: 1rem 0.5rem; }
+  .detail dl { grid-template-columns: 1fr; }
+  .detail dt { margin-top: 0.3rem; }
+  header h1 { font-size: 1.1rem; }
+  .type-filter { gap: 0.3rem; }
+  .type-filter button { font-size: 0.78rem; padding: 0.3rem 0.65rem; }
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
+
+<header>
+  <h1>🔬 <span>Forskningsgrupper</span></h1>
+  <button id="theme-toggle" aria-label="Bytt mellom lyst og mørkt tema">🌙</button>
+</header>
+
+<main id="main-content" class="container">
+  <section class="search-box" role="search" aria-label="Søk etter forskningsgrupper">
+    <div class="search-row">
+      <label for="q">
+        Søkeord
+        <input id="q" type="search" placeholder="Søk etter forskningsgruppe…" autocomplete="off">
+      </label>
+    </div>
+    <div class="type-filter" role="group" aria-label="Filtrer etter enhetstype">
+      <button type="button" data-type="group" aria-pressed="true">🔬 Forskningsgrupper</button>
+      <button type="button" data-type="department" aria-pressed="false">🏢 Institutter</button>
+      <button type="button" data-type="faculty" aria-pressed="false">📚 Fakulteter</button>
+      <button type="button" data-type="institution" aria-pressed="false">🏛️ Institusjoner</button>
+      <button type="button" data-type="all" aria-pressed="false">Alle</button>
+    </div>
+  </section>
+
+  <div id="status" class="status" aria-live="polite" role="status"></div>
+  <div id="results"></div>
+  <nav id="pagination" class="pagination-nav" aria-label="Paginering"></nav>
+</main>
+
+<div id="overlay" class="overlay" role="dialog" aria-modal="true" aria-label="Detaljer om enhet">
+  <div class="detail" id="detail-panel">
+    <button class="close" id="close-detail" aria-label="Lukk detaljer">&times;</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<footer>
+  Data fra <a href="https://nva.sikt.no" target="_blank" rel="noopener">Nasjonalt vitenarkiv (NVA)</a> ·
+  <a href="https://sikt.no" target="_blank" rel="noopener">Sikt</a>
+</footer>
+
+<script>
+const API = 'https://api.nva.unit.no';
+const PER_PAGE = 25;
+let currentPage = 1, totalPages = 1, totalSize = 0;
+let debounceTimer = null;
+let lastTriggerCard = null;
+let activeTypeFilter = 'group';
+
+// --- Unit type classification from Cristin ID ---
+function extractCristinId(idOrUrl) {
+  if (!idOrUrl) return '';
+  const m = String(idOrUrl).match(/(\d+\.\d+\.\d+\.\d+)/);
+  return m ? m[1] : '';
+}
+
+function classifyUnit(cristinId) {
+  const parts = String(cristinId).split('.').map(Number);
+  if (parts.length === 4) {
+    const [x, y, z, w] = parts;
+    if (w > 0) return 'group';
+    if (z > 0) return 'department';
+    if (y > 0 && y !== 90) return 'faculty';
+    return 'institution';
+  }
+  return 'department';
+}
+
+const TYPE_META = {
+  institution:  { emoji: '🏛️', label: 'Institusjon',    cls: 'type-institution', order: 3 },
+  faculty:      { emoji: '📚', label: 'Fakultet',        cls: 'type-faculty',     order: 2 },
+  department:   { emoji: '🏢', label: 'Institutt',       cls: 'type-department',  order: 1 },
+  group:        { emoji: '🔬', label: 'Forskningsgruppe', cls: 'type-group',      order: 0 },
+};
+
+function typeBadgeHTML(type) {
+  const m = TYPE_META[type];
+  if (!m) return '';
+  return `<span class="type-badge ${m.cls}">${m.emoji} ${m.label}</span>`;
+}
+
+// --- Name helpers ---
+function getLabel(org, lang) {
+  if (!org) return '';
+  const labels = org.labels || {};
+  if (lang && labels[lang]) return labels[lang];
+  return labels.nb || labels.nn || labels.no || labels.en || '';
+}
+function getLabelEn(org) {
+  return (org?.labels || {}).en || '';
+}
+
+// --- Unit detail cache ---
+const unitDetailCache = new Map();
+
+async function fetchUnitDetail(cristinId) {
+  if (unitDetailCache.has(cristinId)) return unitDetailCache.get(cristinId);
+  try {
+    const r = await fetch(`${API}/cristin/organization/${cristinId}`);
+    if (!r.ok) throw new Error();
+    const d = await r.json();
+    unitDetailCache.set(cristinId, d);
+    return d;
+  } catch {
+    return null;
+  }
+}
+
+// Build breadcrumb from partOf chain
+function buildBreadcrumb(org) {
+  const chain = [];
+  function walk(o) {
+    if (!o || !o.partOf) return;
+    for (const parent of o.partOf) {
+      const label = getLabel(parent);
+      if (label) chain.unshift({ id: extractCristinId(parent.id), label });
+      walk(parent);
+    }
+  }
+  walk(org);
+  // Deduplicate
+  const seen = new Set();
+  return chain.filter(c => {
+    if (seen.has(c.id)) return false;
+    seen.add(c.id);
+    return true;
+  });
+}
+
+// --- Theme ---
+const html = document.documentElement;
+const themeBtn = document.getElementById('theme-toggle');
+const savedTheme = localStorage.getItem('theme') || 'light';
+html.dataset.theme = savedTheme;
+themeBtn.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+themeBtn.onclick = () => {
+  const t = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  html.dataset.theme = t; localStorage.setItem('theme', t);
+  themeBtn.textContent = t === 'dark' ? '☀️' : '🌙';
+};
+
+// --- Elements ---
+const qEl = document.getElementById('q');
+const statusEl = document.getElementById('status');
+const resultsEl = document.getElementById('results');
+const pagEl = document.getElementById('pagination');
+const overlay = document.getElementById('overlay');
+const detailPanel = document.getElementById('detail-panel');
+const detailContent = document.getElementById('detail-content');
+const closeBtn = document.getElementById('close-detail');
+
+// --- Type filter buttons ---
+document.querySelectorAll('.type-filter button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.type-filter button').forEach(b => b.setAttribute('aria-pressed', 'false'));
+    btn.setAttribute('aria-pressed', 'true');
+    activeTypeFilter = btn.dataset.type;
+    doSearch(1);
+  });
+});
+
+// --- Modal ---
+function openModal(triggerEl) {
+  lastTriggerCard = triggerEl;
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  closeBtn.focus();
+}
+function closeModal() {
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+  if (lastTriggerCard) { lastTriggerCard.focus(); lastTriggerCard = null; }
+}
+closeBtn.onclick = closeModal;
+overlay.onclick = e => { if (e.target === overlay) closeModal(); };
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && overlay.classList.contains('open')) { closeModal(); return; }
+  if (e.key === 'Tab' && overlay.classList.contains('open')) {
+    const focusable = detailPanel.querySelectorAll('a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    if (!focusable.length) return;
+    const first = focusable[0], last = focusable[focusable.length - 1];
+    if (e.shiftKey) {
+      if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+    } else {
+      if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+});
+
+// --- URL state ---
+function readURL() {
+  const p = new URLSearchParams(location.search);
+  if (p.get('q')) qEl.value = p.get('q');
+  if (p.get('page')) currentPage = parseInt(p.get('page')) || 1;
+  if (p.get('type')) {
+    activeTypeFilter = p.get('type');
+    document.querySelectorAll('.type-filter button').forEach(b => {
+      b.setAttribute('aria-pressed', b.dataset.type === activeTypeFilter ? 'true' : 'false');
+    });
+  }
+}
+function updateURL() {
+  const p = new URLSearchParams();
+  const q = qEl.value.trim();
+  if (q) p.set('q', q);
+  if (currentPage > 1) p.set('page', currentPage);
+  if (activeTypeFilter !== 'group') p.set('type', activeTypeFilter);
+  const s = p.toString();
+  history.replaceState(null, '', s ? '?' + s : location.pathname);
+  document.title = q
+    ? `«${q}» — Norske Forskningsgrupper — NVA`
+    : 'Norske Forskningsgrupper — Nasjonalt vitenarkiv';
+}
+
+// --- Helpers ---
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function showSkeletons(count) {
+  let h = '<ul class="results-list" role="list">';
+  for (let i = 0; i < count; i++) {
+    h += `<li class="skeleton-card" style="animation-delay:${i * 40}ms" aria-hidden="true">
+      <div class="skeleton-line title"></div>
+      <div class="skeleton-line sub"></div>
+      <div class="skeleton-line meta"></div>
+    </li>`;
+  }
+  h += '</ul>';
+  resultsEl.innerHTML = h;
+}
+
+// --- Search ---
+qEl.addEventListener('input', () => { clearTimeout(debounceTimer); debounceTimer = setTimeout(() => doSearch(1), 350); });
+
+async function doSearch(page) {
+  const q = qEl.value.trim();
+  if (!q) {
+    resultsEl.innerHTML = ''; pagEl.innerHTML = '';
+    statusEl.textContent = 'Skriv inn et søkeord for å starte.';
+    updateURL(); return;
+  }
+  currentPage = page;
+  updateURL();
+  statusEl.innerHTML = 'Søker…';
+  showSkeletons(6);
+  pagEl.innerHTML = '';
+
+  const url = `${API}/cristin/organization?query=${encodeURIComponent(q)}&depth=full&page=${page}&results=${PER_PAGE}`;
+
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`API svarte med status ${r.status}`);
+    const data = await r.json();
+    totalSize = data.size || 0;
+    const hits = data.hits || [];
+
+    if (!hits.length) {
+      statusEl.textContent = 'Ingen treff.';
+      resultsEl.innerHTML = '<div class="no-results"><div class="icon">🔍</div><p>Ingen treff for dette søket.</p></div>';
+      return;
+    }
+
+    // Enrich hits with cristinId and type
+    hits.forEach(h => {
+      h._cristinId = extractCristinId(h.id);
+      h._type = classifyUnit(h._cristinId);
+    });
+
+    // Filter by type
+    let filtered = hits;
+    if (activeTypeFilter !== 'all') {
+      filtered = hits.filter(h => h._type === activeTypeFilter);
+    }
+
+    // Sort
+    filtered.sort((a, b) => (TYPE_META[a._type]?.order ?? 9) - (TYPE_META[b._type]?.order ?? 9));
+
+    totalPages = Math.ceil(totalSize / PER_PAGE);
+    const totalNum = totalSize.toLocaleString('nb-NO');
+    const typeLabel = activeTypeFilter === 'all' ? '' : ` (${TYPE_META[activeTypeFilter]?.label || ''})`;
+
+    if (activeTypeFilter !== 'all' && filtered.length === 0) {
+      statusEl.textContent = `${totalNum} treff totalt, men ingen ${TYPE_META[activeTypeFilter]?.label?.toLowerCase() || 'enheter'} på denne siden. Prøv neste side.`;
+    } else {
+      statusEl.textContent = `${totalNum} treff totalt — viser ${filtered.length}${typeLabel} — side ${page} av ${totalPages}`;
+    }
+
+    // Group results
+    const grouped = new Map();
+    filtered.forEach(h => {
+      const t = h._type;
+      if (!grouped.has(t)) grouped.set(t, []);
+      grouped.get(t).push(h);
+    });
+
+    resultsEl.innerHTML = '';
+    let animIdx = 0;
+    const sortedTypes = [...grouped.keys()].sort((a, b) => (TYPE_META[a]?.order ?? 9) - (TYPE_META[b]?.order ?? 9));
+
+    sortedTypes.forEach(type => {
+      const units = grouped.get(type);
+      const meta = TYPE_META[type];
+
+      if (activeTypeFilter === 'all' && sortedTypes.length > 1) {
+        const heading = document.createElement('div');
+        heading.className = 'group-heading';
+        heading.innerHTML = `${meta.emoji} ${esc(meta.label)} <span class="group-count">(${units.length})</span>`;
+        resultsEl.appendChild(heading);
+      }
+
+      const ul = document.createElement('ul');
+      ul.className = 'results-list';
+      ul.setAttribute('role', 'list');
+
+      units.forEach(u => {
+        const li = document.createElement('li');
+        const card = document.createElement('article');
+        card.className = 'card' + (u._type === 'group' ? ' is-group' : '');
+        card.tabIndex = 0;
+        card.setAttribute('role', 'button');
+        const name = getLabel(u);
+        card.setAttribute('aria-label', `Vis detaljer for ${name}`);
+        card.style.animationDelay = `${animIdx++ * 30}ms`;
+
+        const nameEn = getLabelEn(u);
+        const acronym = u.acronym || '';
+
+        let tagsHtml = typeBadgeHTML(u._type);
+        if (acronym) tagsHtml += `<span class="tag acronym">${esc(acronym)}</span>`;
+
+        const bcId = `bc-${u._cristinId}`;
+        card.innerHTML = `
+          <h3>${esc(name)} ${tagsHtml}</h3>
+          ${nameEn && nameEn !== name ? `<div class="sub">${esc(nameEn)}</div>` : ''}
+          <div class="breadcrumb loading" id="${bcId}" data-cristin-id="${esc(u._cristinId)}"></div>
+        `;
+
+        const openDetail = () => showDetail(u._cristinId, card);
+        card.onclick = openDetail;
+        card.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(); } };
+
+        li.appendChild(card);
+        ul.appendChild(li);
+      });
+
+      resultsEl.appendChild(ul);
+    });
+
+    if (filtered.length === 0) {
+      resultsEl.innerHTML = '<div class="no-results"><div class="icon">🔍</div><p>Ingen treff med dette filteret på denne siden. Prøv «Alle» eller gå til neste side.</p></div>';
+    }
+
+    renderPagination();
+    loadBreadcrumbs(filtered);
+  } catch(e) {
+    statusEl.textContent = '';
+    resultsEl.innerHTML = `<div class="error-box" role="alert">
+      <p><strong>Noe gikk galt.</strong></p>
+      <p>${esc(e.message)}</p>
+      <button onclick="doSearch(${page})">Prøv igjen</button>
+    </div>`;
+  }
+}
+
+// --- Breadcrumb loading ---
+let breadcrumbObserver = null;
+
+function loadBreadcrumbs(units) {
+  if (breadcrumbObserver) breadcrumbObserver.disconnect();
+
+  const loadBc = async (el) => {
+    const cristinId = el.dataset.cristinId;
+    if (!cristinId) return;
+    const detail = await fetchUnitDetail(cristinId);
+    if (detail) {
+      const crumbs = buildBreadcrumb(detail);
+      if (crumbs.length) {
+        el.innerHTML = crumbs.map(c => esc(c.label)).join('<span class="bc-sep">→</span>');
+      }
+    }
+    el.classList.remove('loading');
+    if (!el.innerHTML.trim()) el.remove();
+  };
+
+  breadcrumbObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        breadcrumbObserver.unobserve(entry.target);
+        loadBc(entry.target);
+      }
+    });
+  }, { rootMargin: '200px' });
+
+  document.querySelectorAll('.breadcrumb[data-cristin-id]').forEach(el => {
+    breadcrumbObserver.observe(el);
+  });
+
+  setTimeout(() => {
+    document.querySelectorAll('.breadcrumb.loading[data-cristin-id]').forEach(el => {
+      if (breadcrumbObserver) breadcrumbObserver.unobserve(el);
+      loadBc(el);
+    });
+  }, 500);
+}
+
+function renderPagination() {
+  pagEl.innerHTML = '';
+  if (totalPages <= 1) return;
+  const mk = (label, pg, disabled, isCurrent) => {
+    const b = document.createElement('button');
+    b.textContent = label; b.disabled = disabled;
+    if (isCurrent) { b.setAttribute('aria-current', 'page'); b.setAttribute('aria-label', `Side ${label}, gjeldende side`); }
+    else if (typeof pg === 'number') { b.setAttribute('aria-label', `Gå til side ${label}`); }
+    b.onclick = () => { doSearch(pg); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    pagEl.appendChild(b);
+  };
+  const ellipsis = () => {
+    const s = document.createElement('span');
+    s.className = 'ellipsis'; s.textContent = '…'; s.setAttribute('aria-hidden', 'true');
+    pagEl.appendChild(s);
+  };
+
+  mk('◀ Forrige', currentPage - 1, currentPage <= 1);
+  const start = Math.max(1, currentPage - 2), end = Math.min(totalPages, currentPage + 2);
+  if (start > 1) { mk(1, 1); if (start > 2) ellipsis(); }
+  for (let i = start; i <= end; i++) mk(i, i, false, i === currentPage);
+  if (end < totalPages) { if (end < totalPages - 1) ellipsis(); mk(totalPages, totalPages); }
+  mk('Neste ▶', currentPage + 1, currentPage >= totalPages);
+}
+
+async function showDetail(cristinId, triggerEl) {
+  detailContent.innerHTML = `<div style="text-align:center;padding:2rem" aria-live="polite">
+    <div class="skeleton-line title" style="margin:0 auto 0.75rem;width:60%"></div>
+    <div class="skeleton-line sub" style="margin:0 auto 0.5rem;width:40%"></div>
+    <div class="skeleton-line meta" style="margin:0 auto;width:50%"></div>
+  </div>`;
+  openModal(triggerEl);
+
+  try {
+    const [unitRes, pubRes] = await Promise.allSettled([
+      fetchUnitDetail(cristinId),
+      fetch(`${API}/search/resources?unit=${encodeURIComponent(API + '/cristin/organization/' + cristinId)}&size=10&sort=relevance`)
+        .then(r => r.json()).catch(() => ({ hits: [] }))
+    ]);
+    const u = unitRes.status === 'fulfilled' ? unitRes.value : null;
+    const pubs = pubRes.status === 'fulfilled' ? (pubRes.value?.hits || []) : [];
+    const totalPubs = pubRes.status === 'fulfilled' ? (pubRes.value?.totalHits || 0) : 0;
+
+    if (!u) { detailContent.innerHTML = '<p role="alert">Kunne ikke laste detaljer.</p>'; return; }
+
+    const unitType = classifyUnit(cristinId);
+    const typeMeta = TYPE_META[unitType];
+    const name = getLabel(u);
+    const nameEn = getLabelEn(u);
+    const acronym = u.acronym || '';
+    const country = u.country || '';
+
+    // Build hierarchy from partOf
+    const crumbs = buildBreadcrumb(u);
+    let hierarchyHtml = '';
+    if (crumbs.length) {
+      hierarchyHtml = crumbs.map(c => {
+        const cType = classifyUnit(c.id);
+        const cMeta = TYPE_META[cType];
+        return `<span class="hc-item">${cMeta?.emoji || ''} ${esc(c.label)}</span>`;
+      }).join('<span class="hc-sep">→</span>');
+    }
+
+    // Subunits
+    const subunits = u.hasPart?.length || 0;
+
+    const nvaUrl = `https://nva.sikt.no/search?query=&unit=${encodeURIComponent(API + '/cristin/organization/' + cristinId)}`;
+
+    let h = `<h2 id="modal-title">${esc(name)} ${typeBadgeHTML(unitType)}</h2>`;
+    if (nameEn && nameEn !== name) h += `<div class="en-name">${esc(nameEn)}</div>`;
+    if (hierarchyHtml) h += `<div class="hierarchy-chain">${hierarchyHtml}</div>`;
+
+    h += `<dl>`;
+    h += `<dt>Cristin-ID</dt><dd>${esc(cristinId)}</dd>`;
+    h += `<dt>Type</dt><dd>${typeMeta.emoji} ${esc(typeMeta.label)}</dd>`;
+    if (acronym) h += `<dt>Akronym</dt><dd><span class="tag acronym">${esc(acronym)}</span></dd>`;
+    if (country) h += `<dt>Land</dt><dd>${esc(country)}</dd>`;
+    h += `<dt>NVA-søk</dt><dd><a href="${esc(nvaUrl)}" target="_blank" rel="noopener">Åpne i Nasjonalt vitenarkiv ↗</a></dd>`;
+    if (subunits > 0) h += `<dt>Underenheter</dt><dd>${subunits}</dd>`;
+    h += `</dl>`;
+
+    if (pubs.length > 0) {
+      h += `<div class="section-title">📄 Publikasjoner (${totalPubs.toLocaleString('nb-NO')} totalt, viser ${pubs.length})</div>`;
+      h += `<ul class="pub-list">`;
+      pubs.forEach(p => {
+        const ed = p.entityDescription || {};
+        const title = ed.mainTitle || '(uten tittel)';
+        const ref = ed.reference || {};
+        const pc = ref.publicationContext || {};
+        const pi = ref.publicationInstance || {};
+        const year = pc.year || '';
+        const typ = pi.type || '';
+        const typLabel = typ.replace(/([A-Z])/g, ' $1').trim();
+        h += `<li><div class="pub-title">${esc(title)}</div><div class="pub-meta">${[year, typLabel].filter(Boolean).join(' · ')}</div></li>`;
+      });
+      h += `</ul>`;
+    }
+
+    detailContent.innerHTML = h;
+    overlay.setAttribute('aria-labelledby', 'modal-title');
+  } catch(e) {
+    detailContent.innerHTML = `<p role="alert">Kunne ikke laste detaljer: ${esc(e.message)}</p>`;
+  }
+}
+
+// --- Init ---
+readURL();
+if (qEl.value.trim()) { doSearch(currentPage); } else { statusEl.textContent = 'Skriv inn et søkeord for å starte.'; }
+</script>
+</body>
+</html>
