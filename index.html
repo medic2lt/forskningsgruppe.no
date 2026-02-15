@@ -552,6 +552,11 @@ async function doSearch(page) {
       if (country && !['NO'].includes(country)) { hits.splice(i, 1); totalSize--; continue; }
       // Remove irrelevant institution types
       if (EXCLUDE_RE.test(name)) { hits.splice(i, 1); totalSize--; continue; }
+      // Remove bare city/place names (1-2 words, no institution keywords)
+      const words = name.trim().split(/\s+/);
+      if (h._type === 'institution' && words.length <= 2 && !/universitet|høgskole|høyskole|institutt|forskning|akademi|sykehus|hospital|college|school/i.test(name)) {
+        hits.splice(i, 1); totalSize--; continue;
+      }
     }
 
     // Add matching scraped groups
