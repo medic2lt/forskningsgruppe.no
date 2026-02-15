@@ -320,16 +320,16 @@ footer {
   <section class="topics" id="topics" aria-label="Populære fagområder">
     <h2>Populære fagområder</h2>
     <div class="topic-chips">
-      <button class="topic-chip" data-query="helse medisin">🏥 Helse og medisin <span class="topic-count">224</span></button>
-      <button class="topic-chip" data-query="utdanning pedagogikk">📚 Utdanning <span class="topic-count">123</span></button>
-      <button class="topic-chip" data-query="samfunn politikk">🏛️ Samfunn og politikk <span class="topic-count">100</span></button>
-      <button class="topic-chip" data-query="kultur humaniora">🎭 Kultur og humaniora <span class="topic-count">99</span></button>
-      <button class="topic-chip" data-query="biologi miljø klima">🌿 Biologi og miljø <span class="topic-count">93</span></button>
-      <button class="topic-chip" data-query="teknologi digital">💻 Teknologi og IT <span class="topic-count">75</span></button>
-      <button class="topic-chip" data-query="kjemi fysikk">⚛️ Kjemi og fysikk <span class="topic-count">74</span></button>
-      <button class="topic-chip" data-query="økonomi ledelse">📊 Økonomi og ledelse <span class="topic-count">48</span></button>
-      <button class="topic-chip" data-query="energi bærekraft">⚡ Energi og bærekraft <span class="topic-count">37</span></button>
-      <button class="topic-chip" data-query="mat landbruk">🌾 Mat og landbruk <span class="topic-count">13</span></button>
+      <button class="topic-chip" data-query="helse">🏥 Helse og medisin <span class="topic-count">224</span></button>
+      <button class="topic-chip" data-query="utdanning">📚 Utdanning <span class="topic-count">123</span></button>
+      <button class="topic-chip" data-query="samfunn">🏛️ Samfunn og politikk <span class="topic-count">100</span></button>
+      <button class="topic-chip" data-query="kultur">🎭 Kultur og humaniora <span class="topic-count">99</span></button>
+      <button class="topic-chip" data-query="biologi">🌿 Biologi og miljø <span class="topic-count">93</span></button>
+      <button class="topic-chip" data-query="teknologi">💻 Teknologi og IT <span class="topic-count">75</span></button>
+      <button class="topic-chip" data-query="kjemi">⚛️ Kjemi og fysikk <span class="topic-count">74</span></button>
+      <button class="topic-chip" data-query="økonomi">📊 Økonomi og ledelse <span class="topic-count">48</span></button>
+      <button class="topic-chip" data-query="energi">⚡ Energi og bærekraft <span class="topic-count">37</span></button>
+      <button class="topic-chip" data-query="mat">🌾 Mat og landbruk <span class="topic-count">13</span></button>
     </div>
   </section>
 
@@ -1008,16 +1008,84 @@ introBtn.addEventListener('click', () => {
   localStorage.setItem('intro-hidden', isCollapsed);
 });
 
-// --- Topic chips ---
+// --- Topic chips (filter scraped data by theme regex) ---
+const TOPIC_PATTERNS = {
+  'helse': /helse|health|medisin|medical|klinisk|clinical|sykeplei|nursing|psyk|cancer|kreft|epidem|farmasi|pharm|dental|oral|nutrition|ernæring|rehab|geriatri|palliativ|kardiov|neuro|nevro|immun|patolog/i,
+  'utdanning': /utdanning|education|pedagog|didaktik|læring|learning|skole|school|barnehage|teaching|literacy|lese|undervisning/i,
+  'samfunn': /samfunn|social|politi|democra|govern|rettsvit|jus\b|law\b|human.rights|menneskerett|migrasjon|gender|kjønn|velferd|welfare/i,
+  'kultur': /kultur|culture|histori|litter|lingvist|språk|language|kunst|art\b|music|religion|filosof|arkeolog/i,
+  'biologi': /biolog|ecology|økolog|marine|arctic|arktis|klima|climate|environment|miljø|aqua|polar|biodiv|genomic|evolution/i,
+  'teknologi': /teknologi|technology|digital|cyber|computing|software|data.sci|artificial|machine.learn|robot|bioinform|informasjon|systems?.engineer/i,
+  'kjemi': /kjemi|chemistry|fysikk|physics|material|nano|quantum|kvante|kosmolog|astro/i,
+  'økonomi': /økonomi|econom|ledelse|management|innova|entreprenør|finans|market|organisasjon|organization|strateg/i,
+  'energi': /energi|energy|bærekraft|sustainab|renewable|green|sirkulær|circular/i,
+  'mat': /food|mat\b|landbruk|agricult|aquacultur|akvakultur|veterinær|animal|plante|crop|soil/i,
+};
+
+function doTopicSearch(topicKey) {
+  const pattern = TOPIC_PATTERNS[topicKey];
+  if (!pattern || !scrapedGroups.length) return;
+  
+  const matched = scrapedGroups.filter(g => pattern.test(g.name) || pattern.test(g.description || ''));
+  
+  // Display results
+  qEl.value = '';
+  currentPage = 1;
+  activeTypeFilter = 'group';
+  document.querySelectorAll('.type-filter button').forEach(b => {
+    b.setAttribute('aria-pressed', b.dataset.type === 'group' ? 'true' : 'false');
+  });
+  updateURL();
+  
+  const topicsEl = document.getElementById('topics');
+  if (topicsEl) topicsEl.style.display = 'none';
+  
+  statusEl.textContent = `${matched.length} forskningsgrupper innen dette fagområdet`;
+  pagEl.innerHTML = '';
+  resultsEl.innerHTML = '';
+  
+  // Update filter buttons
+  document.querySelectorAll('.type-filter button').forEach(btn => {
+    const t = btn.dataset.type;
+    const count = t === 'group' || t === 'all' ? matched.length : 0;
+    const emoji = btn.textContent.split(' ')[0];
+    const label = t === 'all' ? 'Alle' : TYPE_META[t]?.label || t;
+    btn.innerHTML = count > 0 ? `${emoji} ${label} <span class="count">(${count})</span>` : `${emoji} ${label}`;
+    btn.classList.toggle('has-results', count > 0 && btn.getAttribute('aria-pressed') !== 'true');
+  });
+  
+  const ul = document.createElement('ul');
+  ul.className = 'results-list';
+  ul.setAttribute('role', 'list');
+  
+  matched.sort((a, b) => a.name.localeCompare(b.name, 'nb'));
+  
+  matched.forEach((g, i) => {
+    const li = document.createElement('li');
+    const card = document.createElement('article');
+    card.className = 'card is-group is-scraped';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `Vis detaljer for ${g.name}`);
+    card.style.animationDelay = `${i * 20}ms`;
+    card.innerHTML = `
+      <h3>${esc(g.name)} ${typeBadgeHTML('group')} <span class="source-badge source-scraped">Institusjonens nettside</span></h3>
+      <div class="sub">${esc(g.institution)}</div>
+    `;
+    card.onclick = () => showScrapedDetail(g, card);
+    card.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showScrapedDetail(g, card); } };
+    li.appendChild(card);
+    ul.appendChild(li);
+  });
+  
+  resultsEl.appendChild(ul);
+  document.getElementById('not-found-tip').style.display = 'none';
+  qEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 document.querySelectorAll('.topic-chip').forEach(chip => {
   chip.addEventListener('click', () => {
-    qEl.value = chip.dataset.query;
-    activeTypeFilter = 'all';
-    document.querySelectorAll('.type-filter button').forEach(b => {
-      b.setAttribute('aria-pressed', b.dataset.type === 'all' ? 'true' : 'false');
-    });
-    doSearch(1);
-    qEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    doTopicSearch(chip.dataset.query);
   });
 });
 
