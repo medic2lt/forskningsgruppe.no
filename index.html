@@ -90,6 +90,22 @@ header h1 .site-sub { font-size: 0.88rem; color: var(--text2); font-weight: 400;
 }
 .not-found-tip p { margin: 0; color: var(--text); }
 .not-found-tip a { color: var(--accent); font-weight: 500; }
+.topics {
+  background: var(--bg2); border-radius: var(--radius); border: 1px solid var(--border);
+  padding: 1.25rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 8px var(--shadow);
+}
+.topics h2 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.75rem; }
+.topic-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.topic-chip {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 2rem;
+  padding: 0.45rem 1rem; cursor: pointer; font-size: 0.9rem; color: var(--text);
+  font-weight: 500; transition: all .2s; display: flex; align-items: center; gap: 0.4rem;
+  min-height: 2.5rem;
+}
+.topic-chip:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-focus); transform: translateY(-1px); }
+.topic-count {
+  font-size: 0.75rem; font-weight: 600; color: var(--text2); opacity: 0.7;
+}
 .search-box {
   background: var(--bg2); border-radius: var(--radius);
   padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px var(--shadow);
@@ -299,6 +315,22 @@ footer {
       eller forsker som vil samarbeide på tvers — start søket her.
     </p>
     <button class="intro-toggle" id="intro-toggle" aria-expanded="true" aria-controls="intro">Skjul introduksjon</button>
+  </section>
+
+  <section class="topics" id="topics" aria-label="Populære fagområder">
+    <h2>Populære fagområder</h2>
+    <div class="topic-chips">
+      <button class="topic-chip" data-query="helse medisin">🏥 Helse og medisin <span class="topic-count">224</span></button>
+      <button class="topic-chip" data-query="utdanning pedagogikk">📚 Utdanning <span class="topic-count">123</span></button>
+      <button class="topic-chip" data-query="samfunn politikk">🏛️ Samfunn og politikk <span class="topic-count">100</span></button>
+      <button class="topic-chip" data-query="kultur humaniora">🎭 Kultur og humaniora <span class="topic-count">99</span></button>
+      <button class="topic-chip" data-query="biologi miljø klima">🌿 Biologi og miljø <span class="topic-count">93</span></button>
+      <button class="topic-chip" data-query="teknologi digital">💻 Teknologi og IT <span class="topic-count">75</span></button>
+      <button class="topic-chip" data-query="kjemi fysikk">⚛️ Kjemi og fysikk <span class="topic-count">74</span></button>
+      <button class="topic-chip" data-query="økonomi ledelse">📊 Økonomi og ledelse <span class="topic-count">48</span></button>
+      <button class="topic-chip" data-query="energi bærekraft">⚡ Energi og bærekraft <span class="topic-count">37</span></button>
+      <button class="topic-chip" data-query="mat landbruk">🌾 Mat og landbruk <span class="topic-count">13</span></button>
+    </div>
   </section>
 
   <section class="search-box" role="search" aria-label="Søk etter forskningsgrupper">
@@ -563,6 +595,8 @@ async function doSearch(page) {
   if (!q) {
     resultsEl.innerHTML = ''; pagEl.innerHTML = '';
     statusEl.textContent = 'Skriv inn et søkeord for å starte.';
+    const topicsEl = document.getElementById('topics');
+    if (topicsEl) topicsEl.style.display = 'block';
     updateURL(); return;
   }
   currentPage = page;
@@ -786,6 +820,10 @@ async function doSearch(page) {
     const tipEl = document.getElementById('not-found-tip');
     tipEl.style.display = (activeTypeFilter === 'group' && groupCount <= 2) || (activeTypeFilter === 'all' && groupCount === 0) ? 'block' : 'none';
 
+    // Hide topic chips when searching
+    const topicsEl = document.getElementById('topics');
+    if (topicsEl) topicsEl.style.display = q ? 'none' : 'block';
+
     renderPagination();
     loadBreadcrumbs(filtered);
   } catch(e) {
@@ -968,6 +1006,19 @@ introBtn.addEventListener('click', () => {
   introBtn.textContent = isCollapsed ? 'Vis introduksjon' : 'Skjul introduksjon';
   introBtn.setAttribute('aria-expanded', !isCollapsed);
   localStorage.setItem('intro-hidden', isCollapsed);
+});
+
+// --- Topic chips ---
+document.querySelectorAll('.topic-chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    qEl.value = chip.dataset.query;
+    activeTypeFilter = 'all';
+    document.querySelectorAll('.type-filter button').forEach(b => {
+      b.setAttribute('aria-pressed', b.dataset.type === 'all' ? 'true' : 'false');
+    });
+    doSearch(1);
+    qEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
 });
 
 // --- Init ---
