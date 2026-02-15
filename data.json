@@ -1,0 +1,264 @@
+{
+  "version": "1.0",
+  "updated": "2026-02-15",
+  "sources": [
+    {
+      "id": "himolde",
+      "name": "Høgskolen i Molde",
+      "url": "https://www.himolde.no/forskning/grupper/",
+      "count": 25
+    }
+  ],
+  "groups": [
+    {
+      "id": "scraped:himolde:ai",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Kunstig intelligens (AI)",
+      "description": "Forskningsgruppen jobber for å skape en positiv effekt med kunstig intelligens (AI).",
+      "url": "https://www.himolde.no/forskning/grupper/ai/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:akvakultur-og-andre-marine-neringer",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Akvakultur og andre marine næringer",
+      "description": "Akvakultur er biologi, men også mye mer. Tverrfaglig møte- og forskningsarena for logistikk, helse- og sosialfag, økonomi og samfunnsfag.",
+      "url": "https://www.himolde.no/forskning/grupper/akvakultur-og-andre-marine-neringer/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:berekraftig-byutvikling-og-mobilitet",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Bærekraftig byutvikling og mobilitet",
+      "description": "Forskningsgruppen samler forskere som arbeider med ulike perspektiver på bærekraftig byutvikling og mobilitet.",
+      "url": "https://www.himolde.no/forskning/grupper/berekraftig-byutvikling-og-mobilitet/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:berekraftige-samfunn",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Bærekraftige samfunn",
+      "description": "Tar for seg spørsmål om bærekraftig miljøutvikling fra perspektivet til offentlige og private organisasjoner.",
+      "url": "https://www.himolde.no/forskning/grupper/berekraftige-samfunn/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:digitalization-for-sustainability",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Digitalization for Sustainability",
+      "description": "Fokuserer på digitalisering av forretningsprosesser innen supply chain management/logistikk for økt bærekraft.",
+      "url": "https://www.himolde.no/forskning/grupper/digitalization-for-sustainability/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:EneLog",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "EneLog — Energilogistikk",
+      "description": "Internasjonal forskningsgruppe innen energilogistikk i nært samarbeid med energibransjen.",
+      "url": "https://www.himolde.no/forskning/grupper/EneLog/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:funksjonshemming-og-habilitering",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Funksjonshemming og habilitering",
+      "description": "Vernepleierfaglig forskning innen habilitering, funksjonshemming, deltakelse, inkludering og medforskning.",
+      "url": "https://www.himolde.no/forskning/grupper/funksjonshemming-og-habilitering/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:fysiologi",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Fysiologi",
+      "description": "Vi forsker på fysiologien som ligger bak fysisk prestasjon og helse hos friske og syke mennesker fra ungdom til alderdom.",
+      "url": "https://www.himolde.no/forskning/grupper/fysiologi/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:globale-utfordringer-politikk-og-organisasjon",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Globale utfordringer, politikk og organisasjon",
+      "description": "Fokuserer på globale utfordringer og prosesser relevante for jus, politikk, identitet og organisasjoner.",
+      "url": "https://www.himolde.no/forskning/grupper/globale-utfordringer-politikk-og-organisasjon/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:helse--og-velferdsforskning",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Helse- og velferdsforskning",
+      "description": "Vi forsker på organisering og ledelse av helse- og velferdstjenesten.",
+      "url": "https://www.himolde.no/forskning/grupper/helse--og-velferdsforskning/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:sykepleierledet-adre-profil-for-kartlegging-av-legemiddelbruk-i-helsetjenesten",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Legemiddelbruk i helsetjenesten",
+      "description": "Vi forsker på legemiddelhåndtering og hvordan medisinbruk og bivirkninger kan påvirke pasientens helse.",
+      "url": "https://www.himolde.no/forskning/grupper/sykepleierledet-adre-profil-for-kartlegging-av-legemiddelbruk-i-helsetjenesten/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:marketing-innovation-international-business-and-strategy",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Marketing, Innovation, International Business and Strategy",
+      "description": "Tverrfaglig gruppe innen markedsføring, innovasjon, internasjonal handel og strategi.",
+      "url": "https://www.himolde.no/forskning/grupper/marketing-innovation-international-business-and-strategy/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:organic-digital-domain",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Organic Digital Domain",
+      "description": "Søker å forstå grunnleggende interaksjon mellom naturlig utviklede agenter og kunstig skapte teknologier.",
+      "url": "https://www.himolde.no/forskning/grupper/organic-digital-domain/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:planning-optimization",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Planning & Optimization",
+      "description": "Forsker på kvantitative metoder med anvendelse innen planlegging og beslutningsstøtte.",
+      "url": "https://www.himolde.no/forskning/grupper/planning-optimization/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:profesjonsetikk",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Profesjonsetikk",
+      "description": "Tverrfaglig forskningsgruppe åpen for ansatte ved HiVolda, HiMolde og Helse Møre og Romsdal.",
+      "url": "https://www.himolde.no/forskning/grupper/profesjonsetikk/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:psykisk-helsearbeid",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Psykisk helsearbeid",
+      "description": "Forsker på psykisk helsearbeid, rus og avhengighet. Mål: redusert bruk av tvang og økt brukermedvirkning.",
+      "url": "https://www.himolde.no/forskning/grupper/psykisk-helsearbeid/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:rettsvitenskap",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Rettsvitenskap",
+      "description": "Offentligrettslige og privatrettslige temaer, dagsaktuelle problemstillinger og rettslige spørsmål.",
+      "url": "https://www.himolde.no/forskning/grupper/rettsvitenskap/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:%E2%80%8Bsamhandling-med-sarbare-grupper-i-et-fenomenologi",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Samhandling med sårbare grupper (fenomenologi)",
+      "description": "Kvalitativ livsverdensforskning innen helsefag — praksisnær forskning om pasienters og helsearbeideres erfaringer.",
+      "url": "https://www.himolde.no/forskning/grupper/%E2%80%8Bsamhandling-med-sarbare-grupper-i-et-fenomenologi/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:samhandling-barn-og-unge",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Samhandling barn og unge",
+      "description": "Profesjonelle praksiser overfor barn og unge (0-23 år) i forskjellige velferdsstatsinstitusjoner.",
+      "url": "https://www.himolde.no/forskning/grupper/samhandling-barn-og-unge/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:senter-for-helselogistikk",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Senter for helselogistikk",
+      "description": "Gode løsninger på komplekse utfordringer for helsesektoren gjennom analyse, planlegging og kontroll.",
+      "url": "https://www.himolde.no/forskning/grupper/senter-for-helselogistikk/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:sport-management",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Sport Management",
+      "description": "Forskere med interesse for ledelsesrelaterte spørsmål innen idrettssammenheng.",
+      "url": "https://www.himolde.no/forskning/grupper/sport-management/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:scm",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Supply Chain Management",
+      "description": "Forskningsgruppe etablert i 2019 med fokus på forsyningskjeder.",
+      "url": "https://www.himolde.no/forskning/grupper/scm/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:sykepleie",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Sykepleie",
+      "description": "Forskning og utviklingsarbeid innen klinisk sykepleie.",
+      "url": "https://www.himolde.no/forskning/grupper/sykepleie/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:transportgruppen",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Transportforskning",
+      "description": "Nasjonalt tyngdepunkt for transportforskning med 20 forskere.",
+      "url": "https://www.himolde.no/forskning/grupper/transportgruppen/index.html",
+      "type": "group"
+    },
+    {
+      "id": "scraped:himolde:tverrprofesjonelt-samarbeid-i-praksis-og-utdannin",
+      "source": "scraped",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "name": "Tverrprofesjonell innovasjon i praksis og utdanning",
+      "description": "Samhandling, innovasjon og tjenesteutvikling i komplekse praksisfelt.",
+      "url": "https://www.himolde.no/forskning/grupper/tverrprofesjonelt-samarbeid-i-praksis-og-utdannin/index.html",
+      "type": "group"
+    }
+  ]
+}

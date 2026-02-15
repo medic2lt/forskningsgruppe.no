@@ -315,6 +315,12 @@ let debounceTimer = null;
 let lastTriggerCard = null;
 let activeTypeFilter = 'group';
 
+// --- Scraped data (local supplement to NVA) ---
+let scrapedGroups = [];
+fetch('data.json').then(r => r.ok ? r.json() : null).then(d => {
+  if (d && d.groups) scrapedGroups = d.groups;
+}).catch(() => {});
+
 // --- Unit type classification from Cristin ID ---
 function extractCristinId(idOrUrl) {
   if (!idOrUrl) return '';
@@ -531,7 +537,24 @@ async function doSearch(page) {
     hits.forEach(h => {
       h._cristinId = extractCristinId(h.id);
       h._type = classifyUnit(h._cristinId);
+      h._source = 'nva';
     });
+
+    // Add matching scraped groups
+    if (scrapedGroups.length) {
+      const qLower = q.toLowerCase();
+      const matchedScraped = scrapedGroups.filter(g => {
+        const text = `${g.name} ${g.description} ${g.institution}`.toLowerCase();
+        return qLower.split(/\s+/).every(word => text.includes(word));
+      }).filter(g => !hits.some(h => h._cristinId === g.institutionId))
+        .map(g => ({
+          id: g.id, labels: { nb: g.name }, acronym: '',
+          _cristinId: g.id, _type: 'group', _source: 'scraped',
+          _scraped: g
+        }));
+      hits.push(...matchedScraped);
+      totalSize += matchedScraped.length;
+    }
 
     // Filter by type
     let filtered = hits;
@@ -585,24 +608,35 @@ async function doSearch(page) {
         card.className = 'card' + (u._type === 'group' ? ' is-group' : '');
         card.tabIndex = 0;
         card.setAttribute('role', 'button');
-        const name = getLabel(u);
+        const name = u._source === 'scraped' ? u._scraped.name : getLabel(u);
         card.setAttribute('aria-label', `Vis detaljer for ${name}`);
         card.style.animationDelay = `${animIdx++ * 30}ms`;
 
-        const nameEn = getLabelEn(u);
-        const acronym = u.acronym || '';
+        if (u._source === 'scraped') {
+          const g = u._scraped;
+          let tagsHtml = typeBadgeHTML('group');
+          tagsHtml += `<span class="tag" style="background:var(--type-group-bg);color:var(--type-group)">📌 ${esc(g.institution)}</span>`;
+          card.innerHTML = `
+            <h3>${esc(g.name)} ${tagsHtml}</h3>
+            <div class="sub">${esc(g.description)}</div>
+            <div class="breadcrumb">${esc(g.institution)}</div>
+          `;
+        } else {
+          const nameEn = getLabelEn(u);
+          const acronym = u.acronym || '';
+          let tagsHtml = typeBadgeHTML(u._type);
+          if (acronym) tagsHtml += `<span class="tag acronym">${esc(acronym)}</span>`;
+          const bcId = `bc-${u._cristinId}`;
+          card.innerHTML = `
+            <h3>${esc(name)} ${tagsHtml}</h3>
+            ${nameEn && nameEn !== name ? `<div class="sub">${esc(nameEn)}</div>` : ''}
+            <div class="breadcrumb loading" id="${bcId}" data-cristin-id="${esc(u._cristinId)}"></div>
+          `;
+        }
 
-        let tagsHtml = typeBadgeHTML(u._type);
-        if (acronym) tagsHtml += `<span class="tag acronym">${esc(acronym)}</span>`;
-
-        const bcId = `bc-${u._cristinId}`;
-        card.innerHTML = `
-          <h3>${esc(name)} ${tagsHtml}</h3>
-          ${nameEn && nameEn !== name ? `<div class="sub">${esc(nameEn)}</div>` : ''}
-          <div class="breadcrumb loading" id="${bcId}" data-cristin-id="${esc(u._cristinId)}"></div>
-        `;
-
-        const openDetail = () => showDetail(u._cristinId, card);
+        const openDetail = u._source === 'scraped'
+          ? () => showScrapedDetail(u._scraped, card)
+          : () => showDetail(u._cristinId, card);
         card.onclick = openDetail;
         card.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(); } };
 
@@ -778,6 +812,20 @@ async function showDetail(cristinId, triggerEl) {
   } catch(e) {
     detailContent.innerHTML = `<p role="alert">Kunne ikke laste detaljer: ${esc(e.message)}</p>`;
   }
+}
+
+// --- Scraped detail view ---
+function showScrapedDetail(g, triggerEl) {
+  let h = `<h2 id="modal-title">${esc(g.name)} ${typeBadgeHTML('group')}</h2>`;
+  h += `<dl>`;
+  h += `<dt>Institusjon</dt><dd>${esc(g.institution)}</dd>`;
+  h += `<dt>Kilde</dt><dd>Institusjonens nettside (ikke i NVA)</dd>`;
+  h += `<dt>Beskrivelse</dt><dd>${esc(g.description)}</dd>`;
+  h += `<dt>Nettside</dt><dd><a href="${esc(g.url)}" target="_blank" rel="noopener">Åpne på ${esc(g.institution)} ↗</a></dd>`;
+  h += `</dl>`;
+  detailContent.innerHTML = h;
+  overlay.setAttribute('aria-labelledby', 'modal-title');
+  openModal(triggerEl);
 }
 
 // --- Intro toggle ---
