@@ -83,6 +83,12 @@ header h1 span { color: var(--accent); }
   transition: color .2s;
 }
 .intro-toggle:hover { color: var(--accent2); }
+.not-found-tip {
+  background: var(--tag-bg); border: 1px solid var(--accent); border-radius: var(--radius);
+  padding: 1rem 1.25rem; margin-bottom: 1rem; font-size: 0.88rem; line-height: 1.6;
+}
+.not-found-tip p { margin: 0; color: var(--text); }
+.not-found-tip a { color: var(--accent); font-weight: 500; }
 .search-box {
   background: var(--bg2); border-radius: var(--radius);
   padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px var(--shadow);
@@ -275,6 +281,15 @@ footer {
     </div>
   </section>
 
+  <div id="not-found-tip" class="not-found-tip" style="display:none;">
+    <p>💡 <strong>Finner du ikke gruppen din?</strong> Ikke alle forskningsgrupper er registrert i Nasjonalt vitenarkiv. 
+    Mange høgskoler og institusjoner har grupper som bare finnes på deres egne nettsider. 
+    Prøv å søke direkte på institusjonen — f.eks. 
+    <a href="https://www.himolde.no/forskning/grupper/" target="_blank" rel="noopener">HiMolde</a>, 
+    <a href="https://www.ntnu.no/forskning/forskningsgrupper" target="_blank" rel="noopener">NTNU</a>, 
+    <a href="https://www.uio.no/forskning/grupper/" target="_blank" rel="noopener">UiO</a> eller 
+    <a href="https://www.uib.no/forskning/grupper" target="_blank" rel="noopener">UiB</a>.</p>
+  </div>
   <div id="status" class="status" aria-live="polite" role="status"></div>
   <div id="results"></div>
   <nav id="pagination" class="pagination-nav" aria-label="Paginering"></nav>
@@ -601,6 +616,11 @@ async function doSearch(page) {
     if (filtered.length === 0) {
       resultsEl.innerHTML = '<div class="no-results"><div class="icon">🔍</div><p>Ingen treff med dette filteret på denne siden. Prøv «Alle» eller gå til neste side.</p></div>';
     }
+
+    // Show tip if few or no research groups found
+    const groupCount = filtered.filter(h => h._type === 'group').length;
+    const tipEl = document.getElementById('not-found-tip');
+    tipEl.style.display = (activeTypeFilter === 'group' && groupCount <= 2) || (activeTypeFilter === 'all' && groupCount === 0) ? 'block' : 'none';
 
     renderPagination();
     loadBreadcrumbs(filtered);
