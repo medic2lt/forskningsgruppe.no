@@ -183,6 +183,12 @@ header h1 span { color: var(--accent); }
 .type-badge.type-department { background: var(--type-dep-bg); color: var(--type-dep); }
 .type-badge.type-group { background: var(--type-group-bg); color: var(--type-group); }
 .card.is-group { border-left: 3px solid var(--type-group); }
+.card.is-scraped { border-left: 3px solid var(--scraped); background: var(--scraped-bg); }
+:root { --scraped: #d97706; --scraped-bg: rgba(217,119,6,.05); }
+[data-theme="dark"] { --scraped: #fbbf24; --scraped-bg: rgba(251,191,36,.08); }
+.source-badge { font-size: 0.68rem; padding: 0.12rem 0.45rem; border-radius: 0.375rem; font-weight: 600; white-space: nowrap; }
+.source-badge.source-nva { background: var(--tag-bg); color: var(--tag-text); }
+.source-badge.source-scraped { background: var(--scraped-bg); color: var(--scraped); border: 1px solid var(--scraped); }
 .pagination-nav { display: flex; justify-content: center; gap: 0.4rem; margin-top: 1.5rem; flex-wrap: wrap; }
 .pagination-nav button {
   background: var(--bg2); border: 1px solid var(--border); border-radius: 0.5rem;
@@ -688,7 +694,7 @@ async function doSearch(page) {
       units.forEach(u => {
         const li = document.createElement('li');
         const card = document.createElement('article');
-        card.className = 'card' + (u._type === 'group' ? ' is-group' : '');
+        card.className = 'card' + (u._type === 'group' ? ' is-group' : '') + (u._source === 'scraped' ? ' is-scraped' : '');
         card.tabIndex = 0;
         card.setAttribute('role', 'button');
         const name = u._source === 'scraped' ? u._scraped.name : getLabel(u);
@@ -699,6 +705,7 @@ async function doSearch(page) {
           const g = u._scraped;
           let tagsHtml = typeBadgeHTML('group');
           tagsHtml += `<span class="tag" style="background:var(--type-group-bg);color:var(--type-group)">📌 ${esc(g.institution)}</span>`;
+          tagsHtml += `<span class="source-badge source-scraped">Institusjonens nettside</span>`;
           card.innerHTML = `
             <h3>${esc(g.name)} ${tagsHtml}</h3>
             <div class="sub">${esc(g.description)}</div>
@@ -709,6 +716,7 @@ async function doSearch(page) {
           const acronym = u.acronym || '';
           let tagsHtml = typeBadgeHTML(u._type);
           if (acronym) tagsHtml += `<span class="tag acronym">${esc(acronym)}</span>`;
+          tagsHtml += `<span class="source-badge source-nva">NVA</span>`;
           const bcId = `bc-${u._cristinId}`;
           card.innerHTML = `
             <h3>${esc(name)} ${tagsHtml}</h3>
