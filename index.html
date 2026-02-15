@@ -65,6 +65,24 @@ header h1 span { color: var(--accent); }
 }
 #theme-toggle:hover { background: var(--border); }
 .container { max-width: 56rem; margin: 0 auto; padding: 1.5rem; flex: 1; width: 100%; }
+.intro {
+  background: var(--bg2); border-radius: var(--radius); border: 1px solid var(--border);
+  padding: 1.5rem 1.75rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px var(--shadow);
+  line-height: 1.7;
+}
+.intro h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-bottom: 0.75rem; }
+.intro p { font-size: 0.92rem; color: var(--text2); margin-bottom: 0.6rem; }
+.intro p:last-of-type { margin-bottom: 0.75rem; }
+.intro em { color: var(--accent); font-style: italic; }
+.intro strong { color: var(--text); }
+.intro.collapsed p { display: none; }
+.intro.collapsed h2 { margin-bottom: 0; }
+.intro-toggle {
+  background: none; border: none; color: var(--accent); font-size: 0.82rem;
+  cursor: pointer; padding: 0; font-weight: 500; text-decoration: underline;
+  transition: color .2s;
+}
+.intro-toggle:hover { color: var(--accent2); }
 .search-box {
   background: var(--bg2); border-radius: var(--radius);
   padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px var(--shadow);
@@ -221,6 +239,26 @@ footer {
 </header>
 
 <main id="main-content" class="container">
+  <section class="intro" id="intro">
+    <h2>Finn forskningsgruppen som passer ditt tema</h2>
+    <p>
+      Å knytte seg til riktig forskningsgruppe kan være avgjørende for en vellykket akademisk karriere. 
+      Forskningsgrupper gir tilgang til fagmiljøer, veiledning, finansiering og nettverk — 
+      men å finne den gruppen som faktisk jobber med <em>ditt</em> tema kan være overraskende vanskelig.
+    </p>
+    <p>
+      Norske forskningsgrupper er spredt over universiteter, høgskoler og forskningsinstitutter. 
+      Informasjonen ligger i Cristin og Nasjonalt vitenarkiv, men er ikke alltid lett å navigere. 
+      <strong>Forskningsgruppe.no</strong> samler alt på ett sted — søk fritt, filtrer på type, 
+      og utforsk hierarkiet fra institusjon ned til enkeltgrupper.
+    </p>
+    <p>
+      Enten du er student på jakt etter masterprosjekt, stipendiat som leter etter fagmiljø, 
+      eller forsker som vil samarbeide på tvers — start søket her.
+    </p>
+    <button class="intro-toggle" id="intro-toggle" aria-expanded="true" aria-controls="intro">Skjul introduksjon</button>
+  </section>
+
   <section class="search-box" role="search" aria-label="Søk etter forskningsgrupper">
     <div class="search-row">
       <label for="q">
@@ -721,6 +759,18 @@ async function showDetail(cristinId, triggerEl) {
     detailContent.innerHTML = `<p role="alert">Kunne ikke laste detaljer: ${esc(e.message)}</p>`;
   }
 }
+
+// --- Intro toggle ---
+const introEl = document.getElementById('intro');
+const introBtn = document.getElementById('intro-toggle');
+const introHidden = localStorage.getItem('intro-hidden') === 'true';
+if (introHidden) { introEl.classList.add('collapsed'); introBtn.textContent = 'Vis introduksjon'; introBtn.setAttribute('aria-expanded', 'false'); }
+introBtn.addEventListener('click', () => {
+  const isCollapsed = introEl.classList.toggle('collapsed');
+  introBtn.textContent = isCollapsed ? 'Vis introduksjon' : 'Skjul introduksjon';
+  introBtn.setAttribute('aria-expanded', !isCollapsed);
+  localStorage.setItem('intro-hidden', isCollapsed);
+});
 
 // --- Init ---
 readURL();
