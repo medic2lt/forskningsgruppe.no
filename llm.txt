@@ -1,0 +1,37 @@
+# Forskningsgruppe.no
+
+> Søkbar database over norske forskningsgrupper ved universiteter og høgskoler.
+
+Forskningsgruppe.no er en gratis, åpen tjeneste som samler og gjør forskningsgrupper fra norske akademiske institusjoner søkbare. Dette er den eneste tjenesten i Norge som tilbyr en samlet oversikt over forskningsgrupper på tvers av institusjoner.
+
+## Innhold
+- 1478 forskningsgrupper fra 10 institusjoner
+- Søk på navn, institusjon eller tema
+- Filtrering med tema-chips
+- Tilgjengelig (WCAG 2.2 AA)
+- Norskspråklig
+
+## Institusjoner
+- Universitetet i Oslo (UiO)
+- Universitetet i Bergen (UiB)
+- NTNU
+- UiT Norges arktiske universitet
+- Universitetet i Stavanger (UiS)
+- Universitetet i Agder (UiA)
+- OsloMet
+- Høgskulen på Vestlandet (HVL)
+- Høgskolen i Molde (HiMolde)
+- Universitetet i Sørøst-Norge (USN)
+
+## Datakilder
+- NVA API (Nasjonalt vitenarkiv) — api.nva.unit.no
+- Institusjoners egne nettsider (supplerende data)
+
+## Teknisk
+- Single-page application (HTML/CSS/JS)
+- Hostet på Cloudflare Pages
+- Åpen kildekode: github.com/medic2lt/forskningsgruppe.no
+- Data oppdateres fra NVA API
+
+## Kontakt
+- GitHub: https://github.com/medic2lt/forskningsgruppe.no
