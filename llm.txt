@@ -5,7 +5,7 @@
 Forskningsgruppe.no er en gratis, åpen tjeneste som samler og gjør forskningsgrupper fra norske akademiske institusjoner søkbare. Dette er den eneste tjenesten i Norge som tilbyr en samlet oversikt over forskningsgrupper på tvers av institusjoner.
 
 ## Innhold
-- 1478 forskningsgrupper fra 10 institusjoner
+- 1726 forskningsgrupper fra 29 institusjoner
 - Søk på navn, institusjon eller tema
 - Filtrering med tema-chips
 - Tilgjengelig (WCAG 2.2 AA)

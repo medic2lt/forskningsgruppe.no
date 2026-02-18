@@ -386,8 +386,9 @@ footer {
       </ul>
     </nav>
     <div class="footer-bottom">
-      <span>📊 1 478 forskningsgrupper fra 10 institusjoner</span>
+      <span>📊 1 726 forskningsgrupper fra 29 institusjoner</span>
       <span>Tilgjengelighetsmål: WCAG 2.2 AA</span>
+      <span id="last-updated"></span>
     </div>
   </div>
 </footer>
@@ -404,6 +405,7 @@ let activeTypeFilter = 'group';
 let scrapedGroups = [];
 fetch('data.json').then(r => r.ok ? r.json() : null).then(d => {
   if (d && d.groups) scrapedGroups = d.groups;
+  if (d && d.lastUpdated) document.getElementById('last-updated').textContent = 'Sist oppdatert: ' + d.lastUpdated;
 }).catch(() => {});
 
 // --- Unit type classification from Cristin ID ---
