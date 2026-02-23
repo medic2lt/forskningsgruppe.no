@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-23",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -954,6 +954,14 @@
       "id": "himolde-marketing-innovation-international-business-strategy-miibs"
     },
     {
+      "name": "Neste side",
+      "url": "https://www.himolde.no/forskning/grupper/?page=2&u-page=2",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-neste-side"
+    },
+    {
       "name": "Organic Digital Domain (ODD)",
       "url": "https://www.himolde.no/forskning/grupper/organic-digital-domain/",
       "institution": "Høgskolen i Molde",
@@ -992,6 +1000,14 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-psykisk-helsearbeid"
+    },
+    {
+      "name": "RSS-strøm fra denne siden",
+      "url": "https://www.himolde.no/forskning/grupper/?vrtx=feed",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-rss-strøm-fra-denne-siden"
     },
     {
       "name": "Rettsvitenskap",
@@ -1626,6 +1642,14 @@
       "id": "kristiania-forskning-på-scenekunst"
     },
     {
+      "name": "Forskningsgrupper",
+      "url": "https://www.kristiania.no/forskning/forskningsgrupper/",
+      "institution": "Høyskolen Kristiania",
+      "institutionId": "247.0.0.0",
+      "description": "Forskningsgruppe ved Høyskolen Kristiania",
+      "id": "kristiania-forskningsgrupper"
+    },
+    {
       "name": "Forskningsnettverk - Stiftelser og samfunn",
       "url": "https://www.kristiania.no/forskning/forskningsgrupper/stiftelserogsamfunn/",
       "institution": "Høyskolen Kristiania",
@@ -1874,14 +1898,6 @@
       "id": "kristiania-workplace-inclusion-and-diversity-wid"
     },
     {
-      "name": "Kunstnerisk utviklingsarbeid og forskning",
-      "url": "https://khio.no/forskning/kunstnerisk-utviklingsarbeid-og-forskning",
-      "institution": "Kunsthøgskolen i Oslo",
-      "institutionId": "260.0.0.0",
-      "description": "Forskning ved Kunsthøgskolen i Oslo",
-      "id": "kunsthgs-kunstnerisk-utviklingsarbeid-og-forskning"
-    },
-    {
       "name": "Continuity for Quality of Care and Health",
       "url": "https://ldh.no/forskning/forskningsgrupper/continuity-for-quality-of-care-and-health",
       "institution": "Lovisenberg diakonale høgskole",
@@ -1930,12 +1946,36 @@
       "id": "lovisenb-pedagogisk-forskning"
     },
     {
-      "name": "PhD-programmet i teologi og religionsvitenskap",
-      "url": "https://www.mf.no/Forskning/PhD",
+      "name": "MF-professor med standardverk om tidligkristen kunst",
+      "url": "https://www.mf.no/forskning/mf-professor-med-standardverk-om-tidligkristen-kunst",
       "institution": "MF vitenskapelig høyskole",
-      "institutionId": "190.0.0.0",
-      "description": "Forskning ved MF vitenskapelig høyskole",
-      "id": "mfvitens-phd-programmet-i-teologi-og-religionsvitenskap"
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-mf-professor-med-standardverk-om-tidligkristen-kunst"
+    },
+    {
+      "name": "PERSIAS utforsker jødiske forestillinger om Persia i antikken",
+      "url": "https://www.mf.no/forskning/persias-utforsker-jodiske-forestillinger-om-persia-i-antikken",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-persias-utforsker-jødiske-forestillinger-om-persia-i-antikken"
+    },
+    {
+      "name": "Vidunderlige verden? Ny bok om etikk og filosofi i KI-tiden",
+      "url": "https://www.mf.no/forskning/vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden"
+    },
+    {
+      "name": "Vil finne nye løsninger for barn og unge som står utenfor skolen",
+      "url": "https://www.mf.no/forskning/vil-finne-nye-losninger-barn-og-unge-som-star-utenfor-skolen",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-vil-finne-nye-løsninger-for-barn-og-unge-som-står-utenfor-skolen"
     },
     {
       "name": "Ansvarlig lederskap i næringsliv, administrasjon og innovasjon (RELBAI)",
@@ -5106,12 +5146,20 @@
       "id": "politihg-ncfi-nordic-computer-forensics-investigators"
     },
     {
-      "name": "Samisk forskning",
-      "url": "https://samas.no/forskning",
+      "name": "Forskning",
+      "url": "https://samas.no/nb/forskning",
       "institution": "Samisk høgskole",
-      "institutionId": "231.0.0.0",
-      "description": "Forskning ved Samisk høgskole",
-      "id": "samiskhg-samisk-forskning"
+      "institutionId": "220.0.0.0",
+      "description": "Forskningsgruppe ved Samisk høgskole",
+      "id": "samas-forskning"
+    },
+    {
+      "name": "Forskningsprosjekter",
+      "url": "https://samas.no/nb/side/forskningsprosjekter-0",
+      "institution": "Samisk høgskole",
+      "institutionId": "220.0.0.0",
+      "description": "Forskningsgruppe ved Samisk høgskole",
+      "id": "samas-forskningsprosjekter"
     },
     {
       "name": "AMR BRIDGE",
@@ -12426,6 +12474,14 @@
       "id": "uio-living-and-learning-in-the-digital-age-lida"
     },
     {
+      "name": "Logg inn",
+      "url": "https://www.globe.uio.no/forskning/grupper/index.html?authTarget",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-logg-inn"
+    },
+    {
       "name": "Logikk",
       "url": "https://www.mn.uio.no/math/forskning/grupper/logikk/index.html",
       "institution": "Universitetet i Oslo",
@@ -12584,6 +12640,22 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-nanostrukturer-og-funksjonelle-materialer-nafuma"
+    },
+    {
+      "name": "Nei, jeg fant det ikke",
+      "url": "https://www.sv.uio.no/forskning/grupper/?vrtx=send-feedback&mailto=nettredaktor%40sv.uio.no",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-nei-jeg-fant-det-ikke"
+    },
+    {
+      "name": "Neste side",
+      "url": "https://www.med.uio.no/forskning/grupper/?page=2&u-page=2",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-neste-side"
     },
     {
       "name": "Nettverk og Distribuerte system (ND)",
@@ -12768,6 +12840,14 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-pålitelige-systemer-psy"
+    },
+    {
+      "name": "RSS-strøm fra denne siden",
+      "url": "https://www.med.uio.no/forskning/grupper/?vrtx=feed",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-rss-strøm-fra-denne-siden"
     },
     {
       "name": "Religiøse festivaler i Asia: Makt, ambisjoner og lek",
@@ -13896,6 +13976,62 @@
       "institutionId": "251.0.0.0",
       "description": "Forskningsgruppe ved VID vitenskapelige høgskole",
       "id": "vidviten-pathways"
+    },
+    {
+      "name": "Naturfagsenteret",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.naturfagsenteret.no/",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:21.176926+00:00"
+    },
+    {
+      "name": "Nasjonalt senter for stamcelleforskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.med.uio.no/imb/forskning/sentre/norsk-stamcellesenter/",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:21.176953+00:00"
+    },
+    {
+      "name": "Oslo senter for biostatistikk og epidemiologi (OCBE)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.med.uio.no/imb/forskning/sentre/oslo-senter-for-biostatistikk-og-epidemiologi/",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:21.176966+00:00"
+    },
+    {
+      "name": "Akademisk skrivesenter",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.ub.uio.no/bibliotekene/skrivesenter/",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:21.176975+00:00"
+    },
+    {
+      "name": "Senter for studier av Holocaust og livssynsminoriteter (HL-senteret)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.hlsenteret.no/",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:21.176986+00:00"
+    },
+    {
+      "name": "Senter for global bærekraft",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_targeted_md",
+      "discovered": "2026-02-23T20:00:21.178208+00:00"
+    },
+    {
+      "name": "IT-senteret",
+      "institution": "Høgskolen i Molde",
+      "url": "https://www.himolde.no/om/organisasjon/administrasjonen/it-senteret/index.html",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:24.008937+00:00"
+    },
+    {
+      "name": "Samhandling med sårbare grupper i et fenomenologisk perspektiv",
+      "institution": "Høgskolen i Molde",
+      "url": "https://www.himolde.no/forskning/grupper/%E2%80%8Bsamhandling-med-sarbare-grupper-i-et-fenomenologi/index.html",
+      "source": "firecrawl_targeted_html",
+      "discovered": "2026-02-23T20:00:42.111265+00:00"
     }
   ]
 }
