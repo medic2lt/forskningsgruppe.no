@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-02-27",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -14032,6 +14032,475 @@
       "url": "https://www.himolde.no/forskning/grupper/%E2%80%8Bsamhandling-med-sarbare-grupper-i-et-fenomenologi/index.html",
       "source": "firecrawl_targeted_html",
       "discovered": "2026-02-23T20:00:42.111265+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen humanistiske fag",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588012+00:00"
+    },
+    {
+      "name": "Alle forskergrupper innen jus",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588047+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen matematisk-naturvitenskapelige fag",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588068+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen medisin",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588083+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen samfunnsvitenskapelige fag",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588099+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen utdanningsvitenskap",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588114+00:00"
+    },
+    {
+      "name": "Flere forskningsgrupper innen Odontologi",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588127+00:00"
+    },
+    {
+      "name": "Flere forskergrupper innen teologi",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588140+00:00"
+    },
+    {
+      "name": "Flere forskergrupper fra Naturhistorisk museum",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588171+00:00"
+    },
+    {
+      "name": "Flere forskergrupper fra Senter for utvikling og miljø",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/forskning/grupper/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:24.588197+00:00"
+    },
+    {
+      "name": "Senter for Ibsen-studier",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330704+00:00"
+    },
+    {
+      "name": "Senter for tverrfaglig forskning på rytme, tid og bevegelse (RITMO)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330749+00:00"
+    },
+    {
+      "name": "Norsk senter for menneskerettigheter",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330768+00:00"
+    },
+    {
+      "name": "Norsk senter for kunnskapsdrevet maskinlæring (INTEGREAT)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330796+00:00"
+    },
+    {
+      "name": "Senter for tverrfaglig utdanning (INTED)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330813+00:00"
+    },
+    {
+      "name": "Senter for planetær beboelighet",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330834+00:00"
+    },
+    {
+      "name": "Senter for biogeokjemi i antropocen (CBA)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330850+00:00"
+    },
+    {
+      "name": "Senter for romsensorer og -systemer (CENSSS)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330866+00:00"
+    },
+    {
+      "name": "Rosseland senter for solfysikk (RoCS)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330880+00:00"
+    },
+    {
+      "name": "Senter for bioinformatikk (SBI)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330894+00:00"
+    },
+    {
+      "name": "Senter for materialvitenskap og nanoteknologi (SMN)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330910+00:00"
+    },
+    {
+      "name": "Senter for skalerbar datatilgang i olje- og gassindustrien (SIRIUS)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330927+00:00"
+    },
+    {
+      "name": "Kompetansesenter for undervisning i realfag og teknologi (KURT)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330944+00:00"
+    },
+    {
+      "name": "dScience – Senter for data- og beregningsvitenskap",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330975+00:00"
+    },
+    {
+      "name": "Norsk senter for cøliakiforskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.330997+00:00"
+    },
+    {
+      "name": "Norsk senter for PSC (NoPSC)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331012+00:00"
+    },
+    {
+      "name": "Senter for bærekraft i helseutdanningene (SHE)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331037+00:00"
+    },
+    {
+      "name": "Senter for biohybridteknologi (HTH)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331053+00:00"
+    },
+    {
+      "name": "Senter for kreftcelle-reprogrammering (CanCell)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331069+00:00"
+    },
+    {
+      "name": "Senter for embryologi (CRESCO)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331082+00:00"
+    },
+    {
+      "name": "Senter for presisjons-immunterapi (PRIMA)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331096+00:00"
+    },
+    {
+      "name": "Senter for presisjonspsykiatri",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331109+00:00"
+    },
+    {
+      "name": "Nasjonalt senter for selvmordsforskning og -forebygging (NSSF)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331126+00:00"
+    },
+    {
+      "name": "Norsk senter for molekylær biovitenskap og medisin (NCMBM)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331168+00:00"
+    },
+    {
+      "name": "Senter for global helse",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331189+00:00"
+    },
+    {
+      "name": "Senter for rus- og avhengighetsforskning (SERAF)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331205+00:00"
+    },
+    {
+      "name": "Senter for pandemi- og én-helse-forskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331228+00:00"
+    },
+    {
+      "name": "K.G. Jebsen-senter for B-cellekreft",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331243+00:00"
+    },
+    {
+      "name": "K.G. Jebsen-senter for hjertemarkører",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331264+00:00"
+    },
+    {
+      "name": "K.G. Jebsen-senter for utviklingsforstyrrelser",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331280+00:00"
+    },
+    {
+      "name": "K.G. Jebsen-senter for hjernevæskeforskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331307+00:00"
+    },
+    {
+      "name": "ARENA – senter for europaforskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331332+00:00"
+    },
+    {
+      "name": "TIK Senter for teknologi, innovasjon og kultur",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331349+00:00"
+    },
+    {
+      "name": "Senter for studier av likhet, sosial organisering og økonomisk utvikling (ESOP)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331382+00:00"
+    },
+    {
+      "name": "CREATE - Senter for forskning på likhet i utdanning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331412+00:00"
+    },
+    {
+      "name": "Senter for spesialpedagogisk forskning og inkludering (SpedAims)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331431+00:00"
+    },
+    {
+      "name": "Senter for digital forskerstøtte (DSC)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331459+00:00"
+    },
+    {
+      "name": "LINK - Senter for læring og utdanning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331482+00:00"
+    },
+    {
+      "name": "Senter for tverrfaglig kjønnsforskning (STK)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331506+00:00"
+    },
+    {
+      "name": "Nasjonalt kunnskapssenter om vold og traumatisk stress AS (NKVTS)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331524+00:00"
+    },
+    {
+      "name": "Nasjonalt utviklingssenter for barn og unge (NUBU)",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331546+00:00"
+    },
+    {
+      "name": "CICERO Senter for klimaforskning",
+      "institution": "Universitetet i Oslo",
+      "url": "https://www.uio.no/om/organisasjon/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:32.331561+00:00"
+    },
+    {
+      "name": "Senter for framifrå forsking (SFF)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421086+00:00"
+    },
+    {
+      "name": "Senter for forskningsdriven innovasjon (SFI)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421125+00:00"
+    },
+    {
+      "name": "Forskingssenter for miljøvennleg energi (FME)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421159+00:00"
+    },
+    {
+      "name": "CCIS – Center for Cyber and Information Security",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421198+00:00"
+    },
+    {
+      "name": "Green2050 - Senter for grønt skifte i bygget miljø",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421233+00:00"
+    },
+    {
+      "name": "Norsk senter for hodepineforsking – NorHead",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421268+00:00"
+    },
+    {
+      "name": "NorwAI Norwegian Research Center for AI Innovation",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421291+00:00"
+    },
+    {
+      "name": "Senter for digitalt liv Norge (DLN)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421310+00:00"
+    },
+    {
+      "name": "Senter for eiendomsutvikling og -forvaltning (Metamorfose)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421331+00:00"
+    },
+    {
+      "name": "Nasjonalt kompetansesenter for psykisk helsearbeid (NAPHA)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421351+00:00"
+    },
+    {
+      "name": "Regionalt kunnskapssenter for barn og unges psykiske helse og barnevern (RKBU)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421420+00:00"
+    },
+    {
+      "name": "Senter for omsorgsforsking",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421441+00:00"
+    },
+    {
+      "name": "Matematikksenteret – nasjonalt senter for matematikk i opplæringa",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421483+00:00"
+    },
+    {
+      "name": "Nasjonalt senter for realfagsrekruttering",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421505+00:00"
+    },
+    {
+      "name": "Skrivesenteret – nasjonalt senter for skriveopplæring og skriveforsking",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421561+00:00"
     }
   ]
 }
