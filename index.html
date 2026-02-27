@@ -186,6 +186,7 @@ header h1 .site-sub { font-size: 0.88rem; color: var(--text2); font-weight: 400;
 .card .breadcrumb { font-size: 0.85rem; color: var(--text2); margin-top: 0.2rem; line-height: 1.5; }
 .card .breadcrumb .bc-sep { margin: 0 0.2rem; opacity: 0.5; }
 .card .breadcrumb.loading { opacity: 0.4; }
+.last-crawled { font-size: 0.8rem; color: var(--text2); opacity: 0.7; }
 .tag {
   background: var(--tag-bg); color: var(--tag-text); font-size: 0.75rem;
   padding: 0.2rem 0.55rem; border-radius: 0.375rem; font-weight: 600; white-space: nowrap;
@@ -781,10 +782,13 @@ async function doSearch(page) {
           let tagsHtml = typeBadgeHTML('group');
           tagsHtml += `<span class="tag" style="background:var(--type-group-bg);color:var(--type-group)">📌 ${esc(g.institution)}</span>`;
           tagsHtml += `<span class="source-badge source-scraped">Institusjonens nettside</span>`;
+          const crawledHtml = g.lastCrawled
+            ? `<span class="last-crawled">Sist oppdatert: ${g.lastCrawled.split('-').reverse().join('.')}</span>`
+            : '';
           card.innerHTML = `
             <h3>${esc(g.name)} ${tagsHtml}</h3>
             <div class="sub">${esc(g.description)}</div>
-            <div class="breadcrumb">${esc(g.institution)}</div>
+            <div class="breadcrumb">${esc(g.institution)}${crawledHtml ? ' · ' + crawledHtml : ''}</div>
           `;
         } else {
           const nameEn = getLabelEn(u);
