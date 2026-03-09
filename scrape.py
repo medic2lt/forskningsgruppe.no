@@ -16,7 +16,7 @@ from html.parser import HTMLParser
 from collections import Counter
 from datetime import datetime, timezone
 
-DATA_FILE = "/home/babayaga/.openclaw/workspace/forskningsgruppe.no/data.json"
+DATA_FILE = "/home/babayaga/forskningsgruppe.no/data.json"
 OBSIDIAN_COPY = "/home/babayaga/JRFO/Prosjekter/forskningsgrupper/data.json"
 
 # SSL context that doesn't verify (some .no sites have cert issues)
@@ -121,7 +121,7 @@ class LinkExtractor(HTMLParser):
 
 # ========== INSTITUTION SCRAPERS ==========
 
-def scrape_generic_list(url, institution, inst_id, url_filter=None, name_filter=None, base_url=None):
+def scrape_generic_list(url, institution, inst_id, url_filter=None, name_filter=None, base_url=None, category="uho"):
     """Scrape a page with a list of links to research groups."""
     html = fetch(url)
     if not html:
@@ -161,7 +161,8 @@ def scrape_generic_list(url, institution, inst_id, url_filter=None, name_filter=
             "institution": institution,
             "institutionId": inst_id,
             "description": f"Forskningsgruppe ved {institution}",
-            "id": gid
+            "id": gid,
+            "category": category
         })
     
     return groups
@@ -208,7 +209,7 @@ def scrape_ntnu():
     
     return groups
 
-def scrape_nva_cristin(institution, inst_id, cristin_id):
+def scrape_nva_cristin(institution, inst_id, cristin_id, category="uho"):
     """Use NVA/Cristin API to get sub-organizations (research groups)."""
     url = f"https://api.nva.unit.no/cristin/organization/{cristin_id}?depth=full"
     data = fetch_json(url)
@@ -251,7 +252,8 @@ def scrape_nva_cristin(institution, inst_id, cristin_id):
                     "institution": institution,
                     "institutionId": inst_id,
                     "description": f"Forskningsgruppe ved {institution}",
-                    "id": slugify(institution, unit_name)
+                    "id": slugify(institution, unit_name),
+                    "category": category
                 })
         
         for sub in hasPart:
@@ -516,7 +518,8 @@ def scrape_uib():
                 "institution": "Universitetet i Bergen",
                 "institutionId": "184.0.0.0",
                 "description": "Forskningsgruppe ved UiB",
-                "id": slugify("Universitetet i Bergen", text.strip())
+                "id": slugify("Universitetet i Bergen", text.strip()),
+                "category": "uho"
             })
     
     return groups
@@ -552,14 +555,17 @@ def scrape_uit():
                     "institution": "UiT Norges arktiske universitet",
                     "institutionId": "186.0.0.0",
                     "description": "Forskningsgruppe ved UiT",
-                    "id": slugify("UiT Norges arktiske universitet", text)
+                    "id": slugify("UiT Norges arktiske universitet", text),
+                    "category": "uho"
                 })
     
     return groups
 
 
 def scrape_ntnu_groups():
-    """NTNU - research groups from multiple pages."""
+    """NTNU - research groups from multiple pages.
+    NOTE: category field will be added when this function is rewritten (Task 5).
+    Currently has a bug where groups are never appended to the list."""
     groups = []
     seen = set()
     
@@ -617,7 +623,8 @@ def scrape_uio_faculty(fac_url, base_domain):
                 "institution": "Universitetet i Oslo",
                 "institutionId": "185.0.0.0",
                 "description": "Forskningsgruppe ved UiO",
-                "id": slugify("Universitetet i Oslo", text)
+                "id": slugify("Universitetet i Oslo", text),
+                "category": "uho"
             })
     
     return groups
@@ -671,11 +678,17 @@ def scrape_standard_institution(config):
                 "institution": inst,
                 "institutionId": inst_id,
                 "description": f"Forskningsgruppe ved {inst}",
-                "id": slugify(inst, text)
+                "id": slugify(inst, text),
+                "category": config.get("category", "uho")
             })
     
     return groups
 
+
+
+def _gid(g):
+    """Get group id with fallback to url or name."""
+    return g.get('id', g.get('url', g['name']))
 
 def main():
     print("=== Forskningsgruppe.no Weekly Scrape ===")
@@ -684,7 +697,7 @@ def main():
     # Load existing data for comparison
     with open(DATA_FILE) as f:
         old_data = json.load(f)
-    old_groups = {g['id']: g for g in old_data['groups']}
+    old_groups = {g.get('id', g.get('url', g['name'])): g for g in old_data['groups']}
     old_count = len(old_groups)
     old_ids = set(old_groups.keys())
     
@@ -757,14 +770,19 @@ def main():
     seen_ids = set()
     deduped = []
     for g in all_groups:
-        if g['id'] not in seen_ids:
-            seen_ids.add(g['id'])
+        if _gid(g) not in seen_ids:
+            seen_ids.add(_gid(g))
             deduped.append(g)
     
     all_groups = sorted(deduped, key=lambda g: (g['institution'], g['name']))
+
+    # Backfill category for groups from old data that might lack it
+    for g in all_groups:
+        if 'category' not in g:
+            g['category'] = 'uho'
     
     # Compare
-    new_ids = {g['id'] for g in all_groups}
+    new_ids = {_gid(g) for g in all_groups}
     added = new_ids - old_ids
     removed = old_ids - new_ids
     
