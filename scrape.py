@@ -250,7 +250,7 @@ def scrape_nva_cristin(institution, inst_id, cristin_id, category="uho"):
     def extract_units(org, depth=0):
         if depth > 6:
             return
-        name = org.get('name', {})
+        name = org.get('labels', {})
         unit_name = name.get('nb') or name.get('nn') or name.get('en') or ''
         unit_id = org.get('id', '')
         
@@ -660,43 +660,42 @@ INSTITUTES = {
 
 
 def scrape_uib():
-    """UiB has a special listing page at www4.uib.no"""
+    """UiB - try web first, fall back to NVA API."""
+    # Try web scraping (old URL may work again in future)
     url = "https://www4.uib.no/forskning/forskningsgrupper"
     html = fetch(url)
-    if not html:
-        return []
-    
-    groups = []
-    seen = set()
-    
-    # UiB listing has links like /forskningsgrupper/SLUG
-    parser = LinkExtractor()
-    parser.feed(html)
-    
-    for href, text in parser.links:
-        if '/forskningsgrupper/' not in href:
-            continue
-        if href.endswith('/forskningsgrupper') or href.endswith('/forskningsgrupper/'):
-            continue
-        if len(text) < 3:
-            continue
-        
-        if not href.startswith('http'):
-            href = "https://www4.uib.no" + href
-        
-        if href not in seen:
-            seen.add(href)
-            groups.append({
-                "name": text.strip(),
-                "url": href,
-                "institution": "Universitetet i Bergen",
-                "institutionId": "184.0.0.0",
-                "description": "Forskningsgruppe ved UiB",
-                "id": slugify("Universitetet i Bergen", text.strip()),
-                "category": "uho"
-            })
-    
-    return groups
+    if html:
+        groups = []
+        seen = set()
+        parser = LinkExtractor()
+        parser.feed(html)
+        for href, text in parser.links:
+            if '/forskningsgrupper/' not in href:
+                continue
+            if href.endswith('/forskningsgrupper') or href.endswith('/forskningsgrupper/'):
+                continue
+            if len(text) < 3:
+                continue
+            if not href.startswith('http'):
+                href = "https://www4.uib.no" + href
+            if href not in seen:
+                seen.add(href)
+                groups.append({
+                    "name": text.strip(),
+                    "url": href,
+                    "institution": "Universitetet i Bergen",
+                    "institutionId": "184.0.0.0",
+                    "description": "Forskningsgruppe ved UiB",
+                    "id": slugify("Universitetet i Bergen", text.strip()),
+                    "category": "uho"
+                })
+        if groups:
+            return groups
+
+    # Fallback to NVA API
+    print("  Web scraping failed, using NVA API...")
+    return scrape_nva_cristin("Universitetet i Bergen", "184.0.0.0", "184.0.0.0", category="uho")
+
 
 
 def scrape_uit():
@@ -758,23 +757,20 @@ def scrape_uit():
     return groups
 
 def scrape_ntnu_groups():
-    """NTNU - research groups from multiple pages.
-    NOTE: category field will be added when this function is rewritten (Task 5).
-    Currently has a bug where groups are never appended to the list."""
+    """NTNU - try web, fall back to NVA API."""
     groups = []
     seen = set()
-    
-    # NTNU Norwegian page
+
     for base_url in ["https://www.ntnu.no/forskning/forskningsgrupper", "https://www.ntnu.edu/research/groups"]:
         html = fetch(base_url)
         if not html:
             continue
         parser = LinkExtractor()
         parser.feed(html)
-        
+
         for href, text in parser.links:
             text = text.strip()
-            if len(text) < 3:
+            if len(text) < 5 or len(text) > 200:
                 continue
             if any(x in text.lower() for x in ['logg inn', 'english', 'norsk', 'søk', 'meny', 'kontakt', 'ansatte', 'studier']):
                 continue
@@ -783,8 +779,23 @@ def scrape_ntnu_groups():
                 href = f"https://{domain}{href}"
             if re.search(r'ntnu\.(no|edu)', href) and href not in seen:
                 seen.add(href)
-    
-    return groups
+                groups.append({
+                    "name": text,
+                    "url": href,
+                    "institution": "NTNU",
+                    "institutionId": "194.0.0.0",
+                    "description": "Forskningsgruppe ved NTNU",
+                    "id": slugify("NTNU", text),
+                    "category": "uho"
+                })
+
+    if groups:
+        return groups
+
+    # Fallback to NVA API
+    print("  Web scraping failed, using NVA API...")
+    return scrape_nva_cristin("NTNU", "194.0.0.0", "194.0.0.0", category="uho")
+
 
 
 def scrape_uio_faculty(fac_url, base_domain):
