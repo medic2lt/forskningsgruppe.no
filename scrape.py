@@ -82,6 +82,25 @@ def slugify(institution, name):
         ("ntnu", "ntnu"),
         ("nmbu", "nmbu"),
         ("oslomet", "oslomet"),
+        ("sintef", "sintef"),
+        ("forsvarets forskningsinstitutt", "ffi"),
+        ("folkehelseinstituttet", "fhi"),
+        ("niva", "niva"),
+        ("nibio", "nibio"),
+        ("norges geotekniske institutt", "ngi"),
+        ("havforskningsinstituttet", "hi"),
+        ("nupi", "nupi"),
+        ("telemarksforsking", "tmforsk"),
+        ("simula research laboratory", "simula"),
+        ("transportøkonomisk institutt", "toi"),
+        ("institutt for energiteknikk", "ife"),
+        ("statens arbeidsmiljøinstitutt", "stami"),
+        ("institutt for samfunnsforskning", "isf"),
+        ("prio", "prio"),
+        ("chr. michelsens institutt", "cmi"),
+        ("nansen senter for miljø og fjernmåling", "nersc"),
+        ("fafo", "fafo"),
+        ("norsk institutt for kulturminneforskning", "niku"),
     ]:
         if prefix == full:
             prefix = short
@@ -484,6 +503,161 @@ LARGE_UNIS = {
     },
 }
 
+INSTITUTES = {
+    "sintef": {
+        "name": "SINTEF",
+        "id": "7401.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.sintef.no/forskningsomrader/",
+        "url_pattern": r"/forskningsomrader/[^/]+",
+        "base_url": "https://www.sintef.no",
+    },
+    "ffi": {
+        "name": "Forsvarets forskningsinstitutt",
+        "id": "7464.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.ffi.no/om-ffi",
+        "url_pattern": r"/om-ffi/(avdeling|forsvarssystemer|innovasjon|strategiske|totalforsvar)",
+        "base_url": "https://www.ffi.no",
+    },
+    "fhi": {
+        "name": "Folkehelseinstituttet",
+        "id": "7502.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.fhi.no/om/organisasjon/",
+        "url_pattern": r"/om/organisasjon/|/omrader/",
+        "base_url": "https://www.fhi.no",
+    },
+    "niva": {
+        "name": "NIVA",
+        "id": "7485.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.niva.no/seksjoner",
+        "url_pattern": r"/seksjoner/[^/]+",
+        "base_url": "https://www.niva.no",
+    },
+    "nibio": {
+        "name": "NIBIO",
+        "id": "7677.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.nibio.no/om-nibio/vare-fagdivisjoner",
+        "url_pattern": r"/om-nibio/vare-fagdivisjoner/",
+        "base_url": "https://www.nibio.no",
+    },
+    "ngi": {
+        "name": "Norges Geotekniske Institutt",
+        "id": "7429.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.ngi.no/forskning-og-radgivning/",
+        "url_pattern": r"/forskning-og-radgivning/[^/]+",
+        "base_url": "https://www.ngi.no",
+    },
+    "hi": {
+        "name": "Havforskningsinstituttet",
+        "id": "7512.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.hi.no/hi/forskning/forskningsgrupper",
+        "url_pattern": r"/hi/forskning/forskningsgrupper/[^/]+",
+        "base_url": "https://www.hi.no",
+    },
+    "nupi": {
+        "name": "NUPI",
+        "id": "7445.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.nupi.no/om-nupi/organisering",
+        "url_pattern": r"/forskning/|/forskningsgruppe/|/om-nupi/organisering/",
+        "base_url": "https://www.nupi.no",
+    },
+    "tmforsk": {
+        "name": "Telemarksforsking",
+        "id": "7439.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://telemarksforsking.no/forskergrupper/",
+        "url_pattern": r"/forskergrupper/[^/]+",
+        "base_url": "https://telemarksforsking.no",
+    },
+    "simula": {
+        "name": "Simula Research Laboratory",
+        "id": "7467.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.simula.no/research",
+        "url_pattern": r"/research/[^/]+",
+        "base_url": "https://www.simula.no",
+    },
+    "toi": {
+        "name": "Transportøkonomisk institutt",
+        "id": "7454.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.toi.no/forskningsomrader/",
+        "url_pattern": r"/forskningsomrader/[^/]+",
+        "base_url": "https://www.toi.no",
+    },
+    "ife": {
+        "name": "Institutt for energiteknikk",
+        "id": "7453.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://ife.no/ife-fagomrader/",
+        "url_pattern": r"/ife-fagomrader/[^/]+",
+        "base_url": "https://ife.no",
+    },
+    "stami": {
+        "name": "Statens arbeidsmiljøinstitutt",
+        "id": "7501.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://stami.no/forskningsomrade/",
+        "url_pattern": r"/forskningsomrade/[^/]+",
+        "base_url": "https://stami.no",
+    },
+    "isf": {
+        "name": "Institutt for samfunnsforskning",
+        "id": "7448.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.samfunnsforskning.no/vi-forsker-pa/",
+        "url_pattern": r"/vi-forsker-pa/[^/]+",
+        "base_url": "https://www.samfunnsforskning.no",
+    },
+    "prio": {
+        "name": "PRIO",
+        "id": "7444.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.prio.org/research",
+        "url_pattern": r"/research/|/centres/",
+        "base_url": "https://www.prio.org",
+    },
+    "cmi": {
+        "name": "Chr. Michelsens Institutt",
+        "id": "7462.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.cmi.no/centres",
+        "url_pattern": r"/centres/[^/]+",
+        "base_url": "https://www.cmi.no",
+    },
+    "nersc": {
+        "name": "Nansen Senter for Miljø og Fjernmåling",
+        "id": "7543.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://nersc.no/forskningsomrader/",
+        "url_pattern": r"/forskningsomrader/[^/]+",
+        "base_url": "https://nersc.no",
+    },
+    "fafo": {
+        "name": "Fafo",
+        "id": "7436.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.fafo.no/forskningstema",
+        "url_pattern": r"/forskningstema/|/forskning/",
+        "base_url": "https://www.fafo.no",
+    },
+    "niku": {
+        "name": "Norsk institutt for kulturminneforskning",
+        "id": "7437.0.0.0",
+        "category": "forskningsinstitutt",
+        "scrape_url": "https://www.niku.no/tjenester/",
+        "url_pattern": r"/tjenester/[^/]+",
+        "base_url": "https://www.niku.no",
+    },
+}
+
 
 def scrape_uib():
     """UiB has a special listing page at www4.uib.no"""
@@ -717,6 +891,24 @@ def main():
             else:
                 print(f"  Using {len(existing)} existing groups (scrape returned 0)")
             all_groups.extend(existing)
+    
+    # 1b. Forskningsinstitutter
+    for key, config in INSTITUTES.items():
+        print(f"\nScraping {config[name]}...")
+        groups = scrape_standard_institution(config)
+        print(f"  Found {len(groups)} groups")
+        existing = [g for g in old_data[groups] if g[institution] == config[name]]
+        if groups and len(groups) >= len(existing) * 0.5:
+            all_groups.extend(groups)
+        else:
+            if existing:
+                if groups:
+                    print(f"  Too few ({len(groups)} vs {len(existing)} existing) — keeping old data")
+                else:
+                    print(f"  Using {len(existing)} existing groups (scrape returned 0)")
+                all_groups.extend(existing)
+            elif groups:
+                all_groups.extend(groups)
     
     # 2. UiO (multi-faculty)
     print(f"\nScraping Universitetet i Oslo (10 faculties)...")
