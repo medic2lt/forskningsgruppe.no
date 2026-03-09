@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27",
+  "lastUpdated": "2026-03-09",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -943,8 +943,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-abc-ai-applied-basic-and-conscientious-artificial-intelligence",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-abc-ai-applied-basic-and-conscientious-artificial-intelligence"
     },
     {
       "name": "Akvakultur og andre marine næringer",
@@ -952,8 +951,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-akvakultur-og-andre-marine-næringer",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-akvakultur-og-andre-marine-næringer"
     },
     {
       "name": "Barn, barndom og hverdagsliv",
@@ -961,8 +959,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-barn-barndom-og-hverdagsliv",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-barn-barndom-og-hverdagsliv"
     },
     {
       "name": "Bærekraftig byutvikling og mobilitet",
@@ -970,8 +967,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-bærekraftig-byutvikling-og-mobilitet",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-bærekraftig-byutvikling-og-mobilitet"
     },
     {
       "name": "Bærekraftige samfunn",
@@ -979,8 +975,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-bærekraftige-samfunn",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-bærekraftige-samfunn"
     },
     {
       "name": "Digitalization for Sustainability",
@@ -988,8 +983,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-digitalization-for-sustainability",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-digitalization-for-sustainability"
     },
     {
       "name": "Energi Logistikk - EneLog",
@@ -997,8 +991,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-energi-logistikk-enelog",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-energi-logistikk-enelog"
     },
     {
       "name": "Energy Logistics",
@@ -1006,8 +999,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-energy-logistics",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-energy-logistics"
     },
     {
       "name": "Funksjonshemming og habilitering",
@@ -1015,8 +1007,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-funksjonshemming-og-habilitering",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-funksjonshemming-og-habilitering"
     },
     {
       "name": "Fysiologi",
@@ -1024,8 +1015,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-fysiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-fysiologi"
     },
     {
       "name": "GPO - Globale utfordringer, politikk og organisasjon",
@@ -1033,8 +1023,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-gpo-globale-utfordringer-politikk-og-organisasjon",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-gpo-globale-utfordringer-politikk-og-organisasjon"
     },
     {
       "name": "Helse- og velferdsforskning",
@@ -1042,8 +1031,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-helse-og-velferdsforskning",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-helse-og-velferdsforskning"
     },
     {
       "name": "Legemidler i helse- og omsorgstjenesten",
@@ -1051,8 +1039,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-legemidler-i-helse-og-omsorgstjenesten",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-legemidler-i-helse-og-omsorgstjenesten"
     },
     {
       "name": "Marketing, Innovation, International Business & Strategy",
@@ -1060,8 +1047,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-marketing-innovation-international-business-strategy",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-marketing-innovation-international-business-strategy"
     },
     {
       "name": "Marketing, Innovation, International Business & Strategy (MIIBS)",
@@ -1069,8 +1055,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-marketing-innovation-international-business-strategy-miibs",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-marketing-innovation-international-business-strategy-miibs"
     },
     {
       "name": "Neste side",
@@ -1078,8 +1063,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-neste-side",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-neste-side"
     },
     {
       "name": "Organic Digital Domain (ODD)",
@@ -1087,8 +1071,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-organic-digital-domain-odd",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-organic-digital-domain-odd"
     },
     {
       "name": "Planning, Optimization and Decision Support",
@@ -1096,8 +1079,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-planning-optimization-and-decision-support",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-planning-optimization-and-decision-support"
     },
     {
       "name": "Profesjonsetikk",
@@ -1105,8 +1087,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-profesjonsetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-profesjonsetikk"
     },
     {
       "name": "Psykisk helse, rus og avhengighet",
@@ -1114,8 +1095,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-psykisk-helse-rus-og-avhengighet",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-psykisk-helse-rus-og-avhengighet"
     },
     {
       "name": "Psykisk helsearbeid",
@@ -1123,8 +1103,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-psykisk-helsearbeid",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-psykisk-helsearbeid"
     },
     {
       "name": "RSS-strøm fra denne siden",
@@ -1132,8 +1111,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-rss-strøm-fra-denne-siden",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-rss-strøm-fra-denne-siden"
     },
     {
       "name": "Rettsvitenskap",
@@ -1141,8 +1119,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-rettsvitenskap",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-rettsvitenskap"
     },
     {
       "name": "Samhandling om barn og unge (SamBU)",
@@ -1150,8 +1127,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-samhandling-om-barn-og-unge-sambu",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-samhandling-om-barn-og-unge-sambu"
     },
     {
       "name": "Senter for helselogistikk",
@@ -1159,8 +1135,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-senter-for-helselogistikk",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-senter-for-helselogistikk"
     },
     {
       "name": "Sport Management",
@@ -1168,8 +1143,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sport-management",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-sport-management"
     },
     {
       "name": "Sport Management Research Group (SpM)",
@@ -1177,8 +1151,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sport-management-research-group-spm",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-sport-management-research-group-spm"
     },
     {
       "name": "Supply Chain Management",
@@ -1186,8 +1159,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-supply-chain-management",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-supply-chain-management"
     },
     {
       "name": "Sykepleie",
@@ -1195,8 +1167,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sykepleie",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-sykepleie"
     },
     {
       "name": "Sykepleie; forskning og fagutvikling",
@@ -1204,8 +1175,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sykepleie-forskning-og-fagutvikling",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-sykepleie-forskning-og-fagutvikling"
     },
     {
       "name": "Sykepleieledet ADRe-profil for kartlegging av legemiddelbruk i helsetjenesten",
@@ -1213,8 +1183,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sykepleieledet-adre-profil-for-kartlegging-av-legemiddelbruk-i-helsetjenesten",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-sykepleieledet-adre-profil-for-kartlegging-av-legemiddelbruk-i-helsetjenesten"
     },
     {
       "name": "Transport Research Group",
@@ -1222,8 +1191,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-transport-research-group",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-transport-research-group"
     },
     {
       "name": "Transport Research Group (TRG)",
@@ -1231,8 +1199,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-transport-research-group-trg",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-transport-research-group-trg"
     },
     {
       "name": "Tverrprofesjonell innovasjon i praksis og utdanning",
@@ -1240,8 +1207,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-tverrprofesjonell-innovasjon-i-praksis-og-utdanning",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-tverrprofesjonell-innovasjon-i-praksis-og-utdanning"
     },
     {
       "name": "Tverrprofesjonelt samarbeid i praksis og utdanning",
@@ -1249,8 +1215,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-tverrprofesjonelt-samarbeid-i-praksis-og-utdanning",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-tverrprofesjonelt-samarbeid-i-praksis-og-utdanning"
     },
     {
       "name": "Virtual Technologies and Learning",
@@ -1258,8 +1223,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-virtual-technologies-and-learning",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-virtual-technologies-and-learning"
     },
     {
       "name": "​Samhandling med sårbare grupper i et fenomenologisk perspektiv",
@@ -1267,8 +1231,7 @@
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-samhandling-med-sårbare-grupper-i-et-fenomenologisk-perspektiv",
-      "lastCrawled": "2026-02-27"
+      "id": "himolde-samhandling-med-sårbare-grupper-i-et-fenomenologisk-perspektiv"
     },
     {
       "name": "Det digitale samfunn",
@@ -1708,8 +1671,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-ai-ecologies",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-ai-ecologies"
     },
     {
       "name": "AR@K-symposium",
@@ -1717,8 +1679,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-ar-k-symposium",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-ar-k-symposium"
     },
     {
       "name": "Applied Informatics & Innovation Research Network (AIIRN)",
@@ -1726,8 +1687,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-applied-informatics-innovation-research-network-aiirn",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-applied-informatics-innovation-research-network-aiirn"
     },
     {
       "name": "Arbeidsintegrert læring (AIL)",
@@ -1735,8 +1695,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-arbeidsintegrert-læring-ail",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-arbeidsintegrert-læring-ail"
     },
     {
       "name": "Arbeidsliv og bærekraft",
@@ -1744,8 +1703,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-arbeidsliv-og-bærekraft",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-arbeidsliv-og-bærekraft"
     },
     {
       "name": "Art, Cognition & Esport (ACE)",
@@ -1753,8 +1711,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-art-cognition-esport-ace",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-art-cognition-esport-ace"
     },
     {
       "name": "Artificial Intelligence in Software Engineering (AISE) Lab",
@@ -1762,8 +1719,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-artificial-intelligence-in-software-engineering-aise-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-artificial-intelligence-in-software-engineering-aise-lab"
     },
     {
       "name": "Behavior & Technology Lab",
@@ -1771,8 +1727,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-behavior-technology-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-behavior-technology-lab"
     },
     {
       "name": "Center for Arts Management and Leadership Research",
@@ -1780,8 +1735,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-center-for-arts-management-and-leadership-research",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-center-for-arts-management-and-leadership-research"
     },
     {
       "name": "Centre for Design Studies",
@@ -1789,8 +1743,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-centre-for-design-studies",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-centre-for-design-studies"
     },
     {
       "name": "Chronic Pain and Research Methods Group (CPRM",
@@ -1798,8 +1751,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-chronic-pain-and-research-methods-group-cprm",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-chronic-pain-and-research-methods-group-cprm"
     },
     {
       "name": "Collaborative Media Arts (CoMA) Lab",
@@ -1807,8 +1759,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-collaborative-media-arts-coma-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-collaborative-media-arts-coma-lab"
     },
     {
       "name": "EcoSystem",
@@ -1816,8 +1767,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-ecosystem",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-ecosystem"
     },
     {
       "name": "FOSFOR",
@@ -1825,8 +1775,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-fosfor",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-fosfor"
     },
     {
       "name": "Forskning møter kunst (FOKU)",
@@ -1834,8 +1783,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-forskning-møter-kunst-foku",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-forskning-møter-kunst-foku"
     },
     {
       "name": "Forskning på scenekunst",
@@ -1843,8 +1791,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-forskning-på-scenekunst",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-forskning-på-scenekunst"
     },
     {
       "name": "Forskningsgrupper",
@@ -1852,8 +1799,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-forskningsgrupper",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-forskningsgrupper"
     },
     {
       "name": "Forskningsnettverk - Stiftelser og samfunn",
@@ -1861,8 +1807,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-forskningsnettverk-stiftelser-og-samfunn",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-forskningsnettverk-stiftelser-og-samfunn"
     },
     {
       "name": "HR, markedsføring og kommunikasjon",
@@ -1870,8 +1815,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-hr-markedsføring-og-kommunikasjon",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-hr-markedsføring-og-kommunikasjon"
     },
     {
       "name": "Health Psychology and Mental Health Promotion (HPMHPRG)",
@@ -1879,8 +1823,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-health-psychology-and-mental-health-promotion-hpmhprg",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-health-psychology-and-mental-health-promotion-hpmhprg"
     },
     {
       "name": "Helse, psykologi og pedagogikk",
@@ -1888,8 +1831,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-helse-psykologi-og-pedagogikk",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-helse-psykologi-og-pedagogikk"
     },
     {
       "name": "IDEAS LAB",
@@ -1897,8 +1839,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-ideas-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-ideas-lab"
     },
     {
       "name": "Innovation",
@@ -1906,8 +1847,15 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-innovation",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-innovation"
+    },
+    {
+      "name": "KAI-senteret",
+      "url": "https://www.kristiania.no/forskning/forskningsgrupper/kai-krisitania-ai-senter/",
+      "institution": "Høyskolen Kristiania",
+      "institutionId": "247.0.0.0",
+      "description": "Forskningsgruppe ved Høyskolen Kristiania",
+      "id": "kristiania-kai-senteret"
     },
     {
       "name": "Knowledge Management and Organisational Learning (KMOL)",
@@ -1915,8 +1863,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-knowledge-management-and-organisational-learning-kmol",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-knowledge-management-and-organisational-learning-kmol"
     },
     {
       "name": "Kritisk helsekompetanse og helseatferd",
@@ -1924,8 +1871,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-kritisk-helsekompetanse-og-helseatferd",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-kritisk-helsekompetanse-og-helseatferd"
     },
     {
       "name": "Kunst, design og medier",
@@ -1933,8 +1879,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-kunst-design-og-medier",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-kunst-design-og-medier"
     },
     {
       "name": "PRISMA",
@@ -1942,8 +1887,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-prisma",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-prisma"
     },
     {
       "name": "Phygital Lab",
@@ -1951,8 +1895,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-phygital-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-phygital-lab"
     },
     {
       "name": "Political Communication (POLCOM)",
@@ -1960,8 +1903,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-political-communication-polcom",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-political-communication-polcom"
     },
     {
       "name": "Politikk, innovasjon og ledelse",
@@ -1969,8 +1911,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-politikk-innovasjon-og-ledelse",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-politikk-innovasjon-og-ledelse"
     },
     {
       "name": "Positive Organizational Behavior and Wellbeing at Work (POWELL)",
@@ -1978,8 +1919,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-positive-organizational-behavior-and-wellbeing-at-work-powell",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-positive-organizational-behavior-and-wellbeing-at-work-powell"
     },
     {
       "name": "RAMPP – Research in Applied Music Production Practices",
@@ -1987,8 +1927,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-rampp-research-in-applied-music-production-practices",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-rampp-research-in-applied-music-production-practices"
     },
     {
       "name": "Relationship Quality in Business Relations",
@@ -1996,8 +1935,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-relationship-quality-in-business-relations",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-relationship-quality-in-business-relations"
     },
     {
       "name": "Research Group Public Health (PULL)",
@@ -2005,8 +1943,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-research-group-public-health-pull",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-research-group-public-health-pull"
     },
     {
       "name": "SEIT Pedagogy",
@@ -2014,8 +1951,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-seit-pedagogy",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-seit-pedagogy"
     },
     {
       "name": "SPEcial education & EDucational Research Group (SPEED)",
@@ -2023,8 +1959,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-special-education-educational-research-group-speed",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-special-education-educational-research-group-speed"
     },
     {
       "name": "Sales Performance in BTB Sales",
@@ -2032,8 +1967,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-sales-performance-in-btb-sales",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-sales-performance-in-btb-sales"
     },
     {
       "name": "Skeiv forskningsgruppe",
@@ -2041,8 +1975,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-skeiv-forskningsgruppe",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-skeiv-forskningsgruppe"
     },
     {
       "name": "Smart Security Lab (SmartSecLab)",
@@ -2050,8 +1983,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-smart-security-lab-smartseclab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-smart-security-lab-smartseclab"
     },
     {
       "name": "Supply Chain Management (SCM)",
@@ -2059,8 +1991,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-supply-chain-management-scm",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-supply-chain-management-scm"
     },
     {
       "name": "Talk  Nature",
@@ -2068,8 +1999,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-talk-nature",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-talk-nature"
     },
     {
       "name": "Teknologi, innovasjon og økonomi",
@@ -2077,8 +2007,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-teknologi-innovasjon-og-økonomi",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-teknologi-innovasjon-og-økonomi"
     },
     {
       "name": "The AI Lab",
@@ -2086,8 +2015,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-the-ai-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-the-ai-lab"
     },
     {
       "name": "The Consumer Behavior Research Group",
@@ -2095,8 +2023,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-the-consumer-behavior-research-group",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-the-consumer-behavior-research-group"
     },
     {
       "name": "Treningsvitenskap innen helse- og prestasjonsutvikling (TreVit)",
@@ -2104,8 +2031,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-treningsvitenskap-innen-helse-og-prestasjonsutvikling-trevit",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-treningsvitenskap-innen-helse-og-prestasjonsutvikling-trevit"
     },
     {
       "name": "Tverrfaglig forskergruppe i Bergen",
@@ -2113,8 +2039,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-tverrfaglig-forskergruppe-i-bergen",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-tverrfaglig-forskergruppe-i-bergen"
     },
     {
       "name": "Typ-0.Lab",
@@ -2122,8 +2047,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-typ-0-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-typ-0-lab"
     },
     {
       "name": "Workplace, Inclusion, and Diversity (WID)",
@@ -2131,8 +2055,7 @@
       "institution": "Høyskolen Kristiania",
       "institutionId": "247.0.0.0",
       "description": "Forskningsgruppe ved Høyskolen Kristiania",
-      "id": "kristiania-workplace-inclusion-and-diversity-wid",
-      "lastCrawled": "2026-02-27"
+      "id": "kristiania-workplace-inclusion-and-diversity-wid"
     },
     {
       "name": "Continuity for Quality of Care and Health",
@@ -2194,8 +2117,7 @@
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-mf-professor-med-standardverk-om-tidligkristen-kunst",
-      "lastCrawled": "2026-02-27"
+      "id": "mf-mf-professor-med-standardverk-om-tidligkristen-kunst"
     },
     {
       "name": "PERSIAS utforsker jødiske forestillinger om Persia i antikken",
@@ -2203,8 +2125,7 @@
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-persias-utforsker-jødiske-forestillinger-om-persia-i-antikken",
-      "lastCrawled": "2026-02-27"
+      "id": "mf-persias-utforsker-jødiske-forestillinger-om-persia-i-antikken"
     },
     {
       "name": "Vidunderlige verden? Ny bok om etikk og filosofi i KI-tiden",
@@ -2212,8 +2133,7 @@
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden",
-      "lastCrawled": "2026-02-27"
+      "id": "mf-vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden"
     },
     {
       "name": "Vil finne nye løsninger for barn og unge som står utenfor skolen",
@@ -2221,8 +2141,7 @@
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-vil-finne-nye-løsninger-for-barn-og-unge-som-står-utenfor-skolen",
-      "lastCrawled": "2026-02-27"
+      "id": "mf-vil-finne-nye-løsninger-for-barn-og-unge-som-står-utenfor-skolen"
     },
     {
       "name": "Ansvarlig lederskap i næringsliv, administrasjon og innovasjon (RELBAI)",
@@ -4160,6 +4079,14 @@
       "lastCrawled": "2026-02-27"
     },
     {
+      "name": "Senter for framifrå forsking (SFF)",
+      "institution": "NTNU",
+      "url": "https://www.ntnu.no/forskning/sentre/",
+      "source": "firecrawl_institution_search",
+      "discovered": "2026-02-23T20:04:40.421086+00:00",
+      "lastCrawled": "2026-02-27"
+    },
+    {
       "name": "Shipping og nautikk",
       "url": "https://www.ntnu.no/ihb/shipping-og-nautikk",
       "institution": "NTNU",
@@ -5794,8 +5721,7 @@
       "institution": "Samisk høgskole",
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
-      "id": "samas-forskning",
-      "lastCrawled": "2026-02-27"
+      "id": "samas-forskning"
     },
     {
       "name": "Forskningsprosjekter",
@@ -5803,8 +5729,7 @@
       "institution": "Samisk høgskole",
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
-      "id": "samas-forskningsprosjekter",
-      "lastCrawled": "2026-02-27"
+      "id": "samas-forskningsprosjekter"
     },
     {
       "name": "AMR BRIDGE",
@@ -12085,8 +12010,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-akuttmedisinsk-forskergruppe",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-akuttmedisinsk-forskergruppe"
     },
     {
       "name": "Aldring og demens",
@@ -12094,8 +12018,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-aldring-og-demens",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-aldring-og-demens"
     },
     {
       "name": "Algebra og algebraisk geometri",
@@ -12103,8 +12026,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-algebra-og-algebraisk-geometri",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-algebra-og-algebraisk-geometri"
     },
     {
       "name": "Allmennmedisinsk HelsetjenesteForskning (ALHF)",
@@ -12112,8 +12034,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-allmennmedisinsk-helsetjenesteforskning-alhf",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-allmennmedisinsk-helsetjenesteforskning-alhf"
     },
     {
       "name": "Allmennmedisinsk forskningsenhet - AFE Oslo",
@@ -12121,8 +12042,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-allmennmedisinsk-forskningsenhet-afe-oslo",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-allmennmedisinsk-forskningsenhet-afe-oslo"
     },
     {
       "name": "Alzheimers sykdom / nevrofarmakologi",
@@ -12130,8 +12050,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-alzheimers-sykdom-nevrofarmakologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-alzheimers-sykdom-nevrofarmakologi"
     },
     {
       "name": "Aminosyretransportør laboratorium",
@@ -12139,8 +12058,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-aminosyretransportør-laboratorium",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-aminosyretransportør-laboratorium"
     },
     {
       "name": "Andre- og tredjespråk: Tilegnelse og bruk",
@@ -12148,8 +12066,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-andre-og-tredjespråk-tilegnelse-og-bruk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-andre-og-tredjespråk-tilegnelse-og-bruk"
     },
     {
       "name": "Anestesi- og intensivmedisin",
@@ -12157,8 +12074,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-anestesi-og-intensivmedisin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-anestesi-og-intensivmedisin"
     },
     {
       "name": "Antibiotikasenteret for primærmedisin (ASP)",
@@ -12166,8 +12082,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-antibiotikasenteret-for-primærmedisin-asp",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-antibiotikasenteret-for-primærmedisin-asp"
     },
     {
       "name": "Antikken på norsk",
@@ -12175,8 +12090,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-antikken-på-norsk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-antikken-på-norsk"
     },
     {
       "name": "Antropologi og toksisitet (AnthroTox)",
@@ -12184,8 +12098,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-antropologi-og-toksisitet-anthrotox",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-antropologi-og-toksisitet-anthrotox"
     },
     {
       "name": "Anvendt nevrofysiologi",
@@ -12193,8 +12106,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-anvendt-nevrofysiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-anvendt-nevrofysiologi"
     },
     {
       "name": "Arbeidsmedisin og trygdemedisin",
@@ -12202,8 +12114,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-arbeidsmedisin-og-trygdemedisin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-arbeidsmedisin-og-trygdemedisin"
     },
     {
       "name": "Astma, allergi og lungesykdommer hos barn og unge (ORAACLE)",
@@ -12211,8 +12122,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-astma-allergi-og-lungesykdommer-hos-barn-og-unge-oraacle",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-astma-allergi-og-lungesykdommer-hos-barn-og-unge-oraacle"
     },
     {
       "name": "Aterosklerose og lipidologi",
@@ -12220,8 +12130,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-aterosklerose-og-lipidologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-aterosklerose-og-lipidologi"
     },
     {
       "name": "Autofagi",
@@ -12229,8 +12138,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-autofagi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-autofagi"
     },
     {
       "name": "Avansert tarmkreft - immunologi og terapi (CMOR)",
@@ -12238,8 +12146,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-avansert-tarmkreft-immunologi-og-terapi-cmor",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-avansert-tarmkreft-immunologi-og-terapi-cmor"
     },
     {
       "name": "Avbildning av Sentralnervesystemet",
@@ -12247,8 +12154,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-avbildning-av-sentralnervesystemet",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-avbildning-av-sentralnervesystemet"
     },
     {
       "name": "Bacterial Evolution and Disease (BadBugs)",
@@ -12256,8 +12162,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bacterial-evolution-and-disease-badbugs",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bacterial-evolution-and-disease-badbugs"
     },
     {
       "name": "Barn- og unges psykiske helse på sykehus (T-ABU)",
@@ -12265,8 +12170,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-barn-og-unges-psykiske-helse-på-sykehus-t-abu",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-barn-og-unges-psykiske-helse-på-sykehus-t-abu"
     },
     {
       "name": "Barne- og ungdomsdiabetes",
@@ -12274,8 +12178,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-barne-og-ungdomsdiabetes",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-barne-og-ungdomsdiabetes"
     },
     {
       "name": "Barnegastroenterologi og ernæring",
@@ -12283,8 +12186,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-barnegastroenterologi-og-ernæring",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-barnegastroenterologi-og-ernæring"
     },
     {
       "name": "Barnekirurgi",
@@ -12292,8 +12194,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-barnekirurgi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-barnekirurgi"
     },
     {
       "name": "Barneortopedi",
@@ -12301,8 +12202,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-barneortopedi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-barneortopedi"
     },
     {
       "name": "Bassengstudier",
@@ -12310,8 +12210,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bassengstudier",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bassengstudier"
     },
     {
       "name": "Beregningsorientert Matematikk",
@@ -12319,8 +12218,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-beregningsorientert-matematikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-beregningsorientert-matematikk"
     },
     {
       "name": "Berekraftig forbruk og energi",
@@ -12328,8 +12226,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-berekraftig-forbruk-og-energi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-berekraftig-forbruk-og-energi"
     },
     {
       "name": "Bevegelsesforstyrrelser",
@@ -12337,8 +12234,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bevegelsesforstyrrelser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bevegelsesforstyrrelser"
     },
     {
       "name": "Bildeveiledet kirurgi og intervensjon",
@@ -12346,8 +12242,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bildeveiledet-kirurgi-og-intervensjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bildeveiledet-kirurgi-og-intervensjon"
     },
     {
       "name": "Bioaktive naturstoff og helseeffektar (BioNatH)",
@@ -12355,8 +12250,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bioaktive-naturstoff-og-helseeffektar-bionath",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bioaktive-naturstoff-og-helseeffektar-bionath"
     },
     {
       "name": "Bioanalytisk kjemi",
@@ -12364,8 +12258,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bioanalytisk-kjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bioanalytisk-kjemi"
     },
     {
       "name": "Biofysikk og medisinsk fysikk (BMF)",
@@ -12373,8 +12266,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-biofysikk-og-medisinsk-fysikk-bmf",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-biofysikk-og-medisinsk-fysikk-bmf"
     },
     {
       "name": "Bioinformatikk og systemimmunologi",
@@ -12382,8 +12274,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bioinformatikk-og-systemimmunologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bioinformatikk-og-systemimmunologi"
     },
     {
       "name": "Biokjemi",
@@ -12391,8 +12282,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-biokjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-biokjemi"
     },
     {
       "name": "Biokjemisk endokrinologi og metabolisme",
@@ -12400,8 +12290,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-biokjemisk-endokrinologi-og-metabolisme",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-biokjemisk-endokrinologi-og-metabolisme"
     },
     {
       "name": "Biologisk psykiatri",
@@ -12409,8 +12298,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-biologisk-psykiatri",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-biologisk-psykiatri"
     },
     {
       "name": "Blodcelleforsknings-gruppen",
@@ -12418,8 +12306,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-blodcelleforsknings-gruppen",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-blodcelleforsknings-gruppen"
     },
     {
       "name": "Bloddonasjon, transfusjon og immunmodulering",
@@ -12427,8 +12314,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bloddonasjon-transfusjon-og-immunmodulering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bloddonasjon-transfusjon-og-immunmodulering"
     },
     {
       "name": "Body x Identity x Society (BodIS Lab)",
@@ -12436,8 +12322,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-body-x-identity-x-society-bodis-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-body-x-identity-x-society-bodis-lab"
     },
     {
       "name": "Bokhistorie",
@@ -12445,8 +12330,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bokhistorie",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bokhistorie"
     },
     {
       "name": "Bokhistorie og resepsjon",
@@ -12454,8 +12338,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bokhistorie-og-resepsjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bokhistorie-og-resepsjon"
     },
     {
       "name": "Bridging Education, AI, and Measurement (BEAM)",
@@ -12463,8 +12346,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bridging-education-ai-and-measurement-beam",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bridging-education-ai-and-measurement-beam"
     },
     {
       "name": "Brystkreft",
@@ -12472,8 +12354,15 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-brystkreft",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-brystkreft"
+    },
+    {
+      "name": "Bysants: Liv og etterliv",
+      "url": "https://www.hf.uio.no/ifikk/forskning/grupper/bysants-liv-og-etterliv/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-bysants-liv-og-etterliv"
     },
     {
       "name": "Bærekraftige matsystemer (MatJord)",
@@ -12481,8 +12370,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bærekraftige-matsystemer-matjord",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-bærekraftige-matsystemer-matjord"
     },
     {
       "name": "CHARM - Research Centre for Habilitation and Rehabilitation Models & Services",
@@ -12490,8 +12378,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-charm-research-centre-for-habilitation-and-rehabilitation-models-services",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-charm-research-centre-for-habilitation-and-rehabilitation-models-services"
     },
     {
       "name": "CIRRO - Senter for implantat og radiostereometrisk analyse i Oslo",
@@ -12499,8 +12386,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cirro-senter-for-implantat-og-radiostereometrisk-analyse-i-oslo",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cirro-senter-for-implantat-og-radiostereometrisk-analyse-i-oslo"
     },
     {
       "name": "CO2-lagring",
@@ -12508,8 +12394,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-co2-lagring",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-co2-lagring"
     },
     {
       "name": "Cellestress og kreft",
@@ -12517,8 +12402,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cellestress-og-kreft",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cellestress-og-kreft"
     },
     {
       "name": "Cellesyklus og apoptose",
@@ -12526,8 +12410,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cellesyklus-og-apoptose",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cellesyklus-og-apoptose"
     },
     {
       "name": "Cellulær hematologi",
@@ -12535,8 +12418,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cellulær-hematologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cellulær-hematologi"
     },
     {
       "name": "Cellulære responser til skade på arveanleggene",
@@ -12544,8 +12426,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cellulære-responser-til-skade-på-arveanleggene",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cellulære-responser-til-skade-på-arveanleggene"
     },
     {
       "name": "Centre for Computational Inference in Evolutionary Life Science (CELS)",
@@ -12553,8 +12434,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-centre-for-computational-inference-in-evolutionary-life-science-cels",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-centre-for-computational-inference-in-evolutionary-life-science-cels"
     },
     {
       "name": "Centre for Ecological and Evolutionary Synthesis (CEES)",
@@ -12562,8 +12442,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-centre-for-ecological-and-evolutionary-synthesis-cees",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-centre-for-ecological-and-evolutionary-synthesis-cees"
     },
     {
       "name": "Centre for Integrative Microbial Evolution (CIME)",
@@ -12571,8 +12450,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-centre-for-integrative-microbial-evolution-cime",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-centre-for-integrative-microbial-evolution-cime"
     },
     {
       "name": "Cerebrovaskulære sykdommer",
@@ -12580,8 +12458,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cerebrovaskulære-sykdommer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cerebrovaskulære-sykdommer"
     },
     {
       "name": "Challenges of Sustainability in Educational Research (COSER)",
@@ -12589,8 +12466,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-challenges-of-sustainability-in-educational-research-coser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-challenges-of-sustainability-in-educational-research-coser"
     },
     {
       "name": "ClinVir - Klinisk virologi",
@@ -12598,8 +12474,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-clinvir-klinisk-virologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-clinvir-klinisk-virologi"
     },
     {
       "name": "Cochleaimplantat, hørsel og ørekirurgi",
@@ -12607,8 +12482,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cochleaimplantat-hørsel-og-ørekirurgi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-cochleaimplantat-hørsel-og-ørekirurgi"
     },
     {
       "name": "Communication and Inclusion (COIN)",
@@ -12616,8 +12490,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-communication-and-inclusion-coin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-communication-and-inclusion-coin"
     },
     {
       "name": "Comparative Institutions and Regimes (CIR)",
@@ -12625,8 +12498,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-comparative-institutions-and-regimes-cir",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-comparative-institutions-and-regimes-cir"
     },
     {
       "name": "Complexity in treatment Outcome, Psychopathology and Epidemiology (COPE)",
@@ -12634,8 +12506,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-complexity-in-treatment-outcome-psychopathology-and-epidemiology-cope",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-complexity-in-treatment-outcome-psychopathology-and-epidemiology-cope"
     },
     {
       "name": "DRIVE Arbeidspakke 1: Utfall og mekanismer",
@@ -12643,8 +12514,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-drive-arbeidspakke-1-utfall-og-mekanismer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-drive-arbeidspakke-1-utfall-og-mekanismer"
     },
     {
       "name": "DRIVE Arbeidspakke 2: Behandling",
@@ -12652,8 +12522,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-drive-arbeidspakke-2-behandling",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-drive-arbeidspakke-2-behandling"
     },
     {
       "name": "DRIVE Arbeidspakke 3: Biomarkører og patologiske mekanismer",
@@ -12661,8 +12530,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-drive-arbeidspakke-3-biomarkører-og-patologiske-mekanismer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-drive-arbeidspakke-3-biomarkører-og-patologiske-mekanismer"
     },
     {
       "name": "DRIVE Arbeidspakke 4: Sosiale og kulturelle drivere i depresjon",
@@ -12670,8 +12538,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-drive-arbeidspakke-4-sosiale-og-kulturelle-drivere-i-depresjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-drive-arbeidspakke-4-sosiale-og-kulturelle-drivere-i-depresjon"
     },
     {
       "name": "DRIVE Arbeidspakke 5: Utviklingsveier til depresjon",
@@ -12679,8 +12546,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-drive-arbeidspakke-5-utviklingsveier-til-depresjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-drive-arbeidspakke-5-utviklingsveier-til-depresjon"
     },
     {
       "name": "Data og kunnskapssystemer (DKM)",
@@ -12688,8 +12554,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-data-og-kunnskapssystemer-dkm",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-data-og-kunnskapssystemer-dkm"
     },
     {
       "name": "Delirium",
@@ -12697,8 +12562,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-delirium",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-delirium"
     },
     {
       "name": "Demokrati, frihet og grenser",
@@ -12706,8 +12570,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-demokrati-frihet-og-grenser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-demokrati-frihet-og-grenser"
     },
     {
       "name": "Den strukturelle utviklingen av nordiske dialekter",
@@ -12715,8 +12578,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-den-strukturelle-utviklingen-av-nordiske-dialekter",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-den-strukturelle-utviklingen-av-nordiske-dialekter"
     },
     {
       "name": "Design av informasjonssystemer (DESIGN)",
@@ -12724,8 +12586,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-design-av-informasjonssystemer-design",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-design-av-informasjonssystemer-design"
     },
     {
       "name": "Det antikke Middelhavet: Arkeologi, historie og samfunn",
@@ -12733,8 +12594,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-det-antikke-middelhavet-arkeologi-historie-og-samfunn",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-det-antikke-middelhavet-arkeologi-historie-og-samfunn"
     },
     {
       "name": "Diabetes type 1",
@@ -12742,8 +12602,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-diabetes-type-1",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-diabetes-type-1"
     },
     {
       "name": "Digital helseforskning",
@@ -12751,8 +12610,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digital-helseforskning",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digital-helseforskning"
     },
     {
       "name": "Digital innovasjon (DIN)",
@@ -12760,8 +12618,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digital-innovasjon-din",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digital-innovasjon-din"
     },
     {
       "name": "Digital signalbehandling og bildeanalyse (DSB)",
@@ -12769,8 +12626,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digital-signalbehandling-og-bildeanalyse-dsb",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digital-signalbehandling-og-bildeanalyse-dsb"
     },
     {
       "name": "Digital sikkerhet (SEC)",
@@ -12778,8 +12634,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digital-sikkerhet-sec",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digital-sikkerhet-sec"
     },
     {
       "name": "Digitale løsninger for genomisk medisin",
@@ -12787,8 +12642,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digitale-løsninger-for-genomisk-medisin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digitale-løsninger-for-genomisk-medisin"
     },
     {
       "name": "Digitalisering, helsetjenestutvikling og demokratisering",
@@ -12796,8 +12650,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-digitalisering-helsetjenestutvikling-og-demokratisering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-digitalisering-helsetjenestutvikling-og-demokratisering"
     },
     {
       "name": "Dynamikk i bakteriell kolonisering",
@@ -12805,8 +12658,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-dynamikk-i-bakteriell-kolonisering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-dynamikk-i-bakteriell-kolonisering"
     },
     {
       "name": "Dynamisk genregulering",
@@ -12814,8 +12666,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-dynamisk-genregulering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-dynamisk-genregulering"
     },
     {
       "name": "E-helse og avhengighetsbehandling",
@@ -12823,8 +12674,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-e-helse-og-avhengighetsbehandling",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-e-helse-og-avhengighetsbehandling"
     },
     {
       "name": "Eksperimentell immunterapi",
@@ -12832,8 +12682,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-eksperimentell-immunterapi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-eksperimentell-immunterapi"
     },
     {
       "name": "Eksperimentell kardiologi",
@@ -12841,8 +12690,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-eksperimentell-kardiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-eksperimentell-kardiologi"
     },
     {
       "name": "Eksperimentell leverforskning",
@@ -12850,8 +12698,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-eksperimentell-leverforskning",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-eksperimentell-leverforskning"
     },
     {
       "name": "Eksperimentell lingvistikk",
@@ -12859,8 +12706,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-eksperimentell-lingvistikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-eksperimentell-lingvistikk"
     },
     {
       "name": "Elektrokjemi",
@@ -12868,8 +12714,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-elektrokjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-elektrokjemi"
     },
     {
       "name": "Elektronikk",
@@ -12877,8 +12722,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-elektronikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-elektronikk"
     },
     {
       "name": "Endestad Brain Imaging Group (EBIG)",
@@ -12886,8 +12730,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-endestad-brain-imaging-group-ebig",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-endestad-brain-imaging-group-ebig"
     },
     {
       "name": "Energimetabolisme i helse og sykdom (MetHealth)",
@@ -12895,8 +12738,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-energimetabolisme-i-helse-og-sykdom-methealth",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-energimetabolisme-i-helse-og-sykdom-methealth"
     },
     {
       "name": "Engelsk språk og korpuslingvistikk (ELC)",
@@ -12904,8 +12746,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-engelsk-språk-og-korpuslingvistikk-elc",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-engelsk-språk-og-korpuslingvistikk-elc"
     },
     {
       "name": "Entreprenørskap (ENT)",
@@ -12913,8 +12754,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-entreprenørskap-ent",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-entreprenørskap-ent"
     },
     {
       "name": "EpiStat",
@@ -12922,8 +12762,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-epistat",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-epistat"
     },
     {
       "name": "Epilepsi",
@@ -12931,8 +12770,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-epilepsi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-epilepsi"
     },
     {
       "name": "Equal Opportunities in Education (EQUAL)",
@@ -12940,8 +12778,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-equal-opportunities-in-education-equal",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-equal-opportunities-in-education-equal"
     },
     {
       "name": "Ernæring og kroniske sykdommer",
@@ -12949,8 +12786,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-ernæring-og-kroniske-sykdommer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-ernæring-og-kroniske-sykdommer"
     },
     {
       "name": "Ernæring ved kreft og gastrointestinale tilstander",
@@ -12958,8 +12794,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-ernæring-ved-kreft-og-gastrointestinale-tilstander",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-ernæring-ved-kreft-og-gastrointestinale-tilstander"
     },
     {
       "name": "Ernæring, kolesterol, inflammasjon og aterosklerose",
@@ -12967,8 +12802,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-ernæring-kolesterol-inflammasjon-og-aterosklerose",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-ernæring-kolesterol-inflammasjon-og-aterosklerose"
     },
     {
       "name": "Ernæringsepidemiologi",
@@ -12976,8 +12810,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-ernæringsepidemiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-ernæringsepidemiologi"
     },
     {
       "name": "Estetikk og politikk",
@@ -12985,8 +12818,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-estetikk-og-politikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-estetikk-og-politikk"
     },
     {
       "name": "Etikk og prioritering i helsetjenesten og i folkehelsearbeid",
@@ -12994,8 +12826,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-etikk-og-prioritering-i-helsetjenesten-og-i-folkehelsearbeid",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-etikk-og-prioritering-i-helsetjenesten-og-i-folkehelsearbeid"
     },
     {
       "name": "Etnografiens former",
@@ -13003,8 +12834,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-etnografiens-former",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-etnografiens-former"
     },
     {
       "name": "European Palliative Care Research Centre (PRC)",
@@ -13012,8 +12842,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-european-palliative-care-research-centre-prc",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-european-palliative-care-research-centre-prc"
     },
     {
       "name": "Evaluering av tiltak innen rus og avhengighet",
@@ -13021,8 +12850,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-evaluering-av-tiltak-innen-rus-og-avhengighet",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-evaluering-av-tiltak-innen-rus-og-avhengighet"
     },
     {
       "name": "Evolusjon og paleobiologi (EPA)",
@@ -13030,8 +12858,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-evolusjon-og-paleobiologi-epa",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-evolusjon-og-paleobiologi-epa"
     },
     {
       "name": "Evolusjonær kjønnsforskning – SERG",
@@ -13039,8 +12866,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-evolusjonær-kjønnsforskning-serg",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-evolusjonær-kjønnsforskning-serg"
     },
     {
       "name": "FYSIOPRIM",
@@ -13048,8 +12874,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fysioprim",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fysioprim"
     },
     {
       "name": "Farmakokinetikk",
@@ -13057,8 +12882,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-farmakokinetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-farmakokinetikk"
     },
     {
       "name": "Farmakoterapi - komparative effekter og nye targets",
@@ -13066,8 +12890,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-farmakoterapi-komparative-effekter-og-nye-targets",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-farmakoterapi-komparative-effekter-og-nye-targets"
     },
     {
       "name": "Farmasøytisk analytisk kjemi",
@@ -13075,8 +12898,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-farmasøytisk-analytisk-kjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-farmasøytisk-analytisk-kjemi"
     },
     {
       "name": "Farmasøytisk mikrobiologi og immunologi",
@@ -13084,8 +12906,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-farmasøytisk-mikrobiologi-og-immunologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-farmasøytisk-mikrobiologi-og-immunologi"
     },
     {
       "name": "Fattigdomsreduksjon og 2030-agendaen for bærekraftig utvikling",
@@ -13093,8 +12914,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fattigdomsreduksjon-og-2030-agendaen-for-bærekraftig-utvikling",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fattigdomsreduksjon-og-2030-agendaen-for-bærekraftig-utvikling"
     },
     {
       "name": "Fedme og kardiovaskulær sykdom hos kvinner etter barnefødsel",
@@ -13102,8 +12922,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fedme-og-kardiovaskulær-sykdom-hos-kvinner-etter-barnefødsel",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fedme-og-kardiovaskulær-sykdom-hos-kvinner-etter-barnefødsel"
     },
     {
       "name": "Figurativ kommunikasjon",
@@ -13111,8 +12930,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-figurativ-kommunikasjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-figurativ-kommunikasjon"
     },
     {
       "name": "Flere Komplekse Variable",
@@ -13120,8 +12938,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-flere-komplekse-variable",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-flere-komplekse-variable"
     },
     {
       "name": "Flerspråklighet og flerkulturelle forhold i Sentraleuropa og på Balkan",
@@ -13129,8 +12946,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-flerspråklighet-og-flerkulturelle-forhold-i-sentraleuropa-og-på-balkan",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-flerspråklighet-og-flerkulturelle-forhold-i-sentraleuropa-og-på-balkan"
     },
     {
       "name": "Fonologi",
@@ -13138,8 +12954,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fonologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fonologi"
     },
     {
       "name": "Forebyggende medisin og epidemiologi",
@@ -13147,8 +12962,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forebyggende-medisin-og-epidemiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forebyggende-medisin-og-epidemiologi"
     },
     {
       "name": "Forløp og behandlingsutfall",
@@ -13156,8 +12970,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forløp-og-behandlingsutfall",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forløp-og-behandlingsutfall"
     },
     {
       "name": "Forskergruppe barn og ungdom i idéhistorisk perspektiv",
@@ -13165,8 +12978,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskergruppe-barn-og-ungdom-i-id-historisk-perspektiv",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskergruppe-barn-og-ungdom-i-id-historisk-perspektiv"
     },
     {
       "name": "Forskergruppen for lyrikk",
@@ -13174,8 +12986,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskergruppen-for-lyrikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskergruppen-for-lyrikk"
     },
     {
       "name": "Forskningsetikk og integritet i medisin og helsefag",
@@ -13183,8 +12994,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskningsetikk-og-integritet-i-medisin-og-helsefag",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskningsetikk-og-integritet-i-medisin-og-helsefag"
     },
     {
       "name": "Forskningsgruppe for sakkyndighet og rettspsykologi",
@@ -13192,8 +13002,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskningsgruppe-for-sakkyndighet-og-rettspsykologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskningsgruppe-for-sakkyndighet-og-rettspsykologi"
     },
     {
       "name": "Forskningsgruppe i entomologi",
@@ -13201,8 +13010,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskningsgruppe-i-entomologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskningsgruppe-i-entomologi"
     },
     {
       "name": "Forskningsgruppen for Evolusjon, eDNA, genomikk og etnobotanikk (EDGE)",
@@ -13210,8 +13018,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskningsgruppen-for-evolusjon-edna-genomikk-og-etnobotanikk-edge",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskningsgruppen-for-evolusjon-edna-genomikk-og-etnobotanikk-edge"
     },
     {
       "name": "Frontier Research in Educational Measurement (FREMO)",
@@ -13219,8 +13026,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-frontier-research-in-educational-measurement-fremo",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-frontier-research-in-educational-measurement-fremo"
     },
     {
       "name": "Funksjonell immungenetikk",
@@ -13228,8 +13034,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-funksjonell-immungenetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-funksjonell-immungenetikk"
     },
     {
       "name": "Funksjonell og molekylær avbildning og terapi",
@@ -13237,8 +13042,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-funksjonell-og-molekylær-avbildning-og-terapi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-funksjonell-og-molekylær-avbildning-og-terapi"
     },
     {
       "name": "Fysisk oseanografi",
@@ -13246,8 +13050,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fysisk-oseanografi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fysisk-oseanografi"
     },
     {
       "name": "Fødselshjelp og kvinnesykdommer",
@@ -13255,8 +13058,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-fødselshjelp-og-kvinnesykdommer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-fødselshjelp-og-kvinnesykdommer"
     },
     {
       "name": "Gastroenterologisk kirurgi, Ahus",
@@ -13264,8 +13066,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gastroenterologisk-kirurgi-ahus",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gastroenterologisk-kirurgi-ahus"
     },
     {
       "name": "Gastromedisin",
@@ -13273,8 +13074,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gastromedisin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gastromedisin"
     },
     {
       "name": "Genetikk ved autoimmunitet",
@@ -13282,8 +13082,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genetikk-ved-autoimmunitet",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genetikk-ved-autoimmunitet"
     },
     {
       "name": "Genetikk ved sjeldne medfødte sykdommer",
@@ -13291,8 +13090,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genetikk-ved-sjeldne-medfødte-sykdommer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genetikk-ved-sjeldne-medfødte-sykdommer"
     },
     {
       "name": "Genomdynamikk",
@@ -13300,8 +13098,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genomdynamikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genomdynamikk"
     },
     {
       "name": "Genomikk og metagenomikk ved inflammasjonssykdom",
@@ -13309,8 +13106,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genomikk-og-metagenomikk-ved-inflammasjonssykdom",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genomikk-og-metagenomikk-ved-inflammasjonssykdom"
     },
     {
       "name": "Genomstabilitet og DNA reparasjon (Nilsen-gruppen)",
@@ -13318,8 +13114,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genomstabilitet-og-dna-reparasjon-nilsen-gruppen",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genomstabilitet-og-dna-reparasjon-nilsen-gruppen"
     },
     {
       "name": "Genotype og fenotype ved sjeldne tilstander",
@@ -13327,8 +13122,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-genotype-og-fenotype-ved-sjeldne-tilstander",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-genotype-og-fenotype-ved-sjeldne-tilstander"
     },
     {
       "name": "Geo-økologisk forskningsgruppe (GEco)",
@@ -13336,8 +13130,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-geo-økologisk-forskningsgruppe-geco",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-geo-økologisk-forskningsgruppe-geco"
     },
     {
       "name": "Geomatikk og fjernanalyse",
@@ -13345,8 +13138,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-geomatikk-og-fjernanalyse",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-geomatikk-og-fjernanalyse"
     },
     {
       "name": "Geometri og topologi",
@@ -13354,8 +13146,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-geometri-og-topologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-geometri-og-topologi"
     },
     {
       "name": "Geomorfologi og naturfarer",
@@ -13363,8 +13154,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-geomorfologi-og-naturfarer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-geomorfologi-og-naturfarer"
     },
     {
       "name": "GliaLab",
@@ -13372,8 +13162,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-glialab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-glialab"
     },
     {
       "name": "Global Health and Health Equity (GHE)",
@@ -13381,8 +13170,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-global-health-and-health-equity-ghe",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-global-health-and-health-equity-ghe"
     },
     {
       "name": "Global ernæring",
@@ -13390,8 +13178,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-global-ernæring",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-global-ernæring"
     },
     {
       "name": "Global helsepolitikk",
@@ -13399,8 +13186,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-global-helsepolitikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-global-helsepolitikk"
     },
     {
       "name": "Glyconor",
@@ -13408,8 +13194,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-glyconor",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-glyconor"
     },
     {
       "name": "Glykobiologi",
@@ -13417,8 +13202,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-glykobiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-glykobiologi"
     },
     {
       "name": "Grammatikk og meining",
@@ -13426,8 +13210,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-grammatikk-og-meining",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-grammatikk-og-meining"
     },
     {
       "name": "Grenselesninger",
@@ -13435,8 +13218,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-grenselesninger",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-grenselesninger"
     },
     {
       "name": "Group for Soft Matter & Scattering Methods",
@@ -13444,8 +13226,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-group-for-soft-matter-scattering-methods",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-group-for-soft-matter-scattering-methods"
     },
     {
       "name": "Grunnlagsfilosofi og etikk i medisin og helsefag",
@@ -13453,8 +13234,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-grunnlagsfilosofi-og-etikk-i-medisin-og-helsefag",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-grunnlagsfilosofi-og-etikk-i-medisin-og-helsefag"
     },
     {
       "name": "Gruppe for Neural Computation",
@@ -13462,8 +13242,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gruppe-for-neural-computation",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gruppe-for-neural-computation"
     },
     {
       "name": "Gruppe for miljø- og klimapolitikk i Oslo (Oslo ECP)",
@@ -13471,8 +13250,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gruppe-for-miljø-og-klimapolitikk-i-oslo-oslo-ecp",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gruppe-for-miljø-og-klimapolitikk-i-oslo-oslo-ecp"
     },
     {
       "name": "Gruppe for sensorisk og sosial forskning (SenSo)",
@@ -13480,8 +13258,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gruppe-for-sensorisk-og-sosial-forskning-senso",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gruppe-for-sensorisk-og-sosial-forskning-senso"
     },
     {
       "name": "Gynekologisk kreft",
@@ -13489,8 +13266,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-gynekologisk-kreft",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-gynekologisk-kreft"
     },
     {
       "name": "Helse og kommunikasjon",
@@ -13498,8 +13274,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-helse-og-kommunikasjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-helse-og-kommunikasjon"
     },
     {
       "name": "Helseledelse og helsepolitikk",
@@ -13507,8 +13282,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-helseledelse-og-helsepolitikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-helseledelse-og-helsepolitikk"
     },
     {
       "name": "Helsetjenesteforskningen, Ahus  (HØKH)",
@@ -13516,8 +13290,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-helsetjenesteforskningen-ahus-høkh",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-helsetjenesteforskningen-ahus-høkh"
     },
     {
       "name": "Helseøkonomi og helsepolitikk",
@@ -13525,8 +13298,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-helseøkonomi-og-helsepolitikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-helseøkonomi-og-helsepolitikk"
     },
     {
       "name": "Hemostase- og trombose",
@@ -13534,8 +13306,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hemostase-og-trombose",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hemostase-og-trombose"
     },
     {
       "name": "Higher Education Leadership, Governance and Academic development (HELGA)",
@@ -13543,8 +13314,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-higher-education-leadership-governance-and-academic-development-helga",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-higher-education-leadership-governance-and-academic-development-helga"
     },
     {
       "name": "Historie og historier i dansk-norsk 1700-tall",
@@ -13552,8 +13322,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-historie-og-historier-i-dansk-norsk-1700-tall",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-historie-og-historier-i-dansk-norsk-1700-tall"
     },
     {
       "name": "Hjerne-Hjerte",
@@ -13561,8 +13330,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjerne-hjerte",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjerne-hjerte"
     },
     {
       "name": "Hjerneavbildning ved psykose",
@@ -13570,8 +13338,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjerneavbildning-ved-psykose",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjerneavbildning-ved-psykose"
     },
     {
       "name": "Hjernens plastisitet og nevropsykiatri",
@@ -13579,8 +13346,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjernens-plastisitet-og-nevropsykiatri",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjernens-plastisitet-og-nevropsykiatri"
     },
     {
       "name": "Hjernereparasjon og metabolisme",
@@ -13588,8 +13354,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjernereparasjon-og-metabolisme",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjernereparasjon-og-metabolisme"
     },
     {
       "name": "Hjerneutvikling og funksjonell billedgjøring",
@@ -13597,8 +13362,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjerneutvikling-og-funksjonell-billedgjøring",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjerneutvikling-og-funksjonell-billedgjøring"
     },
     {
       "name": "Hjerte og Hjerne - Bærum",
@@ -13606,8 +13370,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjerte-og-hjerne-bærum",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjerte-og-hjerne-bærum"
     },
     {
       "name": "Hjertefunksjon og bildediagnostikk",
@@ -13615,8 +13378,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjertefunksjon-og-bildediagnostikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjertefunksjon-og-bildediagnostikk"
     },
     {
       "name": "Hjertefysiologi",
@@ -13624,8 +13386,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hjertefysiologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hjertefysiologi"
     },
     {
       "name": "Hode og hals, Ahus",
@@ -13633,8 +13394,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hode-og-hals-ahus",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hode-og-hals-ahus"
     },
     {
       "name": "Hodepine og smerte",
@@ -13642,8 +13402,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hodepine-og-smerte",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hodepine-og-smerte"
     },
     {
       "name": "Hud",
@@ -13651,8 +13410,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hud",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hud"
     },
     {
       "name": "Human sirkulasjonsregulering",
@@ -13660,8 +13418,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-human-sirkulasjonsregulering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-human-sirkulasjonsregulering"
     },
     {
       "name": "Humaniorastudier i pedagogikk (HumStud)",
@@ -13669,8 +13426,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-humaniorastudier-i-pedagogikk-humstud",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-humaniorastudier-i-pedagogikk-humstud"
     },
     {
       "name": "Hverdagens politikk og estetikk i Midtøsten og Nord-Afrika (YALLA)",
@@ -13678,8 +13434,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hverdagens-politikk-og-estetikk-i-midtøsten-og-nord-afrika-yalla",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hverdagens-politikk-og-estetikk-i-midtøsten-og-nord-afrika-yalla"
     },
     {
       "name": "Hydrologi og vannressurser",
@@ -13687,8 +13442,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hydrologi-og-vannressurser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hydrologi-og-vannressurser"
     },
     {
       "name": "Hylleraas-senteret",
@@ -13696,8 +13450,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-hylleraas-senteret",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-hylleraas-senteret"
     },
     {
       "name": "Høydimensjonal statistikk",
@@ -13705,8 +13458,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høydimensjonal-statistikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-høydimensjonal-statistikk"
     },
     {
       "name": "Høyenergifysikk (HEP)",
@@ -13714,8 +13466,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høyenergifysikk-hep",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-høyenergifysikk-hep"
     },
     {
       "name": "Høyytelsesberegninger (HPC)",
@@ -13723,8 +13474,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høyytelsesberegninger-hpc",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-høyytelsesberegninger-hpc"
     },
     {
       "name": "Informasjonssystemer (IS)",
@@ -13732,8 +13482,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-informasjonssystemer-is",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-informasjonssystemer-is"
     },
     {
       "name": "Infrastruktur for survey-eksperimenter (SURVEY)",
@@ -13741,8 +13490,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-infrastruktur-for-survey-eksperimenter-survey",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-infrastruktur-for-survey-eksperimenter-survey"
     },
     {
       "name": "Interface Dynamics in Geophysical Flows (EarthFlows)",
@@ -13750,8 +13498,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-interface-dynamics-in-geophysical-flows-earthflows",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-interface-dynamics-in-geophysical-flows-earthflows"
     },
     {
       "name": "Internasjonal og nordisk modernisme",
@@ -13759,8 +13506,15 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-internasjonal-og-nordisk-modernisme",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-internasjonal-og-nordisk-modernisme"
+    },
+    {
+      "name": "International Politics Group (IPG)",
+      "url": "https://www.sv.uio.no/isv/forskning/grupper/international-politics-group/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-international-politics-group-ipg"
     },
     {
       "name": "Jordskorpens prosesser",
@@ -13768,8 +13522,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-jordskorpens-prosesser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-jordskorpens-prosesser"
     },
     {
       "name": "Kapitalismens historie",
@@ -13777,8 +13530,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kapitalismens-historie",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kapitalismens-historie"
     },
     {
       "name": "Katalyse og organisk kjemi",
@@ -13786,8 +13538,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-katalyse-og-organisk-kjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-katalyse-og-organisk-kjemi"
     },
     {
       "name": "Kjemisk Livsvitenskap – Biomolekyler, Bio-inspirerte Materialer og Bioanalytisk Kjemi",
@@ -13795,8 +13546,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kjemisk-livsvitenskap-biomolekyler-bio-inspirerte-materialer-og-bioanalytisk-kjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kjemisk-livsvitenskap-biomolekyler-bio-inspirerte-materialer-og-bioanalytisk-kjemi"
     },
     {
       "name": "Kjerne- og energifysikk",
@@ -13804,8 +13554,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kjerne-og-energifysikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kjerne-og-energifysikk"
     },
     {
       "name": "Kjernekjemi",
@@ -13813,8 +13562,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kjernekjemi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kjernekjemi"
     },
     {
       "name": "Klima",
@@ -13822,8 +13570,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-klima",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-klima"
     },
     {
       "name": "Klima, miljø og energi (KLIMER)",
@@ -13831,8 +13578,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-klima-miljø-og-energi-klimer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-klima-miljø-og-energi-klimer"
     },
     {
       "name": "Klinisk farmasi",
@@ -13840,8 +13586,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-klinisk-farmasi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-klinisk-farmasi"
     },
     {
       "name": "Klinisk lingvistikk og språktilegnelse",
@@ -13849,8 +13594,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-klinisk-lingvistikk-og-språktilegnelse",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-klinisk-lingvistikk-og-språktilegnelse"
     },
     {
       "name": "Klinisk nevrovitenskapelig forskningsgruppe (CNRG)",
@@ -13858,8 +13602,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-klinisk-nevrovitenskapelig-forskningsgruppe-cnrg",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-klinisk-nevrovitenskapelig-forskningsgruppe-cnrg"
     },
     {
       "name": "Komparative og evolusjonære genomikk (KEG)",
@@ -13867,8 +13610,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-komparative-og-evolusjonære-genomikk-keg",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-komparative-og-evolusjonære-genomikk-keg"
     },
     {
       "name": "Kondenserte fasers fysikk",
@@ -13876,8 +13618,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kondenserte-fasers-fysikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kondenserte-fasers-fysikk"
     },
     {
       "name": "Kosmologi og ekstragalaktisk astrofysikk",
@@ -13885,8 +13626,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kosmologi-og-ekstragalaktisk-astrofysikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kosmologi-og-ekstragalaktisk-astrofysikk"
     },
     {
       "name": "Kritisk historiografi",
@@ -13894,8 +13634,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kritisk-historiografi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kritisk-historiografi"
     },
     {
       "name": "Kryosfæren",
@@ -13903,8 +13642,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kryosfæren",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kryosfæren"
     },
     {
       "name": "Kultur, samfunn og adferd  (CSB lab)",
@@ -13912,8 +13650,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kultur-samfunn-og-adferd-csb-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kultur-samfunn-og-adferd-csb-lab"
     },
     {
       "name": "Kulturelle minnestudier",
@@ -13921,8 +13658,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kulturelle-minnestudier",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kulturelle-minnestudier"
     },
     {
       "name": "Kunnskapsarbeid, samarbeid og læring med fremvoksende teknologier (KITE)",
@@ -13930,8 +13666,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kunnskapsarbeid-samarbeid-og-læring-med-fremvoksende-teknologier-kite",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kunnskapsarbeid-samarbeid-og-læring-med-fremvoksende-teknologier-kite"
     },
     {
       "name": "Kunstig intelligens i analyse av språk og språkdidaktikk",
@@ -13939,8 +13674,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kunstig-intelligens-i-analyse-av-språk-og-språkdidaktikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-kunstig-intelligens-i-analyse-av-språk-og-språkdidaktikk"
     },
     {
       "name": "LIPCHEM",
@@ -13948,8 +13682,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-lipchem",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-lipchem"
     },
     {
       "name": "Laben Kognitiv og Affektiv Nevrovitenskap (CANlab)",
@@ -13957,8 +13690,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-laben-kognitiv-og-affektiv-nevrovitenskap-canlab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-laben-kognitiv-og-affektiv-nevrovitenskap-canlab"
     },
     {
       "name": "Laboratorium for landskap med samspillende arter",
@@ -13966,8 +13698,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-laboratorium-for-landskap-med-samspillende-arter",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-laboratorium-for-landskap-med-samspillende-arter"
     },
     {
       "name": "Land-ATmosphere Interactions in Cold Environments (LATICE)",
@@ -13975,8 +13706,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-land-atmosphere-interactions-in-cold-environments-latice",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-land-atmosphere-interactions-in-cold-environments-latice"
     },
     {
       "name": "Landet vi tar vare på (al-ARD)",
@@ -13984,8 +13714,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-landet-vi-tar-vare-på-al-ard",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-landet-vi-tar-vare-på-al-ard"
     },
     {
       "name": "Large-scale Educational Assessment (LEA)",
@@ -13993,8 +13722,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-large-scale-educational-assessment-lea",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-large-scale-educational-assessment-lea"
     },
     {
       "name": "Leknes Affective Brain lab",
@@ -14002,8 +13730,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-leknes-affective-brain-lab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-leknes-affective-brain-lab"
     },
     {
       "name": "Lingvistikk og poetikk",
@@ -14011,8 +13738,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-lingvistikk-og-poetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-lingvistikk-og-poetikk"
     },
     {
       "name": "Litterære tradisjoner og tekstkulturer i det tidligmoderne Europa",
@@ -14020,8 +13746,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-litterære-tradisjoner-og-tekstkulturer-i-det-tidligmoderne-europa",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-litterære-tradisjoner-og-tekstkulturer-i-det-tidligmoderne-europa"
     },
     {
       "name": "Living and Learning in the Digital Age (LiDA)",
@@ -14029,8 +13754,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-living-and-learning-in-the-digital-age-lida",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-living-and-learning-in-the-digital-age-lida"
     },
     {
       "name": "Logg inn",
@@ -14038,8 +13762,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-logg-inn",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-logg-inn"
     },
     {
       "name": "Logikk",
@@ -14047,8 +13770,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-logikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-logikk"
     },
     {
       "name": "Logikk ved Universitetet i Oslo",
@@ -14056,8 +13778,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-logikk-ved-universitetet-i-oslo",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-logikk-ved-universitetet-i-oslo"
     },
     {
       "name": "Læreplanstudier, utdanningsledelse og styring (CLEG)",
@@ -14065,8 +13786,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-læreplanstudier-utdanningsledelse-og-styring-cleg",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-læreplanstudier-utdanningsledelse-og-styring-cleg"
     },
     {
       "name": "Læring og historieforståelser",
@@ -14074,8 +13794,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-læring-og-historieforståelser",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-læring-og-historieforståelser"
     },
     {
       "name": "Marginalia og manuskriptkultur fra tidlig middelalder (MINiTEXTS)",
@@ -14083,8 +13802,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-marginalia-og-manuskriptkultur-fra-tidlig-middelalder-minitexts",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-marginalia-og-manuskriptkultur-fra-tidlig-middelalder-minitexts"
     },
     {
       "name": "Maskinlesbar Natur (MaNa)",
@@ -14092,8 +13810,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-maskinlesbar-natur-mana",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-maskinlesbar-natur-mana"
     },
     {
       "name": "Materialfysikk og kvanteteknologi",
@@ -14101,8 +13818,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-materialfysikk-og-kvanteteknologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-materialfysikk-og-kvanteteknologi"
     },
     {
       "name": "Materialiteter – i fortiden og samtiden",
@@ -14110,8 +13826,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-materialiteter-i-fortiden-og-samtiden",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-materialiteter-i-fortiden-og-samtiden"
     },
     {
       "name": "Medieestetikk",
@@ -14119,8 +13834,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-medieestetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-medieestetikk"
     },
     {
       "name": "Mekanikk",
@@ -14128,8 +13842,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-mekanikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-mekanikk"
     },
     {
       "name": "Meteorologi",
@@ -14137,8 +13850,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-meteorologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-meteorologi"
     },
     {
       "name": "Microbial pathogenesis, vaccines and antimicrobial resistance (MicroPath)",
@@ -14146,8 +13858,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-microbial-pathogenesis-vaccines-and-antimicrobial-resistance-micropath",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-microbial-pathogenesis-vaccines-and-antimicrobial-resistance-micropath"
     },
     {
       "name": "Middelalderhistorier",
@@ -14155,8 +13866,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-middelalderhistorier",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-middelalderhistorier"
     },
     {
       "name": "Migrasjon, grenser og identitet i diskurser og narrativer",
@@ -14164,8 +13874,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-migrasjon-grenser-og-identitet-i-diskurser-og-narrativer",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-migrasjon-grenser-og-identitet-i-diskurser-og-narrativer"
     },
     {
       "name": "Migrasjon, minoriteter og mangfold",
@@ -14173,8 +13882,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-migrasjon-minoriteter-og-mangfold",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-migrasjon-minoriteter-og-mangfold"
     },
     {
       "name": "Miljø og kunst",
@@ -14182,8 +13890,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-miljø-og-kunst",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-miljø-og-kunst"
     },
     {
       "name": "Motstandens former",
@@ -14191,8 +13898,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-motstandens-former",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-motstandens-former"
     },
     {
       "name": "Multimodal hjerneavbildning",
@@ -14200,8 +13906,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-multimodal-hjerneavbildning",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-multimodal-hjerneavbildning"
     },
     {
       "name": "Nanoelektronikk (NANO)",
@@ -14209,8 +13914,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nanoelektronikk-nano",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nanoelektronikk-nano"
     },
     {
       "name": "Nanostrukturer og funksjonelle materialer (NAFUMA)",
@@ -14218,8 +13922,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nanostrukturer-og-funksjonelle-materialer-nafuma",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nanostrukturer-og-funksjonelle-materialer-nafuma"
     },
     {
       "name": "Nei, jeg fant det ikke",
@@ -14227,8 +13930,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nei-jeg-fant-det-ikke",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nei-jeg-fant-det-ikke"
     },
     {
       "name": "Neste side",
@@ -14236,8 +13938,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-neste-side",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-neste-side"
     },
     {
       "name": "Nettverk og Distribuerte system (ND)",
@@ -14245,8 +13946,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nettverk-og-distribuerte-system-nd",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nettverk-og-distribuerte-system-nd"
     },
     {
       "name": "Nevrobiologi og toksikologi",
@@ -14254,8 +13954,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nevrobiologi-og-toksikologi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nevrobiologi-og-toksikologi"
     },
     {
       "name": "Nordic Literary Studies in Flux",
@@ -14263,8 +13962,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nordic-literary-studies-in-flux",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nordic-literary-studies-in-flux"
     },
     {
       "name": "Nordisk Laboratorium (NorLab)",
@@ -14272,8 +13970,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nordisk-laboratorium-norlab",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nordisk-laboratorium-norlab"
     },
     {
       "name": "Nordisk opplysningstid",
@@ -14281,8 +13978,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-nordisk-opplysningstid",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-nordisk-opplysningstid"
     },
     {
       "name": "Norrøn og keltisk filologi (Norkelt)",
@@ -14290,8 +13986,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norrøn-og-keltisk-filologi-norkelt",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-norrøn-og-keltisk-filologi-norkelt"
     },
     {
       "name": "Norsk forskningssenter for seksuell helse (CENSE )",
@@ -14299,8 +13994,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norsk-forskningssenter-for-seksuell-helse-cense",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-norsk-forskningssenter-for-seksuell-helse-cense"
     },
     {
       "name": "Norsk og internasjonal samtidshistorie",
@@ -14308,8 +14002,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norsk-og-internasjonal-samtidshistorie",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-norsk-og-internasjonal-samtidshistorie"
     },
     {
       "name": "Norsk senter for mineralogi – NORMIN",
@@ -14317,8 +14010,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norsk-senter-for-mineralogi-normin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-norsk-senter-for-mineralogi-normin"
     },
     {
       "name": "Norsk senter for paleontologi – NORPAL",
@@ -14326,8 +14018,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norsk-senter-for-paleontologi-norpal",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-norsk-senter-for-paleontologi-norpal"
     },
     {
       "name": "Områdestudier",
@@ -14335,8 +14026,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-områdestudier",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-områdestudier"
     },
     {
       "name": "Operatoralgebraer",
@@ -14344,17 +14034,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-operatoralgebraer",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Oslo Political Theory (OPT)",
-      "url": "https://www.sv.uio.no/isv/forskning/grupper/oslo-political-theory/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-oslo-political-theory-opt",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-operatoralgebraer"
     },
     {
       "name": "Partielle differensiallikninger",
@@ -14362,8 +14042,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-partielle-differensiallikninger",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-partielle-differensiallikninger"
     },
     {
       "name": "Personalized Dosage Form Design (PersDrug)",
@@ -14371,8 +14050,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-personalized-dosage-form-design-persdrug",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-personalized-dosage-form-design-persdrug"
     },
     {
       "name": "PharmacoEpidemiology and Drug Safety (PharmaSafe)",
@@ -14380,8 +14058,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-pharmacoepidemiology-and-drug-safety-pharmasafe",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-pharmacoepidemiology-and-drug-safety-pharmasafe"
     },
     {
       "name": "Plante- og soppsystematikk (ISOP)",
@@ -14389,8 +14066,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-plante-og-soppsystematikk-isop",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-plante-og-soppsystematikk-isop"
     },
     {
       "name": "Plasma- og romfysikk",
@@ -14398,8 +14074,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-plasma-og-romfysikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-plasma-og-romfysikk"
     },
     {
       "name": "Politisk kultur i Sør-Asia",
@@ -14407,8 +14082,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-politisk-kultur-i-sør-asia",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-politisk-kultur-i-sør-asia"
     },
     {
       "name": "Pragmatikk: Teori og eksperimenter",
@@ -14416,8 +14090,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-pragmatikk-teori-og-eksperimenter",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-pragmatikk-teori-og-eksperimenter"
     },
     {
       "name": "Programmeringsteknologi  (PT)",
@@ -14425,8 +14098,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-programmeringsteknologi-pt",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-programmeringsteknologi-pt"
     },
     {
       "name": "Psykososiale vansker (BESD)",
@@ -14434,8 +14106,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-psykososiale-vansker-besd",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-psykososiale-vansker-besd"
     },
     {
       "name": "Pålitelige systemer  (PSY)",
@@ -14443,8 +14114,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-pålitelige-systemer-psy",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-pålitelige-systemer-psy"
     },
     {
       "name": "RSS-strøm fra denne siden",
@@ -14452,8 +14122,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-rss-strøm-fra-denne-siden",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-rss-strøm-fra-denne-siden"
     },
     {
       "name": "Religiøse festivaler i Asia: Makt, ambisjoner og lek",
@@ -14461,8 +14130,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-religiøse-festivaler-i-asia-makt-ambisjoner-og-lek",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-religiøse-festivaler-i-asia-makt-ambisjoner-og-lek"
     },
     {
       "name": "Risiko og stokastikk",
@@ -14470,8 +14138,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-risiko-og-stokastikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-risiko-og-stokastikk"
     },
     {
       "name": "Ritualer, økologi, affekt og performativitet (REAP)",
@@ -14479,8 +14146,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-ritualer-økologi-affekt-og-performativitet-reap",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-ritualer-økologi-affekt-og-performativitet-reap"
     },
     {
       "name": "Robotikk og intelligente systemer (ROBIN)",
@@ -14488,8 +14154,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-robotikk-og-intelligente-systemer-robin",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-robotikk-og-intelligente-systemer-robin"
     },
     {
       "name": "Romanen og eposet fra antikken til nåtiden (NEAM)",
@@ -14497,8 +14162,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-romanen-og-eposet-fra-antikken-til-nåtiden-neam",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-romanen-og-eposet-fra-antikken-til-nåtiden-neam"
     },
     {
       "name": "Rurale fremtider",
@@ -14506,8 +14170,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-rurale-fremtider",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-rurale-fremtider"
     },
     {
       "name": "SamplePrep@UiO",
@@ -14515,8 +14178,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-sampleprep-uio",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-sampleprep-uio"
     },
     {
       "name": "Samtaleanalyse og interaksjonell lingvistikk",
@@ -14524,8 +14186,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-samtaleanalyse-og-interaksjonell-lingvistikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-samtaleanalyse-og-interaksjonell-lingvistikk"
     },
     {
       "name": "Seksjon for fysikkdidaktikk – \"Skolelaboratoriet\"",
@@ -14533,8 +14194,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-seksjon-for-fysikkdidaktikk-skolelaboratoriet",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-seksjon-for-fysikkdidaktikk-skolelaboratoriet"
     },
     {
       "name": "Seksjon for kjemididaktikk",
@@ -14542,8 +14202,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-seksjon-for-kjemididaktikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-seksjon-for-kjemididaktikk"
     },
     {
       "name": "Selskapet for antikkens filosofi",
@@ -14551,8 +14210,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-selskapet-for-antikkens-filosofi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-selskapet-for-antikkens-filosofi"
     },
     {
       "name": "Senter for immunregulering (CIR) - SFF",
@@ -14560,8 +14218,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-senter-for-immunregulering-cir-sff",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-senter-for-immunregulering-cir-sff"
     },
     {
       "name": "Senter for innovative naturgassprosessar og –produkt (inGAP) - SFI",
@@ -14569,8 +14226,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-senter-for-innovative-naturgassprosessar-og-produkt-ingap-sfi",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-senter-for-innovative-naturgassprosessar-og-produkt-ingap-sfi"
     },
     {
       "name": "Skandinavisk nettverk for religionsvitenskapelig forskning",
@@ -14578,8 +14234,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-skandinavisk-nettverk-for-religionsvitenskapelig-forskning",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-skandinavisk-nettverk-for-religionsvitenskapelig-forskning"
     },
     {
       "name": "Speech, Hearing and Language Research Group (SHL)",
@@ -14587,8 +14242,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-speech-hearing-and-language-research-group-shl",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-speech-hearing-and-language-research-group-shl"
     },
     {
       "name": "Språk og didaktikk i en andrespråkskontekst (SODA)",
@@ -14596,8 +14250,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-språk-og-didaktikk-i-en-andrespråkskontekst-soda",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-språk-og-didaktikk-i-en-andrespråkskontekst-soda"
     },
     {
       "name": "Språk og kognisjon",
@@ -14605,8 +14258,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-språk-og-kognisjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-språk-og-kognisjon"
     },
     {
       "name": "Språkendring",
@@ -14614,8 +14266,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-språkendring",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-språkendring"
     },
     {
       "name": "Språklig variasjon",
@@ -14623,8 +14274,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-språklig-variasjon",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-språklig-variasjon"
     },
     {
       "name": "Språkskifte, språkdokumentasjon og revitalisering",
@@ -14632,8 +14282,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-språkskifte-språkdokumentasjon-og-revitalisering",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-språkskifte-språkdokumentasjon-og-revitalisering"
     },
     {
       "name": "Standardisering i middelalderen",
@@ -14641,8 +14290,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-standardisering-i-middelalderen",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-standardisering-i-middelalderen"
     },
     {
       "name": "Studies of Instruction across Subjects and Competences (SISCO)",
@@ -14650,8 +14298,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-studies-of-instruction-across-subjects-and-competences-sisco",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-studies-of-instruction-across-subjects-and-competences-sisco"
     },
     {
       "name": "Styresett for bærekraftig utvikling",
@@ -14659,8 +14306,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-styresett-for-bærekraftig-utvikling",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-styresett-for-bærekraftig-utvikling"
     },
     {
       "name": "Støtte og styrke utviklingen av grunnleggende ferdigheter (SEEDS)",
@@ -14668,8 +14314,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-støtte-og-styrke-utviklingen-av-grunnleggende-ferdigheter-seeds",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-støtte-og-styrke-utviklingen-av-grunnleggende-ferdigheter-seeds"
     },
     {
       "name": "Superlingvistikk",
@@ -14677,8 +14322,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-superlingvistikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-superlingvistikk"
     },
     {
       "name": "Teachers’ Professional Development and Educational Change (TEPEC)",
@@ -14686,8 +14330,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-teachers-professional-development-and-educational-change-tepec",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-teachers-professional-development-and-educational-change-tepec"
     },
     {
       "name": "Tekst og retorikk",
@@ -14695,8 +14338,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-tekst-og-retorikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-tekst-og-retorikk"
     },
     {
       "name": "Temporaliteter i middelalderen (Translatio)",
@@ -14704,8 +14346,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-temporaliteter-i-middelalderen-translatio",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-temporaliteter-i-middelalderen-translatio"
     },
     {
       "name": "The Ibero-American Research Hub (IberoARH)",
@@ -14713,8 +14354,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-the-ibero-american-research-hub-iberoarh",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-the-ibero-american-research-hub-iberoarh"
     },
     {
       "name": "Tidseksperimenter: Litterære, estetiske og sosiale forsøk på å tenke og leve tid",
@@ -14722,8 +14362,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-tidseksperimenter-litterære-estetiske-og-sosiale-forsøk-på-å-tenke-og-leve-tid",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-tidseksperimenter-litterære-estetiske-og-sosiale-forsøk-på-å-tenke-og-leve-tid"
     },
     {
       "name": "Utvikling, likeverd og literacy i læringskontekster (DEAL)",
@@ -14731,8 +14370,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-utvikling-likeverd-og-literacy-i-læringskontekster-deal",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-utvikling-likeverd-og-literacy-i-læringskontekster-deal"
     },
     {
       "name": "Vennskapets estetikk",
@@ -14740,8 +14378,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-vennskapets-estetikk",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-vennskapets-estetikk"
     },
     {
       "name": "Visuelle studier",
@@ -14749,8 +14386,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-visuelle-studier",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-visuelle-studier"
     },
     {
       "name": "Vold",
@@ -14758,8 +14394,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-vold",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-vold"
     },
     {
       "name": "forskningsgruppe (CMB&CO)",
@@ -14767,8 +14402,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskningsgruppe-cmb-co",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-forskningsgruppe-cmb-co"
     },
     {
       "name": "Økokritisk litteratur- og kulturvitenskap (EcoLit)",
@@ -14776,8 +14410,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-økokritisk-litteratur-og-kulturvitenskap-ecolit",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-økokritisk-litteratur-og-kulturvitenskap-ecolit"
     },
     {
       "name": "Økologier av nevromangfold (EcoNeuro)",
@@ -14785,8 +14418,7 @@
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-økologier-av-nevromangfold-econeuro",
-      "lastCrawled": "2026-02-27"
+      "id": "uio-økologier-av-nevromangfold-econeuro"
     },
     {
       "name": "Civil and Structural Engineering research group",
@@ -15722,606 +15354,6 @@
       "institutionId": "251.0.0.0",
       "description": "Forskningsgruppe ved VID vitenskapelige høgskole",
       "id": "vidviten-pathways",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Naturfagsenteret",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.naturfagsenteret.no/",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:21.176926+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt senter for stamcelleforskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.med.uio.no/imb/forskning/sentre/norsk-stamcellesenter/",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:21.176953+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Oslo senter for biostatistikk og epidemiologi (OCBE)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.med.uio.no/imb/forskning/sentre/oslo-senter-for-biostatistikk-og-epidemiologi/",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:21.176966+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Akademisk skrivesenter",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.ub.uio.no/bibliotekene/skrivesenter/",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:21.176975+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for studier av Holocaust og livssynsminoriteter (HL-senteret)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.hlsenteret.no/",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:21.176986+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for global bærekraft",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_targeted_md",
-      "discovered": "2026-02-23T20:00:21.178208+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "IT-senteret",
-      "institution": "Høgskolen i Molde",
-      "url": "https://www.himolde.no/om/organisasjon/administrasjonen/it-senteret/index.html",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:24.008937+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Samhandling med sårbare grupper i et fenomenologisk perspektiv",
-      "institution": "Høgskolen i Molde",
-      "url": "https://www.himolde.no/forskning/grupper/%E2%80%8Bsamhandling-med-sarbare-grupper-i-et-fenomenologi/index.html",
-      "source": "firecrawl_targeted_html",
-      "discovered": "2026-02-23T20:00:42.111265+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen humanistiske fag",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588012+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Alle forskergrupper innen jus",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588047+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen matematisk-naturvitenskapelige fag",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588068+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen medisin",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588083+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen samfunnsvitenskapelige fag",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588099+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen utdanningsvitenskap",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588114+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskningsgrupper innen Odontologi",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588127+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper innen teologi",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588140+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper fra Naturhistorisk museum",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588171+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Flere forskergrupper fra Senter for utvikling og miljø",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/forskning/grupper/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:24.588197+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for Ibsen-studier",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330704+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for tverrfaglig forskning på rytme, tid og bevegelse (RITMO)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330749+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for menneskerettigheter",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330768+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for kunnskapsdrevet maskinlæring (INTEGREAT)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330796+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for tverrfaglig utdanning (INTED)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330813+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for planetær beboelighet",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330834+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for biogeokjemi i antropocen (CBA)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330850+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for romsensorer og -systemer (CENSSS)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330866+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Rosseland senter for solfysikk (RoCS)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330880+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for bioinformatikk (SBI)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330894+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for materialvitenskap og nanoteknologi (SMN)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330910+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for skalerbar datatilgang i olje- og gassindustrien (SIRIUS)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330927+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Kompetansesenter for undervisning i realfag og teknologi (KURT)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330944+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "dScience – Senter for data- og beregningsvitenskap",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330975+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for cøliakiforskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.330997+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for PSC (NoPSC)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331012+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for bærekraft i helseutdanningene (SHE)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331037+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for biohybridteknologi (HTH)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331053+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for kreftcelle-reprogrammering (CanCell)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331069+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for embryologi (CRESCO)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331082+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for presisjons-immunterapi (PRIMA)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331096+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for presisjonspsykiatri",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331109+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt senter for selvmordsforskning og -forebygging (NSSF)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331126+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for molekylær biovitenskap og medisin (NCMBM)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331168+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for global helse",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331189+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for rus- og avhengighetsforskning (SERAF)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331205+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for pandemi- og én-helse-forskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331228+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "K.G. Jebsen-senter for B-cellekreft",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331243+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "K.G. Jebsen-senter for hjertemarkører",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331264+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "K.G. Jebsen-senter for utviklingsforstyrrelser",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331280+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "K.G. Jebsen-senter for hjernevæskeforskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331307+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "ARENA – senter for europaforskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331332+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "TIK Senter for teknologi, innovasjon og kultur",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331349+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for studier av likhet, sosial organisering og økonomisk utvikling (ESOP)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331382+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "CREATE - Senter for forskning på likhet i utdanning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331412+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for spesialpedagogisk forskning og inkludering (SpedAims)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331431+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for digital forskerstøtte (DSC)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331459+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "LINK - Senter for læring og utdanning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331482+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for tverrfaglig kjønnsforskning (STK)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331506+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt kunnskapssenter om vold og traumatisk stress AS (NKVTS)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331524+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt utviklingssenter for barn og unge (NUBU)",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331546+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "CICERO Senter for klimaforskning",
-      "institution": "Universitetet i Oslo",
-      "url": "https://www.uio.no/om/organisasjon/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:32.331561+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for framifrå forsking (SFF)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421086+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for forskningsdriven innovasjon (SFI)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421125+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Forskingssenter for miljøvennleg energi (FME)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421159+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "CCIS – Center for Cyber and Information Security",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421198+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Green2050 - Senter for grønt skifte i bygget miljø",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421233+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Norsk senter for hodepineforsking – NorHead",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421268+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "NorwAI Norwegian Research Center for AI Innovation",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421291+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for digitalt liv Norge (DLN)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421310+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for eiendomsutvikling og -forvaltning (Metamorfose)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421331+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt kompetansesenter for psykisk helsearbeid (NAPHA)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421351+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Regionalt kunnskapssenter for barn og unges psykiske helse og barnevern (RKBU)",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421420+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Senter for omsorgsforsking",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421441+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Matematikksenteret – nasjonalt senter for matematikk i opplæringa",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421483+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Nasjonalt senter for realfagsrekruttering",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421505+00:00",
-      "lastCrawled": "2026-02-27"
-    },
-    {
-      "name": "Skrivesenteret – nasjonalt senter for skriveopplæring og skriveforsking",
-      "institution": "NTNU",
-      "url": "https://www.ntnu.no/forskning/sentre/",
-      "source": "firecrawl_institution_search",
-      "discovered": "2026-02-23T20:04:40.421561+00:00",
       "lastCrawled": "2026-02-27"
     }
   ]
