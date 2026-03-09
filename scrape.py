@@ -926,10 +926,10 @@ def main():
     
     # 1b. Forskningsinstitutter
     for key, config in INSTITUTES.items():
-        print(f"\nScraping {config[name]}...")
+        print(f"\nScraping {config['name']}...")
         groups = scrape_standard_institution(config)
         print(f"  Found {len(groups)} groups")
-        existing = [g for g in old_data[groups] if g[institution] == config[name]]
+        existing = [g for g in old_data['groups'] if g['institution'] == config['name']]
         if groups and len(groups) >= len(existing) * 0.5:
             all_groups.extend(groups)
         else:
@@ -1035,8 +1035,8 @@ def main():
     print(f"Added: {len(added)}")
     if added:
         for gid in sorted(added):
-            g = next(x for x in all_groups if x['id'] == gid)
-            print(f"  + {g['name']} ({g['institution']})")
+            g = next((x for x in all_groups if _gid(x) == gid), None)
+            if g: print(f"  + {g['name']} ({g['institution']})")
     print(f"Removed: {len(removed)}")
     if removed:
         for gid in sorted(removed):
