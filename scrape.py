@@ -700,7 +700,8 @@ def scrape_uib():
 
 
 def scrape_uit():
-    """UiT - research groups listing."""
+    """UiT - research groups from main listing page.
+    Groups link to uit.no/go/target/NNNN or site.uit.no."""
     url = "https://uit.no/forskning/forskningsgrupper"
     html = fetch(url)
     if not html:
@@ -711,30 +712,50 @@ def scrape_uit():
     parser = LinkExtractor()
     parser.feed(html)
     
+    # Navigation/footer link texts to skip
+    skip_texts = {
+        'logg inn', 'english', 'norsk', 'søk', 'meny', 'kontakt',
+        'startside', 'driftsmeldinger', 'informasjonskapsler',
+        'personvernpolicy', 'beredskap', 'si ifra', 'topdesk',
+        'orakelet', 'it brukerstøtte', 'it-brukerstøtte',
+        'kvalitetssystem', 'personalhåndbok', 'velkommen som',
+        'rekruttering', 'kommunikasjon', 'økonomi og innkjøp',
+        'møter og referater', 'hms', 'hr-portalen',
+    }
+    
     for href, text in parser.links:
         text = text.strip()
-        if len(text) < 3 or len(text) > 300:
+        if len(text) < 5 or len(text) > 200:
             continue
-        # UiT research group links
-        if re.search(r'forskning/forskningsgrupper|research.*group', href, re.IGNORECASE):
-            if href.rstrip('/') == url.rstrip('/'):
-                continue
-            if not href.startswith('http'):
-                href = "https://uit.no" + href
-            if href not in seen:
-                seen.add(href)
-                groups.append({
-                    "name": text,
-                    "url": href,
-                    "institution": "UiT Norges arktiske universitet",
-                    "institutionId": "186.0.0.0",
-                    "description": "Forskningsgruppe ved UiT",
-                    "id": slugify("UiT Norges arktiske universitet", text),
-                    "category": "uho"
-                })
+        
+        # Only keep links to uit.no/go/target/ or site.uit.no
+        is_group = False
+        if 'uit.no/go/target/' in href:
+            is_group = True
+        elif 'site.uit.no/' in href:
+            is_group = True
+        
+        if not is_group:
+            continue
+        
+        # Skip nav links
+        text_lower = text.lower()
+        if any(skip in text_lower for skip in skip_texts):
+            continue
+        
+        if text not in seen:
+            seen.add(text)
+            groups.append({
+                "name": text,
+                "url": href if href.startswith('http') else "https://uit.no" + href,
+                "institution": "UiT Norges arktiske universitet",
+                "institutionId": "186.0.0.0",
+                "description": "Forskningsgruppe ved UiT",
+                "id": slugify("UiT Norges arktiske universitet", text),
+                "category": "uho"
+            })
     
     return groups
-
 
 def scrape_ntnu_groups():
     """NTNU - research groups from multiple pages.
