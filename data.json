@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15",
+  "lastUpdated": "2026-04-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -3017,6 +3017,15 @@
       "category": "uho"
     },
     {
+      "name": "På hestens vegne: Ytringsatferd for dyrevelferd i ryttersport",
+      "url": "https://www.kristiania.no/forskning/forskningsgrupper/pa-hestens-vegne-ytringsatferd-for-dyrevelferd-i-ryttersport/",
+      "institution": "Høyskolen Kristiania",
+      "institutionId": "247.0.0.0",
+      "description": "Forskningsgruppe ved Høyskolen Kristiania",
+      "id": "kristiania-på-hestens-vegne-ytringsatferd-for-dyrevelferd-i-ryttersport",
+      "category": "uho"
+    },
+    {
       "name": "RAMPP – Research in Applied Music Production Practices",
       "url": "https://www.kristiania.no/forskning/forskningsgrupper/rampp/",
       "institution": "Høyskolen Kristiania",
@@ -3293,12 +3302,21 @@
       "category": "uho"
     },
     {
-      "name": "MF-professor med standardverk om tidligkristen kunst",
-      "url": "https://www.mf.no/forskning/mf-professor-med-standardverk-om-tidligkristen-kunst",
+      "name": "'From the River to the Sea'. Religion og politikk i Midtøsten før og nå",
+      "url": "https://www.mf.no/forskning/river-sea-religion-og-politikk-i-midtosten-og-na",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-mf-professor-med-standardverk-om-tidligkristen-kunst",
+      "id": "mf-from-the-river-to-the-sea-religion-og-politikk-i-midtøsten-før-og-nå",
+      "category": "uho"
+    },
+    {
+      "name": "Hva gjør engasjement virkelig meningsfullt?",
+      "url": "https://www.mf.no/eksistensiell-psykologi/forskning/hva-gjor-engasjement-virkelig-meningsfullt",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-hva-gjør-engasjement-virkelig-meningsfullt",
       "category": "uho"
     },
     {
@@ -3317,15 +3335,6 @@
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
       "id": "mf-vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden",
-      "category": "uho"
-    },
-    {
-      "name": "Vil finne nye løsninger for barn og unge som står utenfor skolen",
-      "url": "https://www.mf.no/forskning/vil-finne-nye-losninger-barn-og-unge-som-star-utenfor-skolen",
-      "institution": "MF vitenskapelig høyskole",
-      "institutionId": "170.0.0.0",
-      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-vil-finne-nye-løsninger-for-barn-og-unge-som-står-utenfor-skolen",
       "category": "uho"
     },
     {
@@ -7718,21 +7727,21 @@
       "category": "uho"
     },
     {
-      "name": "European Security",
-      "url": "https://www.prio.org/research/topics/european-security",
-      "institution": "PRIO",
-      "institutionId": "7444.0.0.0",
-      "description": "Forskningsgruppe ved PRIO",
-      "id": "prio-european-security",
-      "category": "forskningsinstitutt"
-    },
-    {
       "name": "Funders",
       "url": "https://www.prio.org/research/funders",
       "institution": "PRIO",
       "institutionId": "7444.0.0.0",
       "description": "Forskningsgruppe ved PRIO",
       "id": "prio-funders",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Gaza War",
+      "url": "https://www.prio.org/research/topics/gaza-war",
+      "institution": "PRIO",
+      "institutionId": "7444.0.0.0",
+      "description": "Forskningsgruppe ved PRIO",
+      "id": "prio-gaza-war",
       "category": "forskningsinstitutt"
     },
     {
@@ -7745,12 +7754,12 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Israel-Palestine Crisis",
-      "url": "https://www.prio.org/research/topics/israel-palestine-crisis",
+      "name": "Iran War",
+      "url": "https://www.prio.org/research/topics/iran-war",
       "institution": "PRIO",
       "institutionId": "7444.0.0.0",
       "description": "Forskningsgruppe ved PRIO",
-      "id": "prio-israel-palestine-crisis",
+      "id": "prio-iran-war",
       "category": "forskningsinstitutt"
     },
     {
@@ -16567,6 +16576,15 @@
       "category": "uho"
     },
     {
+      "name": "Huntingtons sykdom og nevrodegenerativ genomikk",
+      "url": "https://www.med.uio.no/klinmed/forskning/grupper/huntingtons-sykdom-nevrodegenerativ-genomikk/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-huntingtons-sykdom-og-nevrodegenerativ-genomikk",
+      "category": "uho"
+    },
+    {
       "name": "Hverdagens politikk og estetikk i Midtøsten og Nord-Afrika (YALLA)",
       "url": "https://www.hf.uio.no/ikos/forskning/grupper/yalla-hverdagens-politikk-og-estetikk-i-midtosten-/index.html",
       "institution": "Universitetet i Oslo",
@@ -16591,15 +16609,6 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-hylleraas-senteret",
-      "category": "uho"
-    },
-    {
-      "name": "Høydimensjonal statistikk",
-      "url": "https://www.med.uio.no/imb/forskning/grupper/hoydimensjonal-statistikk/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høydimensjonal-statistikk",
       "category": "uho"
     },
     {
