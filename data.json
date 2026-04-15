@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01",
+  "lastUpdated": "2026-04-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -502,21 +502,21 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Område for klima og miljø",
+      "name": "Område for miljø og helse",
       "url": "https://www.fhi.no/om/fhi/omrader/omrade-for-klima-og-miljo2/",
       "institution": "Folkehelseinstituttet",
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-område-for-klima-og-miljø",
+      "id": "fhi-område-for-miljø-og-helse",
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Område for klima og miljø - ledelse og stab",
-      "url": "https://www.fhi.no/om/organisasjon/omrade-for-klima-og-miljo---ledelse-og-stab/",
+      "name": "Område for miljø og helse - ledelse og stab",
+      "url": "https://www.fhi.no/om/organisasjon/omrade-for-miljo-og-helse-ledelse-og-stab/",
       "institution": "Folkehelseinstituttet",
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-område-for-klima-og-miljø-ledelse-og-stab",
+      "id": "fhi-område-for-miljø-og-helse-ledelse-og-stab",
       "category": "forskningsinstitutt"
     },
     {
@@ -7727,6 +7727,15 @@
       "category": "uho"
     },
     {
+      "name": "European Security",
+      "url": "https://www.prio.org/research/topics/european-security",
+      "institution": "PRIO",
+      "institutionId": "7444.0.0.0",
+      "description": "Forskningsgruppe ved PRIO",
+      "id": "prio-european-security",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Funders",
       "url": "https://www.prio.org/research/funders",
       "institution": "PRIO",
@@ -7778,15 +7787,6 @@
       "institutionId": "7444.0.0.0",
       "description": "Forskningsgruppe ved PRIO",
       "id": "prio-migration",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Security",
-      "url": "https://www.prio.org/research/topics/security",
-      "institution": "PRIO",
-      "institutionId": "7444.0.0.0",
-      "description": "Forskningsgruppe ved PRIO",
-      "id": "prio-security",
       "category": "forskningsinstitutt"
     },
     {
@@ -10058,6 +10058,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-microorganisms-and-plants",
+      "category": "uho"
+    },
+    {
+      "name": "MigraNord",
+      "url": "https://uit.no/go/target/925626/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-migranord",
       "category": "uho"
     },
     {
