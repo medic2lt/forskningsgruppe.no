@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-05-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -1924,15 +1924,6 @@
       "category": "uho"
     },
     {
-      "name": "Barn, barndom og hverdagsliv",
-      "url": "https://www.himolde.no/forskning/grupper/samhandling-barn-og-unge/",
-      "institution": "Høgskolen i Molde",
-      "institutionId": "211.0.0.0",
-      "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-barn-barndom-og-hverdagsliv",
-      "category": "uho"
-    },
-    {
       "name": "Bærekraftig byutvikling og mobilitet",
       "url": "https://www.himolde.no/forskning/grupper/berekraftig-byutvikling-og-mobilitet/",
       "institution": "Høgskolen i Molde",
@@ -2114,7 +2105,7 @@
     },
     {
       "name": "Samhandling om barn og unge (SamBU)",
-      "url": "https://www.himolde.no/forskning/grupper/samhandling-barn-og-unge/index.html",
+      "url": "https://www.himolde.no/forskning/grupper/samhandling-barn-og-unge/",
       "institution": "Høgskolen i Molde",
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
@@ -3311,6 +3302,15 @@
       "category": "uho"
     },
     {
+      "name": "En oversett del av Europas idéhistorie",
+      "url": "https://www.mf.no/forskning/en-oversett-del-av-europas-idehistorie",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-en-oversett-del-av-europas-id-historie",
+      "category": "uho"
+    },
+    {
       "name": "Hva gjør engasjement virkelig meningsfullt?",
       "url": "https://www.mf.no/eksistensiell-psykologi/forskning/hva-gjor-engasjement-virkelig-meningsfullt",
       "institution": "MF vitenskapelig høyskole",
@@ -3320,21 +3320,12 @@
       "category": "uho"
     },
     {
-      "name": "PERSIAS utforsker jødiske forestillinger om Persia i antikken",
-      "url": "https://www.mf.no/forskning/persias-utforsker-jodiske-forestillinger-om-persia-i-antikken",
+      "name": "På jakt etter kirkens glemte bokskatter",
+      "url": "https://www.mf.no/forskning/pa-jakt-etter-kirkens-glemte-bokskatter",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-persias-utforsker-jødiske-forestillinger-om-persia-i-antikken",
-      "category": "uho"
-    },
-    {
-      "name": "Vidunderlige verden? Ny bok om etikk og filosofi i KI-tiden",
-      "url": "https://www.mf.no/forskning/vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden",
-      "institution": "MF vitenskapelig høyskole",
-      "institutionId": "170.0.0.0",
-      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-vidunderlige-verden-ny-bok-om-etikk-og-filosofi-i-ki-tiden",
+      "id": "mf-på-jakt-etter-kirkens-glemte-bokskatter",
       "category": "uho"
     },
     {
@@ -3392,21 +3383,21 @@
       "category": "forskningsinstitutt"
     },
     {
+      "name": "Forurensninger og miljøteknologi",
+      "url": "https://www.niva.no/seksjoner/Forurensninger-og-miljoteknologi",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-forurensninger-og-miljøteknologi",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Mikroalger   Seksjonen bygger bro mellom grunnleggende kunnskap og teknologi, industri, interessenter og forbrukere.",
       "url": "https://www.niva.no/seksjoner/mikroalger",
       "institution": "NIVA",
       "institutionId": "7485.0.0.0",
       "description": "Forskningsgruppe ved NIVA",
       "id": "niva-mikroalger-seksjonen-bygger-bro-mellom-grunnleggende-kunnskap-og-teknologi-industri-interessenter-og-forbrukere",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Miljøgifter   NIVA har et bredt sammensatt forskermiljø som utvikler ny kunnskap om forurensning.",
-      "url": "https://www.niva.no/seksjoner/miljogifter",
-      "institution": "NIVA",
-      "institutionId": "7485.0.0.0",
-      "description": "Forskningsgruppe ved NIVA",
-      "id": "niva-miljøgifter-niva-har-et-bredt-sammensatt-forskermiljø-som-utvikler-ny-kunnskap-om-forurensning",
       "category": "forskningsinstitutt"
     },
     {
@@ -3425,15 +3416,6 @@
       "institutionId": "7485.0.0.0",
       "description": "Forskningsgruppe ved NIVA",
       "id": "niva-oseanografi-seksjonen-bruker-metoder-for-observasjon-eksperimentering-og-modellering-for-å-fremme-vår-forståelse-av-fysiske-kjemiske-biologiske-og-biogeokjemiske-prosesser-og-tjenester-i-det-marine-miljøet",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Preanalyser   Seksjonen mottar og håndterer ca. 15 000 prøver/år som er delleveranser i overvåkingsprosjekter, forskningsprosjekter og andre oppdrag som ledes av forskere ved NIVA.",
-      "url": "https://www.niva.no/seksjoner/preanalyser",
-      "institution": "NIVA",
-      "institutionId": "7485.0.0.0",
-      "description": "Forskningsgruppe ved NIVA",
-      "id": "niva-preanalyser-seksjonen-mottar-og-håndterer-ca-15-000-prøver-år-som-er-delleveranser-i-overvåkingsprosjekter-forskningsprosjekter-og-andre-oppdrag-som-ledes-av-forskere-ved-niva",
       "category": "forskningsinstitutt"
     },
     {
@@ -15973,15 +15955,6 @@
       "category": "uho"
     },
     {
-      "name": "Farmakoterapi - komparative effekter og nye targets",
-      "url": "https://www.med.uio.no/klinmed/forskning/grupper/farmakoterapi-komparative-effekter-og-nye-targets/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-farmakoterapi-komparative-effekter-og-nye-targets",
-      "category": "uho"
-    },
-    {
       "name": "Farmasøytisk analytisk kjemi",
       "url": "https://www.mn.uio.no/farmasi/forskning/grupper/farmasoytisk-analytisk-kjemi/index.html",
       "institution": "Universitetet i Oslo",
@@ -16618,6 +16591,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-hylleraas-senteret",
+      "category": "uho"
+    },
+    {
+      "name": "Høydimensjonal statistikk",
+      "url": "https://www.med.uio.no/imb/forskning/grupper/hoydimensjonal-statistikk/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-høydimensjonal-statistikk",
       "category": "uho"
     },
     {
