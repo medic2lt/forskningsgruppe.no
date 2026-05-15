@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -1924,6 +1924,24 @@
       "category": "uho"
     },
     {
+      "name": "Avansert klinisk allmennsykepleie",
+      "url": "https://www.himolde.no/forskning/grupper/avansert-klinisk-allmensykepleie-/index.html",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-avansert-klinisk-allmennsykepleie",
+      "category": "uho"
+    },
+    {
+      "name": "Avansert klinisk allmensykepleie",
+      "url": "https://www.himolde.no/forskning/grupper/avansert-klinisk-allmensykepleie-/",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-avansert-klinisk-allmensykepleie",
+      "category": "uho"
+    },
+    {
       "name": "Bærekraftig byutvikling og mobilitet",
       "url": "https://www.himolde.no/forskning/grupper/berekraftig-byutvikling-og-mobilitet/",
       "institution": "Høgskolen i Molde",
@@ -2029,15 +2047,6 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-marketing-innovation-international-business-strategy-miibs",
-      "category": "uho"
-    },
-    {
-      "name": "Neste side",
-      "url": "https://www.himolde.no/forskning/grupper/?page=2&u-page=2",
-      "institution": "Høgskolen i Molde",
-      "institutionId": "211.0.0.0",
-      "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-neste-side",
       "category": "uho"
     },
     {
@@ -9962,15 +9971,6 @@
       "category": "uho"
     },
     {
-      "name": "Materials Science",
-      "url": "https://uit.no/go/target/602612/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-materials-science",
-      "category": "uho"
-    },
-    {
       "name": "Medical Humanities",
       "url": "https://uit.no/go/target/816195/",
       "institution": "UiT Norges arktiske universitet",
@@ -15469,12 +15469,12 @@
       "category": "uho"
     },
     {
-      "name": "Cerebrovaskulære sykdommer",
+      "name": "Cerebrovaskulær forskningsgruppe, OUS Rikshospitalet",
       "url": "https://www.med.uio.no/klinmed/forskning/grupper/cerebrovaskulare-sykdommer/index.html",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-cerebrovaskulære-sykdommer",
+      "id": "uio-cerebrovaskulær-forskningsgruppe-ous-rikshospitalet",
       "category": "uho"
     },
     {
