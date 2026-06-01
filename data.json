@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-06-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -2155,15 +2155,6 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-supply-chain-management",
-      "category": "uho"
-    },
-    {
-      "name": "Sykepleie",
-      "url": "https://www.himolde.no/forskning/grupper/sykepleie/index.html",
-      "institution": "Høgskolen i Molde",
-      "institutionId": "211.0.0.0",
-      "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-sykepleie",
       "category": "uho"
     },
     {
@@ -8969,6 +8960,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-electromechanical-systems",
+      "category": "uho"
+    },
+    {
+      "name": "Emotion, Exposure, and High‑Risk Decision‑Making",
+      "url": "https://uit.no/go/target/924302/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-emotion-exposure-and-high-risk-decision-making",
       "category": "uho"
     },
     {
