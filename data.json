@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -8108,12 +8108,12 @@
       "category": "uho"
     },
     {
-      "name": "Allmennmedisinsk forskningsgruppe",
+      "name": "Allmennmedisinsk forskningsgruppe OBS UNDER OPPDATERING",
       "url": "https://uit.no/go/target/340646/",
       "institution": "UiT Norges arktiske universitet",
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
-      "id": "uit-allmennmedisinsk-forskningsgruppe",
+      "id": "uit-allmennmedisinsk-forskningsgruppe-obs-under-oppdatering",
       "category": "uho"
     },
     {
@@ -15325,15 +15325,6 @@
       "category": "uho"
     },
     {
-      "name": "Bokhistorie",
-      "url": "https://www.hf.uio.no/ilos/forskning/grupper/bokhistorie/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-bokhistorie",
-      "category": "uho"
-    },
-    {
       "name": "Bokhistorie og resepsjon",
       "url": "https://www.hf.uio.no/iln/forskning/grupper/tekstutgivelse/index.html",
       "institution": "Universitetet i Oslo",
@@ -16009,15 +16000,6 @@
       "category": "uho"
     },
     {
-      "name": "Flerspråklighet og flerkulturelle forhold i Sentraleuropa og på Balkan",
-      "url": "https://www.hf.uio.no/ilos/forskning/grupper/flerspraaklighet-og-flerkulturalitet-i-sentraleuropa/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-flerspråklighet-og-flerkulturelle-forhold-i-sentraleuropa-og-på-balkan",
-      "category": "uho"
-    },
-    {
       "name": "Fonologi",
       "url": "https://www.hf.uio.no/iln/forskning/grupper/fonologi/index.html",
       "institution": "Universitetet i Oslo",
@@ -16051,6 +16033,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-forskergruppe-barn-og-ungdom-i-id-historisk-perspektiv",
+      "category": "uho"
+    },
+    {
+      "name": "Forskergruppen for evidens, atferd og teknologi (U-BET)",
+      "url": "https://www.med.uio.no/imb/forskning/grupper/u-bet/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-forskergruppen-for-evidens-atferd-og-teknologi-u-bet",
       "category": "uho"
     },
     {
@@ -16594,21 +16585,12 @@
       "category": "uho"
     },
     {
-      "name": "Høydimensjonal statistikk",
-      "url": "https://www.med.uio.no/imb/forskning/grupper/hoydimensjonal-statistikk/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høydimensjonal-statistikk",
-      "category": "uho"
-    },
-    {
-      "name": "Høyenergifysikk (HEP)",
+      "name": "Høyenergifysikk (CERN+) (HEP)",
       "url": "https://www.mn.uio.no/fysikk/forskning/grupper/hep/index.html",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-høyenergifysikk-hep",
+      "id": "uio-høyenergifysikk-cern-hep",
       "category": "uho"
     },
     {
