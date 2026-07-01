@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-07-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -3293,15 +3293,6 @@
       "category": "uho"
     },
     {
-      "name": "'From the River to the Sea'. Religion og politikk i Midtøsten før og nå",
-      "url": "https://www.mf.no/forskning/river-sea-religion-og-politikk-i-midtosten-og-na",
-      "institution": "MF vitenskapelig høyskole",
-      "institutionId": "170.0.0.0",
-      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-from-the-river-to-the-sea-religion-og-politikk-i-midtøsten-før-og-nå",
-      "category": "uho"
-    },
-    {
       "name": "En oversett del av Europas idéhistorie",
       "url": "https://www.mf.no/forskning/en-oversett-del-av-europas-idehistorie",
       "institution": "MF vitenskapelig høyskole",
@@ -3317,6 +3308,15 @@
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
       "id": "mf-hva-gjør-engasjement-virkelig-meningsfullt",
+      "category": "uho"
+    },
+    {
+      "name": "Når minnene svikter – hvem er vi da?",
+      "url": "https://www.mf.no/forskning/nar-minnene-svikter-hvem-er-vi-da",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-når-minnene-svikter-hvem-er-vi-da",
       "category": "uho"
     },
     {
@@ -3383,12 +3383,12 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Forurensninger og miljøteknologi",
+      "name": "Forurensninger og miljøteknologi   Forurensning – en sentral samfunnsutfordring",
       "url": "https://www.niva.no/seksjoner/Forurensninger-og-miljoteknologi",
       "institution": "NIVA",
       "institutionId": "7485.0.0.0",
       "description": "Forskningsgruppe ved NIVA",
-      "id": "niva-forurensninger-og-miljøteknologi",
+      "id": "niva-forurensninger-og-miljøteknologi-forurensning-en-sentral-samfunnsutfordring",
       "category": "forskningsinstitutt"
     },
     {
@@ -16303,6 +16303,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-grammatikk-og-meining",
+      "category": "uho"
+    },
+    {
+      "name": "Grammatikk og mening: kontrastiv lingvistikk og multioversettelse (GAME-CMTL)",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/grammatikk-og-mening/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-grammatikk-og-mening-kontrastiv-lingvistikk-og-multioversettelse-game-cmtl",
       "category": "uho"
     },
     {
