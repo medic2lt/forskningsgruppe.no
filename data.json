@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -3302,12 +3302,12 @@
       "category": "uho"
     },
     {
-      "name": "Hva gjør engasjement virkelig meningsfullt?",
-      "url": "https://www.mf.no/eksistensiell-psykologi/forskning/hva-gjor-engasjement-virkelig-meningsfullt",
+      "name": "Minne og demokratisk beredskap",
+      "url": "https://www.mf.no/forskning/minne-og-demokratisk-beredskap",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-hva-gjør-engasjement-virkelig-meningsfullt",
+      "id": "mf-minne-og-demokratisk-beredskap",
       "category": "uho"
     },
     {
@@ -3374,6 +3374,15 @@
       "category": "forskningsinstitutt"
     },
     {
+      "name": "Administrativ support   Administrativ support leverer service- og støttetjenester som bidrar til en effektiv og velfungerende arbeidshverdag for ansatte, gjester og samarbeidspartnere i NIVA.",
+      "url": "https://www.niva.no/seksjoner/administrativ-support",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-administrativ-support-administrativ-support-leverer-service-og-støttetjenester-som-bidrar-til-en-effektiv-og-velfungerende-arbeidshverdag-for-ansatte-gjester-og-samarbeidspartnere-i-niva",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Forskningsinfrastruktur   Vi leverer skreddersydde løsninger og fasiliteter som gjør det mulig for NIVAs forskere å løse våre oppdragsgiveres utfordringer på best mulig måte.",
       "url": "https://www.niva.no/seksjoner/forskningsinfrastruktur",
       "institution": "NIVA",
@@ -3383,12 +3392,39 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Forurensninger og miljøteknologi   Forurensning – en sentral samfunnsutfordring",
+      "name": "Forurensninger og miljøteknologi   Forurensning er en sentral samfunnsutfordring.",
       "url": "https://www.niva.no/seksjoner/Forurensninger-og-miljoteknologi",
       "institution": "NIVA",
       "institutionId": "7485.0.0.0",
       "description": "Forskningsgruppe ved NIVA",
-      "id": "niva-forurensninger-og-miljøteknologi-forurensning-en-sentral-samfunnsutfordring",
+      "id": "niva-forurensninger-og-miljøteknologi-forurensning-er-en-sentral-samfunnsutfordring",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "HR   HR-seksjonen bidrar til at NIVA er en attraktiv arbeidsplass og legger til rette for et godt, trygt og utviklende arbeidsmiljø for medarbeidere og ledere.",
+      "url": "https://www.niva.no/seksjoner/hr",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-hr-hr-seksjonen-bidrar-til-at-niva-er-en-attraktiv-arbeidsplass-og-legger-til-rette-for-et-godt-trygt-og-utviklende-arbeidsmiljø-for-medarbeidere-og-ledere",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "IT   IT-seksjonen utvikler, drifter og forvalter digitale løsninger som gjør det mulig for NIVA å arbeide sikkert, effektivt og kompetansedrevet.",
+      "url": "https://www.niva.no/seksjoner/it",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-it-it-seksjonen-utvikler-drifter-og-forvalter-digitale-løsninger-som-gjør-det-mulig-for-niva-å-arbeide-sikkert-effektivt-og-kompetansedrevet",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Kommunikasjon   Kommunikasjonsseksjonen styrker synligheten til NIVA og gjør forskning og kunnskap tilgjengelig for myndigheter, næringsliv, medier og almennheten.",
+      "url": "https://www.niva.no/seksjoner/kommunikasjon",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-kommunikasjon-kommunikasjonsseksjonen-styrker-synligheten-til-niva-og-gjør-forskning-og-kunnskap-tilgjengelig-for-myndigheter-næringsliv-medier-og-almennheten",
       "category": "forskningsinstitutt"
     },
     {
@@ -3419,12 +3455,30 @@
       "category": "forskningsinstitutt"
     },
     {
+      "name": "Prosjektsenteret   Prosjektsenteret forvalter og utvikler NIVAs prosjektprosess og bidrar til høy kvalitet i prosjektinnhenting og prosjektgjennomføring på tvers av instituttet.",
+      "url": "https://www.niva.no/seksjoner/prosjektsenteret",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-prosjektsenteret-prosjektsenteret-forvalter-og-utvikler-nivas-prosjektprosess-og-bidrar-til-høy-kvalitet-i-prosjektinnhenting-og-prosjektgjennomføring-på-tvers-av-instituttet",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Vannkjemiske analyser   Vi jobber med kjemiske analyser av uorganiske stoffer.",
       "url": "https://www.niva.no/seksjoner/vannkjemiske-analyser",
       "institution": "NIVA",
       "institutionId": "7485.0.0.0",
       "description": "Forskningsgruppe ved NIVA",
       "id": "niva-vannkjemiske-analyser-vi-jobber-med-kjemiske-analyser-av-uorganiske-stoffer",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Økonomi   Økonomiseksjonen forvalter og følger opp NIVAs økonomi og bidrar til god økonomistyring i prosjekter og virksomheten som helhet.",
+      "url": "https://www.niva.no/seksjoner/okonomi",
+      "institution": "NIVA",
+      "institutionId": "7485.0.0.0",
+      "description": "Forskningsgruppe ved NIVA",
+      "id": "niva-økonomi-økonomiseksjonen-forvalter-og-følger-opp-nivas-økonomi-og-bidrar-til-god-økonomistyring-i-prosjekter-og-virksomheten-som-helhet",
       "category": "forskningsinstitutt"
     },
     {
@@ -7938,7 +7992,7 @@
     },
     {
       "name": "Forskning",
-      "url": "https://samas.no/nb/forskning",
+      "url": "https://samas.no/index.php/nb/forskning",
       "institution": "Samisk høgskole",
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
@@ -16648,12 +16702,12 @@
       "category": "uho"
     },
     {
-      "name": "International Politics Group (IPG)",
-      "url": "https://www.sv.uio.no/isv/forskning/grupper/international-politics-group/index.html",
+      "name": "International Governance, Energy and Environment  (IGEE)",
+      "url": "https://www.sv.uio.no/isv/forskning/grupper/international-governance-energy-environment/index.html",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-international-politics-group-ipg",
+      "id": "uio-international-governance-energy-and-environment-igee",
       "category": "uho"
     },
     {
