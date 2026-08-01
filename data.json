@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-08-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -3293,21 +3293,21 @@
       "category": "uho"
     },
     {
-      "name": "En oversett del av Europas idéhistorie",
-      "url": "https://www.mf.no/forskning/en-oversett-del-av-europas-idehistorie",
-      "institution": "MF vitenskapelig høyskole",
-      "institutionId": "170.0.0.0",
-      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-en-oversett-del-av-europas-id-historie",
-      "category": "uho"
-    },
-    {
       "name": "Minne og demokratisk beredskap",
       "url": "https://www.mf.no/forskning/minne-og-demokratisk-beredskap",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
       "id": "mf-minne-og-demokratisk-beredskap",
+      "category": "uho"
+    },
+    {
+      "name": "Minner for fellesskap og forsoning",
+      "url": "https://www.mf.no/forskning/minner-fellesskap-og-forsoning",
+      "institution": "MF vitenskapelig høyskole",
+      "institutionId": "170.0.0.0",
+      "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
+      "id": "mf-minner-for-fellesskap-og-forsoning",
       "category": "uho"
     },
     {
@@ -3320,12 +3320,12 @@
       "category": "uho"
     },
     {
-      "name": "På jakt etter kirkens glemte bokskatter",
-      "url": "https://www.mf.no/forskning/pa-jakt-etter-kirkens-glemte-bokskatter",
+      "name": "Å skrive og undervise omstridt historie",
+      "url": "https://www.mf.no/forskning/skrive-og-undervise-omstridt-historie",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-på-jakt-etter-kirkens-glemte-bokskatter",
+      "id": "mf-å-skrive-og-undervise-omstridt-historie",
       "category": "uho"
     },
     {
@@ -7992,7 +7992,7 @@
     },
     {
       "name": "Forskning",
-      "url": "https://samas.no/index.php/nb/forskning",
+      "url": "https://samas.no/nb/forskning",
       "institution": "Samisk høgskole",
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
@@ -9482,6 +9482,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-hel-engelsk",
+      "category": "uho"
+    },
+    {
+      "name": "HambroHub",
+      "url": "https://uit.no/go/target/917247/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-hambrohub",
       "category": "uho"
     },
     {
@@ -16348,15 +16357,6 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-glykobiologi",
-      "category": "uho"
-    },
-    {
-      "name": "Grammatikk og meining",
-      "url": "https://www.hf.uio.no/ilos/forskning/grupper/grammatikk-og-meining/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-grammatikk-og-meining",
       "category": "uho"
     },
     {
