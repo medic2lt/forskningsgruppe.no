@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -2020,6 +2020,15 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-helse-og-velferdsforskning",
+      "category": "uho"
+    },
+    {
+      "name": "Helsekompetanse for sunnere sinn",
+      "url": "https://www.himolde.no/forskning/grupper/helsekompetanse-for-sunnere-sinn/",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-helsekompetanse-for-sunnere-sinn",
       "category": "uho"
     },
     {
@@ -7790,15 +7799,6 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Gender",
-      "url": "https://www.prio.org/research/topics/gender",
-      "institution": "PRIO",
-      "institutionId": "7444.0.0.0",
-      "description": "Forskningsgruppe ved PRIO",
-      "id": "prio-gender",
-      "category": "forskningsinstitutt"
-    },
-    {
       "name": "Iran War",
       "url": "https://www.prio.org/research/topics/iran-war",
       "institution": "PRIO",
@@ -7823,6 +7823,15 @@
       "institutionId": "7444.0.0.0",
       "description": "Forskningsgruppe ved PRIO",
       "id": "prio-migration",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Security",
+      "url": "https://www.prio.org/research/topics/security",
+      "institution": "PRIO",
+      "institutionId": "7444.0.0.0",
+      "description": "Forskningsgruppe ved PRIO",
+      "id": "prio-security",
       "category": "forskningsinstitutt"
     },
     {
@@ -8621,21 +8630,21 @@
       "category": "uho"
     },
     {
-      "name": "Center for Arctic Humanities",
-      "url": "https://uit.no/go/target/826166/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-center-for-arctic-humanities",
-      "category": "uho"
-    },
-    {
       "name": "Center for Bioinformatics (SfB)",
       "url": "https://uit.no/go/target/347053/",
       "institution": "UiT Norges arktiske universitet",
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-center-for-bioinformatics-sfb",
+      "category": "uho"
+    },
+    {
+      "name": "Centre for Arctic Humanities",
+      "url": "https://uit.no/go/target/826166/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-centre-for-arctic-humanities",
       "category": "uho"
     },
     {
@@ -15154,6 +15163,24 @@
       "category": "uho"
     },
     {
+      "name": "Arbeidsrett og arbeidslivsspørsmål",
+      "url": "https://www.jus.uio.no/forskning/grupper/arbeidsrett/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-arbeidsrett-og-arbeidslivsspørsmål",
+      "category": "uho"
+    },
+    {
+      "name": "Arbeidsrettsgruppen",
+      "url": "https://www.jus.uio.no/forskning/grupper/arbeidsrett",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-arbeidsrettsgruppen",
+      "category": "uho"
+    },
+    {
       "name": "Astma, allergi og lungesykdommer hos barn og unge (ORAACLE)",
       "url": "https://www.med.uio.no/klinmed/forskning/grupper/oraacle-astma-allergi-lungesykdommer-barn-unge/index.html",
       "institution": "Universitetet i Oslo",
@@ -15430,6 +15457,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-bærekraftige-matsystemer-matjord",
+      "category": "uho"
+    },
+    {
+      "name": "Bærekraftsrett",
+      "url": "https://www.jus.uio.no/forskning/grupper/barekraftsrett/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-bærekraftsrett",
       "category": "uho"
     },
     {
@@ -16063,6 +16099,15 @@
       "category": "uho"
     },
     {
+      "name": "Folkerett og internasjonal styring",
+      "url": "https://www.jus.uio.no/forskning/grupper/folkerett",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-folkerett-og-internasjonal-styring",
+      "category": "uho"
+    },
+    {
       "name": "Fonologi",
       "url": "https://www.hf.uio.no/iln/forskning/grupper/fonologi/index.html",
       "institution": "Universitetet i Oslo",
@@ -16150,6 +16195,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-forskningsgruppen-for-evolusjon-edna-genomikk-og-etnobotanikk-edge",
+      "category": "uho"
+    },
+    {
+      "name": "Forum for Juss og Samfunnsvitenskap",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/forum",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-forum-for-juss-og-samfunnsvitenskap",
       "category": "uho"
     },
     {
@@ -16339,6 +16393,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-global-helsepolitikk",
+      "category": "uho"
+    },
+    {
+      "name": "Globale utfordringer for menneskerettigheter",
+      "url": "https://www.jus.uio.no/forskning/grupper/global-menneskerettighet/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-globale-utfordringer-for-menneskerettigheter",
       "category": "uho"
     },
     {
@@ -16702,6 +16765,15 @@
       "category": "uho"
     },
     {
+      "name": "Internasjonal rett",
+      "url": "https://www.jus.uio.no/forskning/grupper/internasjonal-rett/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-internasjonal-rett",
+      "category": "uho"
+    },
+    {
       "name": "International Governance, Energy and Environment  (IGEE)",
       "url": "https://www.sv.uio.no/isv/forskning/grupper/international-governance-energy-environment/index.html",
       "institution": "Universitetet i Oslo",
@@ -16717,6 +16789,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-jordskorpens-prosesser",
+      "category": "uho"
+    },
+    {
+      "name": "Jus og teknologi",
+      "url": "https://www.jus.uio.no/forskning/grupper/jus-og-teknologi/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-jus-og-teknologi",
       "category": "uho"
     },
     {
@@ -16825,6 +16906,24 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-kondenserte-fasers-fysikk",
+      "category": "uho"
+    },
+    {
+      "name": "Konstitusjon og Rettigheter (KoR) (2017–2022)",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/konstitusjon-rettigheter",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-konstitusjon-og-rettigheter-kor-2017-2022",
+      "category": "uho"
+    },
+    {
+      "name": "Konstitusjonelle studier (2016–2022)",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/konst",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-konstitusjonelle-studier-2016-2022",
       "category": "uho"
     },
     {
@@ -16981,8 +17080,17 @@
       "category": "uho"
     },
     {
+      "name": "Livsvitenskap",
+      "url": "https://www.jus.uio.no/forskning/grupper/livsvitenskap/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-livsvitenskap",
+      "category": "uho"
+    },
+    {
       "name": "Logg inn",
-      "url": "https://www.globe.uio.no/forskning/grupper/index.html?authTarget",
+      "url": "https://www.jus.uio.no/forskning/grupper/index.html?authTarget",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
@@ -17035,6 +17143,15 @@
       "category": "uho"
     },
     {
+      "name": "Marked, innovasjon, konkurranse",
+      "url": "https://www.jus.uio.no/forskning/grupper/mik/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-marked-innovasjon-konkurranse",
+      "category": "uho"
+    },
+    {
       "name": "Maskinlesbar Natur (MaNa)",
       "url": "https://www.nhm.uio.no/forskning/grupper/mana/index.html",
       "institution": "Universitetet i Oslo",
@@ -17077,6 +17194,24 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-mekanikk",
+      "category": "uho"
+    },
+    {
+      "name": "Menneskerettigheter og bærekraftig utvikling",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/menneskerettigheter",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-menneskerettigheter-og-bærekraftig-utvikling",
+      "category": "uho"
+    },
+    {
+      "name": "Menneskerettigheter, væpnede konflikter og loven om fred og sikkerhet",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/mr-fred-sikkerhet/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-menneskerettigheter-væpnede-konflikter-og-loven-om-fred-og-sikkerhet",
       "category": "uho"
     },
     {
@@ -17125,6 +17260,15 @@
       "category": "uho"
     },
     {
+      "name": "Migrasjonsrett (2019–2022)",
+      "url": "https://www.jus.uio.no/forskning/grupper/migrasjonsrett/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-migrasjonsrett-2019-2022",
+      "category": "uho"
+    },
+    {
       "name": "Miljø og kunst",
       "url": "https://www.hf.uio.no/ifikk/forskning/grupper/miljo-og-kunst/index.html",
       "institution": "Universitetet i Oslo",
@@ -17167,6 +17311,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-nanostrukturer-og-funksjonelle-materialer-nafuma",
+      "category": "uho"
+    },
+    {
+      "name": "Naturressursrett",
+      "url": "https://www.jus.uio.no/forskning/grupper/naturressurs/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-naturressursrett",
       "category": "uho"
     },
     {
@@ -17404,6 +17557,33 @@
       "category": "uho"
     },
     {
+      "name": "Rett, samfunn og historisk endring",
+      "url": "https://www.jus.uio.no/forskning/grupper/rettshistorie",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-rett-samfunn-og-historisk-endring",
+      "category": "uho"
+    },
+    {
+      "name": "Rett, økonomi og forvaltning (RØF)",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/rof",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-rett-økonomi-og-forvaltning-røf",
+      "category": "uho"
+    },
+    {
+      "name": "Rettssosiologi",
+      "url": "https://www.jus.uio.no/forskning/grupper/rettssosiologi",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-rettssosiologi",
+      "category": "uho"
+    },
+    {
       "name": "Risiko og stokastikk",
       "url": "https://www.mn.uio.no/math/forskning/grupper/risiko-stokastikk/index.html",
       "institution": "Universitetet i Oslo",
@@ -17584,6 +17764,15 @@
       "category": "uho"
     },
     {
+      "name": "Straff, strafferett og straffegjennomføring (2016–2022)",
+      "url": "https://www.jus.uio.no/forskning/grupper/straff",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-straff-strafferett-og-straffegjennomføring-2016-2022",
+      "category": "uho"
+    },
+    {
       "name": "Studies of Instruction across Subjects and Competences (SISCO)",
       "url": "https://www.uv.uio.no/forskning/grupper/sisco/index.html",
       "institution": "Universitetet i Oslo",
@@ -17665,12 +17854,30 @@
       "category": "uho"
     },
     {
+      "name": "Tvisteløsning (2017–2022)",
+      "url": "https://www.jus.uio.no/forskning/grupper/tidligere-forskergrupper/tvist/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-tvisteløsning-2017-2022",
+      "category": "uho"
+    },
+    {
       "name": "Utvikling, likeverd og literacy i læringskontekster (DEAL)",
       "url": "https://www.uv.uio.no/forskning/grupper/deal/index.html",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-utvikling-likeverd-og-literacy-i-læringskontekster-deal",
+      "category": "uho"
+    },
+    {
+      "name": "Velferd, rettigheter og diskriminering",
+      "url": "https://www.jus.uio.no/forskning/grupper/verdi",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-velferd-rettigheter-og-diskriminering",
       "category": "uho"
     },
     {
