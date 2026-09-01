@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-09-01",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -112,6 +112,15 @@
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
       "id": "fhi-avdeling-for-livmorhalskreftscreening-kreftregisteret",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Avdeling for virksomhetsstyring",
+      "url": "https://www.fhi.no/om/organisasjon/avdeling-for-virksomhetsstyring/",
+      "institution": "Folkehelseinstituttet",
+      "institutionId": "7502.0.0.0",
+      "description": "Forskningsgruppe ved Folkehelseinstituttet",
+      "id": "fhi-avdeling-for-virksomhetsstyring",
       "category": "forskningsinstitutt"
     },
     {
@@ -319,15 +328,6 @@
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
       "id": "fhi-it-systemer-oslo",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Instituttstab",
-      "url": "https://www.fhi.no/om/organisasjon/ledelse-for-instituttstab/",
-      "institution": "Folkehelseinstituttet",
-      "institutionId": "7502.0.0.0",
-      "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-instituttstab",
       "category": "forskningsinstitutt"
     },
     {
@@ -682,12 +682,12 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Virksomhetsstyring",
-      "url": "https://www.fhi.no/om/organisasjon/virksomhetsstyring/",
+      "name": "Verksemdsstyring",
+      "url": "https://www.fhi.no/om/organisasjon/ledelse-for-virksomhetsstyring/",
       "institution": "Folkehelseinstituttet",
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-virksomhetsstyring",
+      "id": "fhi-verksemdsstyring",
       "category": "forskningsinstitutt"
     },
     {
@@ -8006,6 +8006,15 @@
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
       "id": "samas-forskning",
+      "category": "uho"
+    },
+    {
+      "name": "Forskningsdagene 2026: Tillit mellom kunnskapssystemer: Samisk tradisjonskunnskap og forskning",
+      "url": "https://samas.no/nb/arrangement/forskningsdagene-2026-tillit-mellom-kunnskapssystemer-samisk-tradisjonskunnskap-og",
+      "institution": "Samisk høgskole",
+      "institutionId": "220.0.0.0",
+      "description": "Forskningsgruppe ved Samisk høgskole",
+      "id": "samas-forskningsdagene-2026-tillit-mellom-kunnskapssystemer-samisk-tradisjonskunnskap-og-forskning",
       "category": "uho"
     },
     {
@@ -16207,6 +16216,15 @@
       "category": "uho"
     },
     {
+      "name": "Fransk litteratur og områdestudier",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/fransk-litteratur-og-omradestudier/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-fransk-litteratur-og-områdestudier",
+      "category": "uho"
+    },
+    {
       "name": "Frontier Research in Educational Measurement (FREMO)",
       "url": "https://www.uv.uio.no/forskning/grupper/fremo/index.html",
       "institution": "Universitetet i Oslo",
@@ -17500,6 +17518,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-politisk-kultur-i-sør-asia",
+      "category": "uho"
+    },
+    {
+      "name": "Populærkulturstudier (PopKult! )",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/popkult/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-populærkulturstudier-popkult",
       "category": "uho"
     },
     {
