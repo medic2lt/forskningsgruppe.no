@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-15",
   "groups": [
     {
       "name": "Ocean Industries Concept Lab (OICL)",
@@ -112,15 +112,6 @@
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
       "id": "fhi-avdeling-for-livmorhalskreftscreening-kreftregisteret",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Avdeling for virksomhetsstyring",
-      "url": "https://www.fhi.no/om/organisasjon/avdeling-for-virksomhetsstyring/",
-      "institution": "Folkehelseinstituttet",
-      "institutionId": "7502.0.0.0",
-      "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-avdeling-for-virksomhetsstyring",
       "category": "forskningsinstitutt"
     },
     {
@@ -682,12 +673,21 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Verksemdsstyring",
+      "name": "Virksomhetsstyring",
       "url": "https://www.fhi.no/om/organisasjon/ledelse-for-virksomhetsstyring/",
       "institution": "Folkehelseinstituttet",
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-verksemdsstyring",
+      "id": "fhi-virksomhetsstyring",
+      "category": "forskningsinstitutt"
+    },
+    {
+      "name": "Virksomhetsstyring avdeling",
+      "url": "https://www.fhi.no/om/organisasjon/virksomhetsstyring-avdeling/",
+      "institution": "Folkehelseinstituttet",
+      "institutionId": "7502.0.0.0",
+      "description": "Forskningsgruppe ved Folkehelseinstituttet",
+      "id": "fhi-virksomhetsstyring-avdeling",
       "category": "forskningsinstitutt"
     },
     {
@@ -3320,12 +3320,12 @@
       "category": "uho"
     },
     {
-      "name": "Når minnene svikter – hvem er vi da?",
-      "url": "https://www.mf.no/forskning/nar-minnene-svikter-hvem-er-vi-da",
+      "name": "Publikasjoner fra MF-forskere",
+      "url": "https://www.mf.no/forskning/publikasjoner-fra-mf-forskere",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-når-minnene-svikter-hvem-er-vi-da",
+      "id": "mf-publikasjoner-fra-mf-forskere",
       "category": "uho"
     },
     {
@@ -8981,12 +8981,12 @@
       "category": "uho"
     },
     {
-      "name": "EPINOR - Junior Science Network",
+      "name": "EPINOR 2013 - 2021 - Junior Science Network",
       "url": "https://uit.no/go/target/476300/",
       "institution": "UiT Norges arktiske universitet",
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
-      "id": "uit-epinor-junior-science-network",
+      "id": "uit-epinor-2013-2021-junior-science-network",
       "category": "uho"
     },
     {
@@ -10340,6 +10340,15 @@
       "category": "uho"
     },
     {
+      "name": "Pedagogical Research and Innovative Methods in Education PRIME",
+      "url": "https://uit.no/go/target/937982/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-pedagogical-research-and-innovative-methods-in-education-prime",
+      "category": "uho"
+    },
+    {
       "name": "Performing as a health science professional",
       "url": "https://uit.no/go/target/397536/",
       "institution": "UiT Norges arktiske universitet",
@@ -10733,6 +10742,24 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-sarg-sub-arctic-stone-age-research-group",
+      "category": "uho"
+    },
+    {
+      "name": "SLG – Senter for samisk leksikografi",
+      "url": "https://uit.no/go/target/927786/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-slg-senter-for-samisk-leksikografi",
+      "category": "uho"
+    },
+    {
+      "name": "SLG – Sámi leksikografiija guovddáš",
+      "url": "https://uit.no/go/target/927805/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-slg-s-mi-leksikografiija-guovdd",
       "category": "uho"
     },
     {
@@ -15244,6 +15271,15 @@
       "category": "uho"
     },
     {
+      "name": "Barn og ungdom i idéhistorisk perspektiv",
+      "url": "https://www.hf.uio.no/ifikk/forskning/grupper/forskergruppe-barn-og-ungdom-i-idehistorisk-perspektiv/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-barn-og-ungdom-i-id-historisk-perspektiv",
+      "category": "uho"
+    },
+    {
       "name": "Barn- og unges psykiske helse på sykehus (T-ABU)",
       "url": "https://www.med.uio.no/klinmed/forskning/grupper/t-abu-barn-unge-psykiske-helse-sykehus/index.html",
       "institution": "Universitetet i Oslo",
@@ -16144,15 +16180,6 @@
       "category": "uho"
     },
     {
-      "name": "Forskergruppe barn og ungdom i idéhistorisk perspektiv",
-      "url": "https://www.hf.uio.no/ifikk/forskning/grupper/forskergruppe-barn-og-ungdom-i-idehistorisk-perspektiv/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-forskergruppe-barn-og-ungdom-i-id-historisk-perspektiv",
-      "category": "uho"
-    },
-    {
       "name": "Forskergruppen for evidens, atferd og teknologi (U-BET)",
       "url": "https://www.med.uio.no/imb/forskning/grupper/u-bet/index.html",
       "institution": "Universitetet i Oslo",
@@ -16567,15 +16594,6 @@
       "category": "uho"
     },
     {
-      "name": "Historie og historier i dansk-norsk 1700-tall",
-      "url": "https://www.hf.uio.no/ikos/forskning/grupper/historie-og-historier-i-dansk-norsk-1700-tall/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-historie-og-historier-i-dansk-norsk-1700-tall",
-      "category": "uho"
-    },
-    {
       "name": "Hjerne-Hjerte",
       "url": "https://www.med.uio.no/klinmed/forskning/grupper/hjerne-hjerte/index.html",
       "institution": "Universitetet i Oslo",
@@ -16663,6 +16681,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-hodepine-og-smerte",
+      "category": "uho"
+    },
+    {
+      "name": "Hub for Ibero-amerikansk forskning (IberoARH)",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/the-ibero-american-research-hub-no/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-hub-for-ibero-amerikansk-forskning-iberoarh",
       "category": "uho"
     },
     {
@@ -17108,7 +17135,7 @@
     },
     {
       "name": "Logg inn",
-      "url": "https://www.jus.uio.no/forskning/grupper/index.html?authTarget",
+      "url": "https://www.med.uio.no/forskning/grupper/?authTarget",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
@@ -17728,6 +17755,15 @@
       "category": "uho"
     },
     {
+      "name": "Skriveutvikling på andre- og tredjespråk (TRAWL)",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/trawl-skriveutvikling-pa-andre-og-tredjesprak/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-skriveutvikling-på-andre-og-tredjespråk-trawl",
+      "category": "uho"
+    },
+    {
       "name": "Speech, Hearing and Language Research Group (SHL)",
       "url": "https://www.uv.uio.no/forskning/grupper/shl/index.html",
       "institution": "Universitetet i Oslo",
@@ -17860,15 +17896,6 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-temporaliteter-i-middelalderen-translatio",
-      "category": "uho"
-    },
-    {
-      "name": "The Ibero-American Research Hub (IberoARH)",
-      "url": "https://www.hf.uio.no/ilos/forskning/grupper/the-ibero-american-research-hub-no/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-the-ibero-american-research-hub-iberoarh",
       "category": "uho"
     },
     {
