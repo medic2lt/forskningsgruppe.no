@@ -1,14 +1,130 @@
 {
-  "lastUpdated": "2026-09-15",
+  "lastUpdated": "2026-10-01",
   "groups": [
     {
-      "name": "Ocean Industries Concept Lab (OICL)",
-      "url": "https://www.aho.no/forskning/grupper-og-sentre/oicl",
+      "name": "AHO Arctic",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/aho-arktisk/index.html",
       "institution": "Arkitektur- og designhøgskolen i Oslo",
-      "institutionId": "189.0.0.0",
-      "description": "Forskningssenter ved Arkitektur- og designhøgskolen i Oslo",
-      "id": "arkitekt-ocean-industries-concept-lab-oicl",
-      "lastCrawled": "2026-02-27",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-aho-arctic",
+      "category": "uho"
+    },
+    {
+      "name": "Byforskningsgruppen",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/urbanitet-form-og-utvikling/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-byforskningsgruppen",
+      "category": "uho"
+    },
+    {
+      "name": "Bygge broer mellom siloer – systemorientert design",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/bygge-broer-mellom-siloer-systemorientert-design/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-bygge-broer-mellom-siloer-systemorientert-design",
+      "category": "uho"
+    },
+    {
+      "name": "CRAITR",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/craitr/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-craitr",
+      "category": "uho"
+    },
+    {
+      "name": "Co-regenerative landskap",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/co-regenerative-landskap/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-co-regenerative-landskap",
+      "category": "uho"
+    },
+    {
+      "name": "Dagslys og konstruksjon",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/dagslys-og-struktur/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-dagslys-og-konstruksjon",
+      "category": "uho"
+    },
+    {
+      "name": "Design for samfunn og teknologi",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/design-for-samfunn-og-teknologi/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-design-for-samfunn-og-teknologi",
+      "category": "uho"
+    },
+    {
+      "name": "Design fremtider",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/design-fremtider/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-design-fremtider",
+      "category": "uho"
+    },
+    {
+      "name": "ENACT",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/enact/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-enact",
+      "category": "uho"
+    },
+    {
+      "name": "Forskningsgruppe for offentlig design",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/forskningsgruppe-for-offentlig-design/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-forskningsgruppe-for-offentlig-design",
+      "category": "uho"
+    },
+    {
+      "name": "Kunstnerisk forskning – kreative økologier",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/kunstnerisk-forskning-kreative-okologier/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-kunstnerisk-forskning-kreative-økologier",
+      "category": "uho"
+    },
+    {
+      "name": "Praksis og designteknikker",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/praxis-og-designteknikker/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-praksis-og-designteknikker",
+      "category": "uho"
+    },
+    {
+      "name": "Sirkularitet og robusthet",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/sirkularitet-og-robusthet/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-sirkularitet-og-robusthet",
+      "category": "uho"
+    },
+    {
+      "name": "Sirkulær arkitektur og materialstrømmer",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/sirkular-arkitektur-og-materialstrommer/index.html",
+      "institution": "Arkitektur- og designhøgskolen i Oslo",
+      "institutionId": "200.0.0.0",
+      "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
+      "id": "aho-sirkulær-arkitektur-og-materialstrømmer",
       "category": "uho"
     },
     {
@@ -1942,6 +2058,15 @@
       "category": "uho"
     },
     {
+      "name": "Bruk av KI innen transport",
+      "url": "https://www.himolde.no/forskning/grupper/bruk-av-ki-innen-transport/",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-bruk-av-ki-innen-transport",
+      "category": "uho"
+    },
+    {
       "name": "Bærekraftig byutvikling og mobilitet",
       "url": "https://www.himolde.no/forskning/grupper/berekraftig-byutvikling-og-mobilitet/",
       "institution": "Høgskolen i Molde",
@@ -2164,6 +2289,15 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-supply-chain-management",
+      "category": "uho"
+    },
+    {
+      "name": "Sykepleie",
+      "url": "https://www.himolde.no/forskning/grupper/sykepleie/index.html",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-sykepleie",
       "category": "uho"
     },
     {
@@ -3302,12 +3436,12 @@
       "category": "uho"
     },
     {
-      "name": "Minne og demokratisk beredskap",
-      "url": "https://www.mf.no/forskning/minne-og-demokratisk-beredskap",
+      "name": "Masterforskning med relevans for kirke og samfunn",
+      "url": "https://www.mf.no/forskning/masterforskning-med-relevans-kirke-og-samfunn",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-minne-og-demokratisk-beredskap",
+      "id": "mf-masterforskning-med-relevans-for-kirke-og-samfunn",
       "category": "uho"
     },
     {
@@ -9233,6 +9367,15 @@
       "category": "uho"
     },
     {
+      "name": "Forskning til folket",
+      "url": "https://uit.no/go/target/923710/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-forskning-til-folket",
+      "category": "uho"
+    },
+    {
       "name": "Forskningsgruppa for utdanningsledelse",
       "url": "https://uit.no/go/target/724637/",
       "institution": "UiT Norges arktiske universitet",
@@ -10328,6 +10471,24 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-participation-and-communication-pac",
+      "category": "uho"
+    },
+    {
+      "name": "Pasient-tilpasset håndtering av bakterieinfeksjoner i en tid med antibiotikaresistens (CAG-PIA)",
+      "url": "https://uit.no/go/target/938187/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-pasient-tilpasset-håndtering-av-bakterieinfeksjoner-i-en-tid-med-antibiotikaresistens-cag-pia",
+      "category": "uho"
+    },
+    {
+      "name": "Patient-tailored management of bacterial infections in the age of antimicrobial resistance (CAG-PIA)",
+      "url": "https://uit.no/go/target/938201/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-patient-tailored-management-of-bacterial-infections-in-the-age-of-antimicrobial-resistance-cag-pia",
       "category": "uho"
     },
     {
@@ -15217,6 +15378,15 @@
       "category": "uho"
     },
     {
+      "name": "Asiatisk kunst i Oslo: Proveniens, forskning, politikk (AsianArtOslo)",
+      "url": "https://www.hf.uio.no/ifikk/forskning/grupper/asiatisk-kunst-i-oslo/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-asiatisk-kunst-i-oslo-proveniens-forskning-politikk-asianartoslo",
+      "category": "uho"
+    },
+    {
       "name": "Astma, allergi og lungesykdommer hos barn og unge (ORAACLE)",
       "url": "https://www.med.uio.no/klinmed/forskning/grupper/oraacle-astma-allergi-lungesykdommer-barn-unge/index.html",
       "institution": "Universitetet i Oslo",
@@ -16243,6 +16413,15 @@
       "category": "uho"
     },
     {
+      "name": "Framtiden for våre planetariske allmenninger (Commons Sense )",
+      "url": "https://www.hf.uio.no/ifikk/forskning/grupper/planetariske-allmenninger/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-framtiden-for-våre-planetariske-allmenninger-commons-sense",
+      "category": "uho"
+    },
+    {
       "name": "Fransk litteratur og områdestudier",
       "url": "https://www.hf.uio.no/ilos/forskning/grupper/fransk-litteratur-og-omradestudier/index.html",
       "institution": "Universitetet i Oslo",
@@ -16978,15 +17157,6 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-kosmologi-og-ekstragalaktisk-astrofysikk",
-      "category": "uho"
-    },
-    {
-      "name": "Kritisk historiografi",
-      "url": "https://www.hf.uio.no/iakh/forskning/grupper/kritisk-historiografi/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-kritisk-historiografi",
       "category": "uho"
     },
     {
