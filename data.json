@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-15",
   "groups": [
     {
       "name": "AHO Arctic",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Praksis og designteknikker",
-      "url": "https://www.aho.no/forskning/forskningsgrupper/praxis-og-designteknikker/index.html",
+      "url": "https://www.aho.no/forskning/forskningsgrupper/praksis-og-designteknikker/index.html",
       "institution": "Arkitektur- og designhøgskolen i Oslo",
       "institutionId": "200.0.0.0",
       "description": "Forskningsgruppe ved Arkitektur- og designhøgskolen i Oslo",
@@ -2058,15 +2058,6 @@
       "category": "uho"
     },
     {
-      "name": "Bruk av KI innen transport",
-      "url": "https://www.himolde.no/forskning/grupper/bruk-av-ki-innen-transport/",
-      "institution": "Høgskolen i Molde",
-      "institutionId": "211.0.0.0",
-      "description": "Forskningsgruppe ved Høgskolen i Molde",
-      "id": "himolde-bruk-av-ki-innen-transport",
-      "category": "uho"
-    },
-    {
       "name": "Bærekraftig byutvikling og mobilitet",
       "url": "https://www.himolde.no/forskning/grupper/berekraftig-byutvikling-og-mobilitet/",
       "institution": "Høgskolen i Molde",
@@ -2316,6 +2307,15 @@
       "institutionId": "211.0.0.0",
       "description": "Forskningsgruppe ved Høgskolen i Molde",
       "id": "himolde-sykepleieledet-adre-profil-for-kartlegging-av-legemiddelbruk-i-helsetjenesten",
+      "category": "uho"
+    },
+    {
+      "name": "TA-I Norwegian Centre for Artificial Intelligence in Transport",
+      "url": "https://www.himolde.no/forskning/grupper/ta-i-norwegian-centre-for-artificial-intelligence-in-transport/",
+      "institution": "Høgskolen i Molde",
+      "institutionId": "211.0.0.0",
+      "description": "Forskningsgruppe ved Høgskolen i Molde",
+      "id": "himolde-ta-i-norwegian-centre-for-artificial-intelligence-in-transport",
       "category": "uho"
     },
     {
@@ -3304,6 +3304,15 @@
       "category": "uho"
     },
     {
+      "name": "WHO samarbeidssenter",
+      "url": "https://www.kristiania.no/forskning/forskningsgrupper/who-collaborating-centre/",
+      "institution": "Høyskolen Kristiania",
+      "institutionId": "247.0.0.0",
+      "description": "Forskningsgruppe ved Høyskolen Kristiania",
+      "id": "kristiania-who-samarbeidssenter",
+      "category": "uho"
+    },
+    {
       "name": "Workplace, Inclusion, and Diversity (WID)",
       "url": "https://www.kristiania.no/forskning/forskningsgrupper/wid-/",
       "institution": "Høyskolen Kristiania",
@@ -3445,30 +3454,30 @@
       "category": "uho"
     },
     {
-      "name": "Minner for fellesskap og forsoning",
-      "url": "https://www.mf.no/forskning/minner-fellesskap-og-forsoning",
+      "name": "Slik oppstår innovasjon i kirken",
+      "url": "https://www.mf.no/forskning/slik-oppstar-innovasjon-i-kirken",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-minner-for-fellesskap-og-forsoning",
+      "id": "mf-slik-oppstår-innovasjon-i-kirken",
       "category": "uho"
     },
     {
-      "name": "Publikasjoner fra MF-forskere",
-      "url": "https://www.mf.no/forskning/publikasjoner-fra-mf-forskere",
+      "name": "Tillit i stort og smått",
+      "url": "https://www.mf.no/forskning/tillit-i-stort-og-smatt",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-publikasjoner-fra-mf-forskere",
+      "id": "mf-tillit-i-stort-og-smått",
       "category": "uho"
     },
     {
-      "name": "Å skrive og undervise omstridt historie",
-      "url": "https://www.mf.no/forskning/skrive-og-undervise-omstridt-historie",
+      "name": "Tilliten som oppgave",
+      "url": "https://www.mf.no/forskning/tilliten-som-oppgave",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-å-skrive-og-undervise-omstridt-historie",
+      "id": "mf-tilliten-som-oppgave",
       "category": "uho"
     },
     {
@@ -7951,12 +7960,12 @@
       "category": "forskningsinstitutt"
     },
     {
-      "name": "Migration",
-      "url": "https://www.prio.org/research/topics/migration",
+      "name": "Nobel Peace Prize",
+      "url": "https://www.prio.org/research/topics/nobel-peace-prize",
       "institution": "PRIO",
       "institutionId": "7444.0.0.0",
       "description": "Forskningsgruppe ved PRIO",
-      "id": "prio-migration",
+      "id": "prio-nobel-peace-prize",
       "category": "forskningsinstitutt"
     },
     {
@@ -10060,6 +10069,15 @@
       "category": "uho"
     },
     {
+      "name": "Listening under development (Lytting under utvikling)",
+      "url": "https://uit.no/go/target/941750/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-listening-under-development-lytting-under-utvikling",
+      "category": "uho"
+    },
+    {
       "name": "Litteratur og lesing",
       "url": "https://uit.no/go/target/791969/",
       "institution": "UiT Norges arktiske universitet",
@@ -10309,15 +10327,6 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-multinor",
-      "category": "uho"
-    },
-    {
-      "name": "Multilingual North: Diversity, Education and Revitalisation (MultiNor)",
-      "url": "https://uit.no/go/target/390338/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-multilingual-north-diversity-education-and-revitalisation-multinor",
       "category": "uho"
     },
     {
@@ -11092,15 +11101,6 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-sport-physical-activity-and-health",
-      "category": "uho"
-    },
-    {
-      "name": "Språk og samfunn",
-      "url": "https://uit.no/go/target/344442/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-språk-og-samfunn",
       "category": "uho"
     },
     {
@@ -15963,6 +15963,15 @@
       "category": "uho"
     },
     {
+      "name": "Digital organisering (DIO)",
+      "url": "https://www.mn.uio.no/ifi/forskning/grupper/dio/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-digital-organisering-dio",
+      "category": "uho"
+    },
+    {
       "name": "Digital signalbehandling og bildeanalyse (DSB)",
       "url": "https://www.mn.uio.no/ifi/forskning/grupper/dsb/index.html",
       "institution": "Universitetet i Oslo",
@@ -16014,6 +16023,15 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-dynamisk-genregulering",
+      "category": "uho"
+    },
+    {
+      "name": "Dérive: Psykogeografiske analyser av Oslo by",
+      "url": "https://www.hf.uio.no/ilos/forskning/grupper/derive-psykogeografiske-analyser-av-oslo-by/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-d-rive-psykogeografiske-analyser-av-oslo-by",
       "category": "uho"
     },
     {
@@ -17610,12 +17628,12 @@
       "category": "uho"
     },
     {
-      "name": "Norsk forskningssenter for seksuell helse (CENSE )",
-      "url": "https://www.sv.uio.no/psi/forskning/grupper/cense/index.html",
+      "name": "Norsk allianse for tidlig språkutvikling og læring (NELLA)",
+      "url": "https://www.sv.uio.no/psi/forskning/grupper/nella/index.html",
       "institution": "Universitetet i Oslo",
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
-      "id": "uio-norsk-forskningssenter-for-seksuell-helse-cense",
+      "id": "uio-norsk-allianse-for-tidlig-språkutvikling-og-læring-nella",
       "category": "uho"
     },
     {
@@ -17904,15 +17922,6 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-senter-for-immunregulering-cir-sff",
-      "category": "uho"
-    },
-    {
-      "name": "Senter for innovative naturgassprosessar og –produkt (inGAP) - SFI",
-      "url": "https://www.mn.uio.no/kjemi/forskning/grupper/ingap/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-senter-for-innovative-naturgassprosessar-og-produkt-ingap-sfi",
       "category": "uho"
     },
     {
