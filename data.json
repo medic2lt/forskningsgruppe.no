@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-11-01",
   "groups": [
     {
       "name": "AHO Arctic",
@@ -456,6 +456,15 @@
       "category": "forskningsinstitutt"
     },
     {
+      "name": "Klimaendringar og helse",
+      "url": "https://www.fhi.no/om/organisasjon/klimaendringar-og-helse/",
+      "institution": "Folkehelseinstituttet",
+      "institutionId": "7502.0.0.0",
+      "description": "Forskningsgruppe ved Folkehelseinstituttet",
+      "id": "fhi-klimaendringar-og-helse",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Kommunikasjon",
       "url": "https://www.fhi.no/om/organisasjon/kommunikasjon/",
       "institution": "Folkehelseinstituttet",
@@ -723,15 +732,6 @@
       "institutionId": "7502.0.0.0",
       "description": "Forskningsgruppe ved Folkehelseinstituttet",
       "id": "fhi-senter-for-fruktbarhet-og-helse",
-      "category": "forskningsinstitutt"
-    },
-    {
-      "name": "Skadedyrkontroll",
-      "url": "https://www.fhi.no/om/organisasjon/skadedyrkontroll/",
-      "institution": "Folkehelseinstituttet",
-      "institutionId": "7502.0.0.0",
-      "description": "Forskningsgruppe ved Folkehelseinstituttet",
-      "id": "fhi-skadedyrkontroll",
       "category": "forskningsinstitutt"
     },
     {
@@ -3445,17 +3445,17 @@
       "category": "uho"
     },
     {
-      "name": "Masterforskning med relevans for kirke og samfunn",
-      "url": "https://www.mf.no/forskning/masterforskning-med-relevans-kirke-og-samfunn",
+      "name": "Lærer demokrati gjennom erfaring",
+      "url": "https://www.mf.no/forskning/laerer-demokrati-gjennom-erfaring",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
-      "id": "mf-masterforskning-med-relevans-for-kirke-og-samfunn",
+      "id": "mf-lærer-demokrati-gjennom-erfaring",
       "category": "uho"
     },
     {
       "name": "Slik oppstår innovasjon i kirken",
-      "url": "https://www.mf.no/forskning/slik-oppstar-innovasjon-i-kirken",
+      "url": "https://www.mf.no/mf-kom/forskning/slik-oppstar-innovasjon-i-kirken",
       "institution": "MF vitenskapelig høyskole",
       "institutionId": "170.0.0.0",
       "description": "Forskningsgruppe ved MF vitenskapelig høyskole",
@@ -8116,6 +8116,15 @@
       "category": "forskningsinstitutt"
     },
     {
+      "name": "Olje og gass",
+      "url": "https://www.sintef.no/forskningsomrader/olje-og-gass/",
+      "institution": "SINTEF",
+      "institutionId": "7401.0.0.0",
+      "description": "Forskningsgruppe ved SINTEF",
+      "id": "sintef-olje-og-gass",
+      "category": "forskningsinstitutt"
+    },
+    {
       "name": "Samfunn og sikkerhet",
       "url": "https://www.sintef.no/forskningsomrader/samfunn-og-sikkerhet/",
       "institution": "SINTEF",
@@ -8149,15 +8158,6 @@
       "institutionId": "220.0.0.0",
       "description": "Forskningsgruppe ved Samisk høgskole",
       "id": "samas-forskning",
-      "category": "uho"
-    },
-    {
-      "name": "Forskningsdagene 2026: Tillit mellom kunnskapssystemer: Samisk tradisjonskunnskap og forskning",
-      "url": "https://samas.no/nb/arrangement/forskningsdagene-2026-tillit-mellom-kunnskapssystemer-samisk-tradisjonskunnskap-og",
-      "institution": "Samisk høgskole",
-      "institutionId": "220.0.0.0",
-      "description": "Forskningsgruppe ved Samisk høgskole",
-      "id": "samas-forskningsdagene-2026-tillit-mellom-kunnskapssystemer-samisk-tradisjonskunnskap-og-forskning",
       "category": "uho"
     },
     {
@@ -9193,6 +9193,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-empower-arctic",
+      "category": "uho"
+    },
+    {
+      "name": "Engaging Conflicts in a Digital Era",
+      "url": "https://uit.no/go/target/932353/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-engaging-conflicts-in-a-digital-era",
       "category": "uho"
     },
     {
@@ -10384,30 +10393,12 @@
       "category": "uho"
     },
     {
-      "name": "Nuclear Medicine and Radiation Biology",
-      "url": "https://uit.no/go/target/634071/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-nuclear-medicine-and-radiation-biology",
-      "category": "uho"
-    },
-    {
       "name": "Nuclear Medicine and Radiation Biology (NMRB)",
       "url": "https://uit.no/go/target/828431/",
       "institution": "UiT Norges arktiske universitet",
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-nuclear-medicine-and-radiation-biology-nmrb",
-      "category": "uho"
-    },
-    {
-      "name": "Nukleærmedisin og Strålebiologi",
-      "url": "https://uit.no/go/target/635578/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-nukleærmedisin-og-stra-lebiologi",
       "category": "uho"
     },
     {
@@ -10579,15 +10570,6 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-praksisveilederopplæring",
-      "category": "uho"
-    },
-    {
-      "name": "Preclinical PET Core Facility (PETcore)",
-      "url": "https://uit.no/go/target/660394/",
-      "institution": "UiT Norges arktiske universitet",
-      "institutionId": "186.0.0.0",
-      "description": "Forskningsgruppe ved UiT",
-      "id": "uit-preclinical-pet-core-facility-petcore",
       "category": "uho"
     },
     {
@@ -10912,6 +10894,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-sarg-sub-arctic-stone-age-research-group",
+      "category": "uho"
+    },
+    {
+      "name": "SLG – Center for Saami Lexicography",
+      "url": "https://uit.no/go/target/943427/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-slg-center-for-saami-lexicography",
       "category": "uho"
     },
     {
@@ -11317,6 +11308,15 @@
       "institutionId": "186.0.0.0",
       "description": "Forskningsgruppe ved UiT",
       "id": "uit-the-psycholinguistics-of-language-representation-polar-lab",
+      "category": "uho"
+    },
+    {
+      "name": "The Research Group of Environmental and Resource Economics",
+      "url": "https://uit.no/go/target/758271/",
+      "institution": "UiT Norges arktiske universitet",
+      "institutionId": "186.0.0.0",
+      "description": "Forskningsgruppe ved UiT",
+      "id": "uit-the-research-group-of-environmental-and-resource-economics",
       "category": "uho"
     },
     {
@@ -15756,15 +15756,6 @@
       "category": "uho"
     },
     {
-      "name": "Centre for Ecological and Evolutionary Synthesis (CEES)",
-      "url": "https://www.mn.uio.no/ibv/forskning/grupper/cees/index.html",
-      "institution": "Universitetet i Oslo",
-      "institutionId": "185.0.0.0",
-      "description": "Forskningsgruppe ved UiO",
-      "id": "uio-centre-for-ecological-and-evolutionary-synthesis-cees",
-      "category": "uho"
-    },
-    {
       "name": "Centre for Integrative Microbial Evolution (CIME)",
       "url": "https://www.mn.uio.no/ibv/forskning/grupper/cime/index.html",
       "institution": "Universitetet i Oslo",
@@ -17925,6 +17916,33 @@
       "category": "uho"
     },
     {
+      "name": "Senter for innovative naturgassprosessar og –produkt (inGAP) - SFI",
+      "url": "https://www.mn.uio.no/kjemi/forskning/grupper/ingap/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-senter-for-innovative-naturgassprosessar-og-produkt-ingap-sfi",
+      "category": "uho"
+    },
+    {
+      "name": "Senter for teoretisk og beregningsbasert kjemi (CTCC) - SFF - avsluttet",
+      "url": "https://www.mn.uio.no/kjemi/forskning/grupper/ctcc/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-senter-for-teoretisk-og-beregningsbasert-kjemi-ctcc-sff-avsluttet",
+      "category": "uho"
+    },
+    {
+      "name": "Site-specific Drug Delivery (SiteDel)",
+      "url": "https://www.mn.uio.no/farmasi/forskning/grupper/sitedel/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-site-specific-drug-delivery-sitedel",
+      "category": "uho"
+    },
+    {
       "name": "Skandinavisk nettverk for religionsvitenskapelig forskning",
       "url": "https://www.hf.uio.no/ikos/forskning/grupper/skandinavisk-nettverk-for-religionsvitenskapelig-f/index.html",
       "institution": "Universitetet i Oslo",
@@ -17940,6 +17958,24 @@
       "institutionId": "185.0.0.0",
       "description": "Forskningsgruppe ved UiO",
       "id": "uio-skriveutvikling-på-andre-og-tredjespråk-trawl",
+      "category": "uho"
+    },
+    {
+      "name": "SmartProteinAnalysis@UiO",
+      "url": "https://www.mn.uio.no/farmasi/forskning/grupper/smart-protein-analysis-uio/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-smartproteinanalysis-uio",
+      "category": "uho"
+    },
+    {
+      "name": "Software Engineering (SE)",
+      "url": "https://www.mn.uio.no/ifi/forskning/grupper/se/index.html",
+      "institution": "Universitetet i Oslo",
+      "institutionId": "185.0.0.0",
+      "description": "Forskningsgruppe ved UiO",
+      "id": "uio-software-engineering-se",
       "category": "uho"
     },
     {
